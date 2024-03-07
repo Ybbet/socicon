@@ -30,3 +30,11 @@ It will give us a hand and be highly appreciated.
 You can also share Socicon on twitter, facebook, google+ or anywhere else.
 
 You can also [make a donation](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MMAFH9MJUDYJE)
+
+## Submit a new icon
+If you want to add a new icon, you can create an issue on Github. You will need to indicate:
+- The name of the icon
+- The URL of the original site of the icon
+- Its color code (optional)
+
+You will need to **attach the icon in SVG format** so that we can integrate it into the web font.
