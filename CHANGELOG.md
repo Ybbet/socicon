@@ -1,3 +1,7 @@
+# March 2024 - v3.7
+- **New icon:** besport
+- **Icon update:** hitbox
+
 # May 2019 - v3.6.2
 
 - **New icons:** remote, NAVER, Metapop, Splice, Threema, Letterboxd, GITTER, TikTok, STAGE32, elementary OS, CD Baby, Windguru, Tinder, SharePoint, MIX, JAMENDO, itch.io, GNOME, FilmFreeway, debian, Google Play Music, SeenThis, Collectorz, Torial, InVision, ArtStation, Ubuntu, Flipboard, VSCO, DLive, Google Hangouts
@@ -44,53 +48,53 @@
 
 # December 2015 - v3.0.1
 
-- New icons: Medium, Telegram, OpenID, Amplement
+- **New icons:** Medium, Telegram, OpenID, Amplement
 
 # November 2015 - v3.0
 
-- New icons: Google, Yandex, eBay, IMDb, StayFriends, Resident Advisor, ShareThis, bandcamp, iTunes, DEEZER
-- Site: new design, background featuring, filter on icons page
-- Font: cloud based font
-- Note: due to the amount of icons, latest icons do not have latin characters, reset of unicodes
+- **New icons:** Google, Yandex, eBay, IMDb, StayFriends, Resident Advisor, ShareThis, bandcamp, iTunes, DEEZER
+- **Site:** new design, background featuring, filter on icons page
+- **Font:** cloud based font
+- **Note:** due to the amount of icons, latest icons do not have latin characters, reset of unicodes
 
 # October 2015 - v2.6
 
-- New icons: Snapchat, Douban, Baidu, Weibo, QQ
-- Updated icons: Dailymotion
-- Removed icon: Chime.in
-- Site: update chart icon page, include unicode, update generator, update JSON, change ads
+- **New icons:** Snapchat, Douban, Baidu, Weibo, QQ
+- **Updated icons:** Dailymotion
+- **Removed icon:** Chime.in
+- **Site:** update chart icon page, include unicode, update generator, update JSON, change ads
 
 # September 2015 - v2.5
 
-- New icon: Ravelry
-- Updated icons: Google+, Youtube
+- **New icon:** Ravelry
+- **Updated icons:** Google+, Youtube
 
 # August 2015 - v2.4
 
-- New icons: WhatsApp, Storehouse, icq, Model Mayhem, iStock, AngelList, Periscope
-- Updated icons: Facebook, Google Play
-- Site: download only the font (much lighter) or the full package, include ads
+- **New icons:** WhatsApp, Storehouse, icq, Model Mayhem, iStock, AngelList, Periscope
+- **Updated icons:** Facebook, Google Play
+- **Site:** download only the font (much lighter) or the full package, include ads
 
 # June 2015 - v2.3
 
-- New icons: Airbnb, Pocket
+- **New icons:** Airbnb, Pocket
 
 # May 2015 - v2.2
 
-- Updated icon: Meetup
-- New icons: Amazon, Ello, 8tracks, Mixcloud, Twitch
-- Site: removed showcase section
+- **Updated icon:** Meetup
+- **New icons:** Amazon, Ello, 8tracks, Mixcloud, Twitch
+- **Site:** removed showcase section
 
 # November 2014 - v2.0
 
 - New design, new website
 - New showcase section
-- New icons: Patreon, App.net, Mail icon, New Foursquare, Goodreads, Paypal, Houzz, Playstation, Smugsmug, Stackoverflow, Swarm, Triple J, Yammer, New Envato, Odnoklassniki
+- **New icons:** Patreon, App.net, Mail icon, New Foursquare, Goodreads, Paypal, Houzz, Playstation, Smugsmug, Stackoverflow, Swarm, Triple J, Yammer, New Envato, Odnoklassniki
 - Removed easID and Netcodes icons
 
 # February 2014 - v1.6
 
-- Add icons: TripIt, Lanyrd, SlideShare, Buffer, RSS, VKontakte, DISQUS
+- **Add icons:** TripIt, Lanyrd, SlideShare, Buffer, RSS, VKontakte, DISQUS
 
 # November 2013 - v1.5
 
