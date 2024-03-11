@@ -1,6 +1,7 @@
-# March 2024 - v3.7
+# March 2024 - v3.7.0
 - **New icon:** besport
 - **Icon update:** hitbox
+- **Feature:** Added a javascript file with a constant that can be used later. Added a json file with all the information about the icons (name, unicode, color and path) extracted from the SVG file.
 
 # May 2019 - v3.6.2
 
