@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?q5jryt');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?q5jryt#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?q5jryt') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?q5jryt') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?q5jryt##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?2y44c5');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?2y44c5#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?2y44c5') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?2y44c5') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?2y44c5##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -15,7 +15,7 @@
 [class^="socicon-"], [class*=" socicon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: '#{$icomoon-font-family}' !important;
-  speak: never;
+  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -602,14 +602,14 @@
     content: $socicon-homeadvisor; 
   }
 }
-.socicon-homify {
-  &:before {
-    content: $socicon-homify; 
-  }
-}
 .socicon-homes {
   &:before {
     content: $socicon-homes; 
+  }
+}
+.socicon-homify {
+  &:before {
+    content: $socicon-homify; 
   }
 }
 .socicon-horde {
@@ -1235,6 +1235,11 @@
 .socicon-telegram {
   &:before {
     content: $socicon-telegram; 
+  }
+}
+.socicon-threads {
+  &:before {
+    content: $socicon-threads; 
   }
 }
 .socicon-threema {
