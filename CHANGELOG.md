@@ -1,3 +1,12 @@
+# March 2024 - v3.7.1
+- Update issue templates for Github
+- Add unicode and its version text
+- Threads informations.
+- Color for besport, hitbox, smashcast
+- **New icon:** Threads
+- Added a json file with all the information about the icons (name, unicode, color and path) extracted from the SVG file.
+- Added a javascript file for with a constant that can be used later.
+
 # March 2024 - v3.7.0
 - **New icon:** besport
 - **Icon update:** hitbox
