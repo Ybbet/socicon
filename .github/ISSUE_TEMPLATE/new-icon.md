@@ -1,7 +1,7 @@
 ---
 name: New icon
 about: 'New icon : name of the icon'
-title: "[New icon]"
+title: "[New icon] "
 labels: New icon
 assignees: Ybbet
 
