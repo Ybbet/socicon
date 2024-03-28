@@ -1,3 +1,6 @@
+# 28 march 2024 - v3.7.2
+- **New icon:** X (ex-Twitter)
+
 # March 2024 - v3.7.1
 - Update issue templates for Github
 - Add unicode and its version text

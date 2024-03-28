@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?2y44c5');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?2y44c5#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?2y44c5') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?2y44c5') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?2y44c5##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?co5ztv');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?co5ztv#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?co5ztv') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?co5ztv') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?co5ztv##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -1445,6 +1445,11 @@
 .socicon-wykop {
   &:before {
     content: $socicon-wykop; 
+  }
+}
+.socicon-x {
+  &:before {
+    content: $socicon-x; 
   }
 }
 .socicon-xbox {
