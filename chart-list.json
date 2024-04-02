@@ -2,7 +2,7 @@
     {
         "id": "500px",
         "name": "500px",
-        "unicode": "&#xe000;",
+        "unicode": "\ue000",
         "unicodeText": "e000",
         "color": "#58a9de",
         "url": "https://500px.com",
@@ -13,7 +13,7 @@
     {
         "id": "8tracks",
         "name": "8tracks",
-        "unicode": "&#xe001;",
+        "unicode": "\ue001",
         "unicodeText": "e001",
         "color": "#122c4b",
         "url": "https://8tracks.com/",
@@ -24,7 +24,7 @@
     {
         "id": "airbnb",
         "name": "Airbnb",
-        "unicode": "&#xe002;",
+        "unicode": "\ue002",
         "unicodeText": "e002",
         "color": "#ff5a5f",
         "url": "https://www.airbnb.fr",
@@ -35,7 +35,7 @@
     {
         "id": "alibaba",
         "name": "Alibaba",
-        "unicode": "&#xe922;",
+        "unicode": "\ue922",
         "unicodeText": "e922",
         "color": "#FF6A00",
         "url": "https://www.alibaba.com",
@@ -46,7 +46,7 @@
     {
         "id": "aliexpress",
         "name": "Aliexpress",
-        "unicode": "&#xe91d;",
+        "unicode": "\ue91d",
         "unicodeText": "e91d",
         "color": "#E92C00",
         "url": "https://www.aliexpress.com/",
@@ -57,7 +57,7 @@
     {
         "id": "alliance",
         "name": "Alliance",
-        "unicode": "&#xe003;",
+        "unicode": "\ue003",
         "unicodeText": "e003",
         "color": "#144587",
         "url": "",
@@ -68,7 +68,7 @@
     {
         "id": "amazon",
         "name": "Amazon",
-        "unicode": "&#xe004;",
+        "unicode": "\ue004",
         "unicodeText": "e004",
         "color": "#ff9900",
         "url": "https://www.amazon.com",
@@ -79,7 +79,7 @@
     {
         "id": "amplement",
         "name": "amplement",
-        "unicode": "&#xe005;",
+        "unicode": "\ue005",
         "unicodeText": "e005",
         "color": "#0996c3",
         "url": "https://www.amplement.com",
@@ -90,7 +90,7 @@
     {
         "id": "android",
         "name": "Android",
-        "unicode": "&#xe006;",
+        "unicode": "\ue006",
         "unicodeText": "e006",
         "color": "#8ec047",
         "url": "https://www.android.com/",
@@ -101,7 +101,7 @@
     {
         "id": "angellist",
         "name": "AngelList",
-        "unicode": "&#xe007;",
+        "unicode": "\ue007",
         "unicodeText": "e007",
         "color": "#000000",
         "url": "https://www.angellist.com",
@@ -112,7 +112,7 @@
     {
         "id": "angieslist",
         "name": "Angie's List",
-        "unicode": "&#xe916;",
+        "unicode": "\ue916",
         "unicodeText": "e916",
         "color": "#299F37",
         "url": "https://www.angieslist.com/",
@@ -123,7 +123,7 @@
     {
         "id": "apple",
         "name": "Apple",
-        "unicode": "&#xe008;",
+        "unicode": "\ue008",
         "unicodeText": "e008",
         "color": "#B9BFC1",
         "url": "https://www.apple.com/",
@@ -134,7 +134,7 @@
     {
         "id": "appnet",
         "name": "appnet",
-        "unicode": "&#xe009;",
+        "unicode": "\ue009",
         "unicodeText": "e009",
         "color": "#494949",
         "url": "https://www.appnet.com",
@@ -145,7 +145,7 @@
     {
         "id": "appstore",
         "name": "App Store",
-        "unicode": "&#xe91f;",
+        "unicode": "\ue91f",
         "unicodeText": "e91f",
         "color": "#007AFF",
         "url": "https://www.apple.com/fr/app-store/",
@@ -156,7 +156,7 @@
     {
         "id": "artstation",
         "name": "ArtStation",
-        "unicode": "&#xe959;",
+        "unicode": "\ue959",
         "unicodeText": "e959",
         "color": "#13aff0",
         "url": "https://www.artstation.com/",
@@ -167,7 +167,7 @@
     {
         "id": "ask",
         "name": "Ask",
-        "unicode": "&#xe930;",
+        "unicode": "\ue930",
         "unicodeText": "e930",
         "color": "#CF0000",
         "url": "https://www.ask.com",
@@ -178,7 +178,7 @@
     {
         "id": "augment",
         "name": "AUGMENT",
-        "unicode": "&#xe908;",
+        "unicode": "\ue908",
         "unicodeText": "e908",
         "color": "#E71204",
         "url": "http://www.augment.com/",
@@ -189,7 +189,7 @@
     {
         "id": "avvo",
         "name": "Avvo",
-        "unicode": "&#xe978;",
+        "unicode": "\ue978",
         "unicodeText": "e978",
         "color": "#00447B",
         "url": "https://www.avvo.com/",
@@ -200,7 +200,7 @@
     {
         "id": "baidu",
         "name": "baidu",
-        "unicode": "&#xe00a;",
+        "unicode": "\ue00a",
         "unicodeText": "e00a",
         "color": "#2629d9",
         "url": "https://www.baidu.com",
@@ -211,7 +211,7 @@
     {
         "id": "bale",
         "name": "Bale",
-        "unicode": "&#xe97e;",
+        "unicode": "\ue97e",
         "unicodeText": "e97e",
         "color": "#49dbae",
         "url": "https://bale.ai/",
@@ -222,7 +222,7 @@
     {
         "id": "bandcamp",
         "name": "bandcamp",
-        "unicode": "&#xe00b;",
+        "unicode": "\ue00b",
         "unicodeText": "e00b",
         "color": "#619aa9",
         "url": "https://bandcamp.com",
@@ -233,7 +233,7 @@
     {
         "id": "battlenet",
         "name": "BATTLE.NET",
-        "unicode": "&#xe00c;",
+        "unicode": "\ue00c",
         "unicodeText": "e00c",
         "color": "#0096CD",
         "url": "https://eu.shop.battle.net/fr-fr",
@@ -244,7 +244,7 @@
     {
         "id": "beatport",
         "name": "Beatport",
-        "unicode": "&#xe955;",
+        "unicode": "\ue955",
         "unicodeText": "e955",
         "color": "#94d500",
         "url": "https://www.beatport.com/",
@@ -255,7 +255,7 @@
     {
         "id": "bebee",
         "name": "beBee",
-        "unicode": "&#xe00e;",
+        "unicode": "\ue00e",
         "unicodeText": "e00e",
         "color": "#f28f16",
         "url": "https://www.bebee.com",
@@ -266,7 +266,7 @@
     {
         "id": "bebo",
         "name": "bebo",
-        "unicode": "&#xe00f;",
+        "unicode": "\ue00f",
         "unicodeText": "e00f",
         "color": "#EF1011",
         "url": "http://www.bebo.com/",
@@ -277,7 +277,7 @@
     {
         "id": "behance",
         "name": "Behance",
-        "unicode": "&#xe010;",
+        "unicode": "\ue010",
         "unicodeText": "e010",
         "color": "#000000",
         "url": "https://www.behance.net",
@@ -288,7 +288,7 @@
     {
         "id": "besport",
         "name": "besport",
-        "unicode": "&#x\ue97f;",
+        "unicode": "\ue97f",
         "unicodeText": "e97f",
         "color": "#ff0040",
         "url": "https://www.besport.com",
@@ -299,7 +299,7 @@
     {
         "id": "bing",
         "name": "Bing",
-        "unicode": "&#xe92a;",
+        "unicode": "\ue92a",
         "unicodeText": "e92a",
         "color": "#008485",
         "url": "https://www.bing.com",
@@ -310,7 +310,7 @@
     {
         "id": "bitbucket",
         "name": "Bitbucket",
-        "unicode": "&#xe909;",
+        "unicode": "\ue909",
         "unicodeText": "e909",
         "color": "#243759",
         "url": "https://bitbucket.org/",
@@ -321,7 +321,7 @@
     {
         "id": "blackberry",
         "name": "BlackBerry",
-        "unicode": "&#xe951;",
+        "unicode": "\ue951",
         "unicodeText": "e951",
         "color": "#000000",
         "url": "https://www.blackberry.com/",
@@ -332,7 +332,7 @@
     {
         "id": "blizzard",
         "name": "Blizzard",
-        "unicode": "&#xe011;",
+        "unicode": "\ue011",
         "unicodeText": "e011",
         "color": "#01B2F1",
         "url": "https://www.blizzard.com/",
@@ -343,7 +343,7 @@
     {
         "id": "blogger",
         "name": "Blogger",
-        "unicode": "&#xe012;",
+        "unicode": "\ue012",
         "unicodeText": "e012",
         "color": "#ec661c",
         "url": "https://www.blogger.com/",
@@ -354,7 +354,7 @@
     {
         "id": "bloglovin",
         "name": "BLOGLOVIN'",
-        "unicode": "&#xe904;",
+        "unicode": "\ue904",
         "unicodeText": "e904",
         "color": "#000000",
         "url": "https://www.bloglovin.com",
@@ -365,7 +365,7 @@
     {
         "id": "bonanza",
         "name": "Bonanza",
-        "unicode": "&#xe92c;",
+        "unicode": "\ue92c",
         "unicodeText": "e92c",
         "color": "#FF4950",
         "url": "https://bonanza.paris",
@@ -376,7 +376,7 @@
     {
         "id": "bookbub",
         "name": "BookBub",
-        "unicode": "&#xe949;",
+        "unicode": "\ue949",
         "unicodeText": "e949",
         "color": "#E70005",
         "url": "https://www.bookbub.com",
@@ -387,7 +387,7 @@
     {
         "id": "booking",
         "name": "Booking",
-        "unicode": "&#xe936;",
+        "unicode": "\ue936",
         "unicodeText": "e936",
         "color": "#003580",
         "url": "https://www.booking.com",
@@ -398,7 +398,7 @@
     {
         "id": "buffer",
         "name": "Buffer",
-        "unicode": "&#xe013;",
+        "unicode": "\ue013",
         "unicodeText": "e013",
         "color": "#000000",
         "url": "https://buffer.com",
@@ -409,7 +409,7 @@
     {
         "id": "calendly",
         "name": "Calendly",
-        "unicode": "&#xe93d;",
+        "unicode": "\ue93d",
         "unicodeText": "e93d",
         "color": "#00a3fa",
         "url": "https://calendly.com/",
@@ -420,7 +420,7 @@
     {
         "id": "cdbaby",
         "name": "CD Baby",
-        "unicode": "&#xe968;",
+        "unicode": "\ue968",
         "unicodeText": "e968",
         "color": "#010015",
         "url": "https://cdbaby.com/",
@@ -431,7 +431,7 @@
     {
         "id": "chrome",
         "name": "Chrome",
-        "unicode": "&#xe014;",
+        "unicode": "\ue014",
         "unicodeText": "e014",
         "color": "#757575",
         "url": "https://www.google.com/intl/fr/chrome/",
@@ -442,7 +442,7 @@
     {
         "id": "codepen",
         "name": "Codepen",
-        "unicode": "&#xe917;",
+        "unicode": "\ue917",
         "unicodeText": "e917",
         "color": "#000000",
         "url": "https://codepen.io/",
@@ -453,7 +453,7 @@
     {
         "id": "codered",
         "name": "CodeRED",
-        "unicode": "&#xe940;",
+        "unicode": "\ue940",
         "unicodeText": "e940",
         "color": "#FF033B",
         "url": "https://www.onsolve.com/solutions/products/codered/",
@@ -464,7 +464,7 @@
     {
         "id": "coderwall",
         "name": "coderwall",
-        "unicode": "&#xe015;",
+        "unicode": "\ue015",
         "unicodeText": "e015",
         "color": "#3E8DCC",
         "url": "https://coderwall.com",
@@ -475,7 +475,7 @@
     {
         "id": "collectorz",
         "name": "Collectorz",
-        "unicode": "&#xe95c;",
+        "unicode": "\ue95c",
         "unicodeText": "e95c",
         "color": "#007FA5",
         "url": "https://www.collectorz.com/",
@@ -486,7 +486,7 @@
     {
         "id": "craigslist",
         "name": "Craigslist",
-        "unicode": "&#xe923;",
+        "unicode": "\ue923",
         "unicodeText": "e923",
         "color": "#561A8B",
         "url": "https://www.craigslist.org",
@@ -497,7 +497,7 @@
     {
         "id": "crunchbase",
         "name": "crunchbase",
-        "unicode": "&#xe93b;",
+        "unicode": "\ue93b",
         "unicodeText": "e93b",
         "color": "#0288d1",
         "url": "https://www.crunchbase.com/",
@@ -508,7 +508,7 @@
     {
         "id": "curse",
         "name": "Curse",
-        "unicode": "&#xe016;",
+        "unicode": "\ue016",
         "unicodeText": "e016",
         "color": "#f26522",
         "url": "http://curse.com",
@@ -519,7 +519,7 @@
     {
         "id": "dailymotion",
         "name": "Dailymotion",
-        "unicode": "&#xe017;",
+        "unicode": "\ue017",
         "unicodeText": "e017",
         "color": "#004e72",
         "url": "https://www.dailymotion.com/",
@@ -530,7 +530,7 @@
     {
         "id": "debian",
         "name": "debian",
-        "unicode": "&#xe95f;",
+        "unicode": "\ue95f",
         "unicodeText": "e95f",
         "color": "#c70036",
         "url": "https://www.debian.org",
@@ -541,7 +541,7 @@
     {
         "id": "deezer",
         "name": "DEEZER",
-        "unicode": "&#xe018;",
+        "unicode": "\ue018",
         "unicodeText": "e018",
         "color": "#32323d",
         "url": "https://www.deezer.com/",
@@ -552,7 +552,7 @@
     {
         "id": "delicious",
         "name": "Delicious",
-        "unicode": "&#xe019;",
+        "unicode": "\ue019",
         "unicodeText": "e019",
         "color": "#020202",
         "url": "https://del.icio.us",
@@ -563,7 +563,7 @@
     {
         "id": "deviantart",
         "name": "deviantART",
-        "unicode": "&#xe01a;",
+        "unicode": "\ue01a",
         "unicodeText": "e01a",
         "color": "#c5d200",
         "url": "https://www.deviantart.com",
@@ -574,7 +574,7 @@
     {
         "id": "diablo",
         "name": "Diablo",
-        "unicode": "&#xe01b;",
+        "unicode": "\ue01b",
         "unicodeText": "e01b",
         "color": "#8B1209",
         "url": "https://diablo4.blizzard.com/",
@@ -585,7 +585,7 @@
     {
         "id": "digg",
         "name": "Digg",
-        "unicode": "&#xe01c;",
+        "unicode": "\ue01c",
         "unicodeText": "e01c",
         "color": "#1d1d1b",
         "url": "https://digg.com",
@@ -596,7 +596,7 @@
     {
         "id": "discord",
         "name": "Discord",
-        "unicode": "&#xe01d;",
+        "unicode": "\ue01d",
         "unicodeText": "e01d",
         "color": "#7289da",
         "url": "https://discord.com",
@@ -607,7 +607,7 @@
     {
         "id": "disqus",
         "name": "DISQUS",
-        "unicode": "&#xe01e;",
+        "unicode": "\ue01e",
         "unicodeText": "e01e",
         "color": "#2e9fff",
         "url": "https://disqus.com",
@@ -618,7 +618,7 @@
     {
         "id": "dlive",
         "name": "DLive",
-        "unicode": "&#xe975;",
+        "unicode": "\ue975",
         "unicodeText": "e975",
         "color": "#ffd300",
         "url": "https://dlive.tv/",
@@ -629,7 +629,7 @@
     {
         "id": "doodle",
         "name": "Doodle",
-        "unicode": "&#xe92b;",
+        "unicode": "\ue92b",
         "unicodeText": "e92b",
         "color": "#0064DC",
         "url": "http://doodle.com/",
@@ -640,7 +640,7 @@
     {
         "id": "douban",
         "name": "douban",
-        "unicode": "&#xe01f;",
+        "unicode": "\ue01f",
         "unicodeText": "e01f",
         "color": "#3ca353",
         "url": "https://www.douban.com",
@@ -651,7 +651,7 @@
     {
         "id": "draugiem",
         "name": "draugiem.lv",
-        "unicode": "&#xe020;",
+        "unicode": "\ue020",
         "unicodeText": "e020",
         "color": "#ffa32b",
         "url": "https://www.draugiem.lv/",
@@ -662,7 +662,7 @@
     {
         "id": "dribbble",
         "name": "dribbble",
-        "unicode": "&#xe021;",
+        "unicode": "\ue021",
         "unicodeText": "e021",
         "color": "#e84d88",
         "url": "https://dribbble.com",
@@ -673,7 +673,7 @@
     {
         "id": "drupal",
         "name": "Drupal",
-        "unicode": "&#xe022;",
+        "unicode": "\ue022",
         "unicodeText": "e022",
         "color": "#00598e",
         "url": "https://www.drupal.org",
@@ -684,7 +684,7 @@
     {
         "id": "ebay",
         "name": "ebay",
-        "unicode": "&#xe023;",
+        "unicode": "\ue023",
         "unicodeText": "e023",
         "color": "#333333",
         "url": "https://www.ebay.com",
@@ -695,7 +695,7 @@
     {
         "id": "eitaa",
         "name": "Eitaa",
-        "unicode": "&#xe97c;",
+        "unicode": "\ue97c",
         "unicodeText": "e97c",
         "color": "#ef7900",
         "url": "https://eitaa.com",
@@ -706,7 +706,7 @@
     {
         "id": "elementaryos",
         "name": "elementary OS",
-        "unicode": "&#xe969;",
+        "unicode": "\ue969",
         "unicodeText": "e969",
         "color": "#47A8E9",
         "url": "https://elementary.io",
@@ -717,7 +717,7 @@
     {
         "id": "ello",
         "name": "Ello",
-        "unicode": "&#xe024;",
+        "unicode": "\ue024",
         "unicodeText": "e024",
         "color": "#000000",
         "url": "https://www.ello.co/",
@@ -728,7 +728,7 @@
     {
         "id": "endomondo",
         "name": "endomondo",
-        "unicode": "&#x\ue025;",
+        "unicode": "\ue025",
         "unicodeText": "e025",
         "color": "#86ad00",
         "url": "https://www.endomondo.com",
@@ -739,7 +739,7 @@
     {
         "id": "envato",
         "name": "Envato",
-        "unicode": "&#xe026;",
+        "unicode": "\ue026",
         "unicodeText": "e026",
         "color": "#597c3a",
         "url": "https://www.envato.com",
@@ -750,7 +750,7 @@
     {
         "id": "etsy",
         "name": "Etsy",
-        "unicode": "&#xe027;",
+        "unicode": "\ue027",
         "unicodeText": "e027",
         "color": "#F56400",
         "url": "https://www.etsy.com/",
@@ -761,7 +761,7 @@
     {
         "id": "facebook",
         "name": "Facebook",
-        "unicode": "&#xe028;",
+        "unicode": "\ue028",
         "unicodeText": "e028",
         "color": "#3e5b98",
         "url": "https://www.facebook.com/",
@@ -772,7 +772,7 @@
     {
         "id": "feedburner",
         "name": "FeedBurner",
-        "unicode": "&#xe029;",
+        "unicode": "\ue029",
         "unicodeText": "e029",
         "color": "#ffcc00",
         "url": "https://feedburner.google.com",
@@ -783,7 +783,7 @@
     {
         "id": "filmfreeway",
         "name": "FilmFreeway",
-        "unicode": "&#xe960;",
+        "unicode": "\ue960",
         "unicodeText": "e960",
         "color": "#00c498",
         "url": "https://filmfreeway.com/",
@@ -794,7 +794,7 @@
     {
         "id": "filmweb",
         "name": "FILMWEB",
-        "unicode": "&#xe02a;",
+        "unicode": "\ue02a",
         "unicodeText": "e02a",
         "color": "#ffc404",
         "url": "https://www.filmweb.pl",
@@ -805,7 +805,7 @@
     {
         "id": "firefox",
         "name": "Firefox",
-        "unicode": "&#xe02b;",
+        "unicode": "\ue02b",
         "unicodeText": "e02b",
         "color": "#484848",
         "url": "https://www.mozilla.org/fr/firefox/",
@@ -816,7 +816,7 @@
     {
         "id": "fiverr",
         "name": "Fiverr",
-        "unicode": "&#xe91b;",
+        "unicode": "\ue91b",
         "unicodeText": "e91b",
         "color": "#0DB62A",
         "url": "https://www.fiverr.com",
@@ -827,7 +827,7 @@
     {
         "id": "flattr",
         "name": "Flattr",
-        "unicode": "&#xe02c;",
+        "unicode": "\ue02c",
         "unicodeText": "e02c",
         "color": "#F67C1A",
         "url": "https://flattr.com",
@@ -838,7 +838,7 @@
     {
         "id": "flickr",
         "name": "flickr",
-        "unicode": "&#xe02d;",
+        "unicode": "\ue02d",
         "unicodeText": "e02d",
         "color": "#1e1e1b",
         "url": "https://www.flickr.com",
@@ -849,7 +849,7 @@
     {
         "id": "flipboard",
         "name": "Flipboard",
-        "unicode": "&#xe973;",
+        "unicode": "\ue973",
         "unicodeText": "e973",
         "color": "#f52828",
         "url": "https://flipboard.com/",
@@ -860,7 +860,7 @@
     {
         "id": "formulr",
         "name": "FORMULR",
-        "unicode": "&#xe02e;",
+        "unicode": "\ue02e",
         "unicodeText": "e02e",
         "color": "#ff5a60",
         "url": "",
@@ -871,7 +871,7 @@
     {
         "id": "forrst",
         "name": "Forrst",
-        "unicode": "&#xe02f;",
+        "unicode": "\ue02f",
         "unicodeText": "e02f",
         "color": "#5B9A68",
         "url": "",
@@ -882,7 +882,7 @@
     {
         "id": "foursquare",
         "name": "foursquare",
-        "unicode": "&#xe030;",
+        "unicode": "\ue030",
         "unicodeText": "e030",
         "color": "#f94877",
         "url": "",
@@ -893,7 +893,7 @@
     {
         "id": "freelancer",
         "name": "Freelancer",
-        "unicode": "&#xe928;",
+        "unicode": "\ue928",
         "unicodeText": "e928",
         "color": "#0088CA",
         "url": "https://www.freelancer.com",
@@ -904,7 +904,7 @@
     {
         "id": "friendfeed",
         "name": "FriendFeed",
-        "unicode": "&#xe031;",
+        "unicode": "\ue031",
         "unicodeText": "e031",
         "color": "#2F72C4",
         "url": "",
@@ -915,7 +915,7 @@
     {
         "id": "fundable",
         "name": "Fundable",
-        "unicode": "&#xe935;",
+        "unicode": "\ue935",
         "unicodeText": "e935",
         "color": "#1d181f",
         "url": "https://www.fundable.com/",
@@ -926,7 +926,7 @@
     {
         "id": "fyuse",
         "name": "FYUSE",
-        "unicode": "&#xe90a;",
+        "unicode": "\ue90a",
         "unicodeText": "e90a",
         "color": "#FF3143",
         "url": "https://fyu.se/",
@@ -937,7 +937,7 @@
     {
         "id": "gamefor",
         "name": "GameFor",
-        "unicode": "&#xe94e;",
+        "unicode": "\ue94e",
         "unicodeText": "e94e",
         "color": "#506F82",
         "url": "https://www.iamgamefor.com/",
@@ -948,7 +948,7 @@
     {
         "id": "gamejolt",
         "name": "Game Jolt",
-        "unicode": "&#xe901;",
+        "unicode": "\ue901",
         "unicodeText": "e901",
         "color": "#191919",
         "url": "https://gamejolt.com",
@@ -959,7 +959,7 @@
     {
         "id": "gamewisp",
         "name": "GameWisp",
-        "unicode": "&#xe905;",
+        "unicode": "\ue905",
         "unicodeText": "e905",
         "color": "#F8A853",
         "url": "https://gamewisp.com/",
@@ -970,7 +970,7 @@
     {
         "id": "ghost",
         "name": "ghost",
-        "unicode": "&#xe933;",
+        "unicode": "\ue933",
         "unicodeText": "e933",
         "color": "#33393C",
         "url": "https://ghost.org",
@@ -981,7 +981,7 @@
     {
         "id": "github",
         "name": "GitHub",
-        "unicode": "&#xe032;",
+        "unicode": "\ue032",
         "unicodeText": "e032",
         "color": "#221e1b",
         "url": "",
@@ -992,7 +992,7 @@
     {
         "id": "gitlab",
         "name": "GitLab",
-        "unicode": "&#xe945;",
+        "unicode": "\ue945",
         "unicodeText": "e945",
         "color": "#E65228",
         "url": "https://www.gitlab.com/",
@@ -1003,7 +1003,7 @@
     {
         "id": "gitter",
         "name": "GITTER",
-        "unicode": "&#xe96c;",
+        "unicode": "\ue96c",
         "unicodeText": "e96c",
         "color": "#FF016F",
         "url": "https://gitter.im/",
@@ -1014,7 +1014,7 @@
     {
         "id": "gnome",
         "name": "GNOME",
-        "unicode": "&#xe961;",
+        "unicode": "\ue961",
         "unicodeText": "e961",
         "color": "#4a86cf",
         "url": "https://www.gnome.org/",
@@ -1025,7 +1025,7 @@
     {
         "id": "goodreads",
         "name": "goodreads",
-        "unicode": "&#xe033;",
+        "unicode": "\ue033",
         "unicodeText": "e033",
         "color": "#463020",
         "url": "",
@@ -1036,7 +1036,7 @@
     {
         "id": "google",
         "name": "Google",
-        "unicode": "&#xe034;",
+        "unicode": "\ue034",
         "unicodeText": "e034",
         "color": "#4285f4",
         "url": "",
@@ -1047,7 +1047,7 @@
     {
         "id": "googlecalendar",
         "name": "Google Calendar",
-        "unicode": "&#xe926;",
+        "unicode": "\ue926",
         "unicodeText": "e926",
         "color": "#3D81F6",
         "url": "https://calendar.google.com",
@@ -1058,7 +1058,7 @@
     {
         "id": "googlegroups",
         "name": "Google Groups",
-        "unicode": "&#xe036;",
+        "unicode": "\ue036",
         "unicodeText": "e036",
         "color": "#4F8EF5",
         "url": "",
@@ -1069,7 +1069,7 @@
     {
         "id": "googlehangouts",
         "name": "Google Hangouts",
-        "unicode": "&#xe974;",
+        "unicode": "\ue974",
         "unicodeText": "e974",
         "color": "#0f9d58",
         "url": "https://hangouts.google.com/",
@@ -1080,7 +1080,7 @@
     {
         "id": "googlemaps",
         "name": "Google Maps",
-        "unicode": "&#xe937;",
+        "unicode": "\ue937",
         "unicodeText": "e937",
         "color": "#4285F4",
         "url": "https://www.google.fr/maps/",
@@ -1091,7 +1091,7 @@
     {
         "id": "googlephotos",
         "name": "Google Photos",
-        "unicode": "&#xe037;",
+        "unicode": "\ue037",
         "unicodeText": "e037",
         "color": "#212121",
         "url": "",
@@ -1102,7 +1102,7 @@
     {
         "id": "googleplaymusic",
         "name": "Google Play Music",
-        "unicode": "&#xe95e;",
+        "unicode": "\ue95e",
         "unicodeText": "e95e",
         "color": "#FF5722",
         "url": "https://play.google.com/music/",
@@ -1113,7 +1113,7 @@
     {
         "id": "googleplus",
         "name": "Google+",
-        "unicode": "&#xe038;",
+        "unicode": "\ue038",
         "unicodeText": "e038",
         "color": "#dd4b39",
         "url": "",
@@ -1124,7 +1124,7 @@
     {
         "id": "googlescholar",
         "name": "Google Scholar",
-        "unicode": "&#xe035;",
+        "unicode": "\ue035",
         "unicodeText": "e035",
         "color": "#4285f4",
         "url": "",
@@ -1135,7 +1135,7 @@
     {
         "id": "gotomeeting",
         "name": "GoToMeeting",
-        "unicode": "&#xe91c;",
+        "unicode": "\ue91c",
         "unicodeText": "e91c",
         "color": "#FD7A2B",
         "url": "https://www.gotomeeting.com",
@@ -1146,7 +1146,7 @@
     {
         "id": "grooveshark",
         "name": "grooveshark",
-        "unicode": "&#xe039;",
+        "unicode": "\ue039",
         "unicodeText": "e039",
         "color": "#000000",
         "url": "",
@@ -1157,7 +1157,7 @@
     {
         "id": "guru",
         "name": "Guru",
-        "unicode": "&#xe91e;",
+        "unicode": "\ue91e",
         "unicodeText": "e91e",
         "color": "#4C81C0",
         "url": "https://www.guru.com/",
@@ -1168,7 +1168,7 @@
     {
         "id": "gust",
         "name": "Gust",
-        "unicode": "&#xe92f;",
+        "unicode": "\ue92f",
         "unicodeText": "e92f",
         "color": "#1E2E3E",
         "url": "https://gust.com",
@@ -1179,7 +1179,7 @@
     {
         "id": "hackernews",
         "name": "Hacker News",
-        "unicode": "&#xe946;",
+        "unicode": "\ue946",
         "unicodeText": "e946",
         "color": "#FF6601",
         "url": "",
@@ -1190,7 +1190,7 @@
     {
         "id": "hackerone",
         "name": "hackerone",
-        "unicode": "&#xe956;",
+        "unicode": "\ue956",
         "unicodeText": "e956",
         "color": "#ec1075",
         "url": "https://www.hackerone.com/",
@@ -1201,7 +1201,7 @@
     {
         "id": "hackerrank",
         "name": "HackerRank",
-        "unicode": "&#xe03a;",
+        "unicode": "\ue03a",
         "unicodeText": "e03a",
         "color": "#2ec866",
         "url": "",
@@ -1212,7 +1212,7 @@
     {
         "id": "hearthstone",
         "name": "Hearthstone",
-        "unicode": "&#xe03b;",
+        "unicode": "\ue03b",
         "unicodeText": "e03b",
         "color": "#EC9313",
         "url": "",
@@ -1223,7 +1223,7 @@
     {
         "id": "hellocoton",
         "name": "Hellocoton",
-        "unicode": "&#xe03c;",
+        "unicode": "\ue03c",
         "unicodeText": "e03c",
         "color": "#d30d66",
         "url": "",
@@ -1234,7 +1234,7 @@
     {
         "id": "heroes",
         "name": "Hereos of the Storm",
-        "unicode": "&#xe03d;",
+        "unicode": "\ue03d",
         "unicodeText": "e03d",
         "color": "#2397F7",
         "url": "",
@@ -1245,7 +1245,7 @@
     {
         "id": "hitbox",
         "name": "hitbox",
-        "unicode": "&#xe03e;",
+        "unicode": "\ue03e",
         "unicodeText": "e980",
         "color": "#99CC00",
         "url": "",
@@ -1256,7 +1256,7 @@
     {
         "id": "homeadvisor",
         "name": "HomeAdvisor",
-        "unicode": "&#xe915;",
+        "unicode": "\ue915",
         "unicodeText": "e915",
         "color": "#EF8B1D",
         "url": "https://www.homeadvisor.com/",
@@ -1267,7 +1267,7 @@
     {
         "id": "homes",
         "name": "Homes",
-        "unicode": "&#xe920;",
+        "unicode": "\ue920",
         "unicodeText": "e920",
         "color": "#F7841B",
         "url": "https://www.homes.com/",
@@ -1278,7 +1278,7 @@
     {
         "id": "homify",
         "name": "homify",
-        "unicode": "&#xe93c;",
+        "unicode": "\ue93c",
         "unicodeText": "e93c",
         "color": "#7DCDA3",
         "url": "https://www.homify.com/",
@@ -1289,7 +1289,7 @@
     {
         "id": "horde",
         "name": "Horde",
-        "unicode": "&#xe03f;",
+        "unicode": "\ue03f",
         "unicodeText": "e03f",
         "color": "#84121C",
         "url": "",
@@ -1300,7 +1300,7 @@
     {
         "id": "houzz",
         "name": "houzz",
-        "unicode": "&#xe040;",
+        "unicode": "\ue040",
         "unicodeText": "e040",
         "color": "#7CC04B",
         "url": "",
@@ -1311,7 +1311,7 @@
     {
         "id": "icq",
         "name": "icq",
-        "unicode": "&#xe041;",
+        "unicode": "\ue041",
         "unicodeText": "e041",
         "color": "#7EBD00",
         "url": "",
@@ -1322,7 +1322,7 @@
     {
         "id": "identica",
         "name": "Identica",
-        "unicode": "&#xe042;",
+        "unicode": "\ue042",
         "unicodeText": "e042",
         "color": "#000000",
         "url": "",
@@ -1333,7 +1333,7 @@
     {
         "id": "imdb",
         "name": "IMDb",
-        "unicode": "&#xe043;",
+        "unicode": "\ue043",
         "unicodeText": "e043",
         "color": "#E8BA00",
         "url": "",
@@ -1344,7 +1344,7 @@
     {
         "id": "indiedb",
         "name": "indie DB",
-        "unicode": "&#xe94c;",
+        "unicode": "\ue94c",
         "unicodeText": "e94c",
         "color": "#77C628",
         "url": "http://www.indiedb.com/",
@@ -1355,7 +1355,7 @@
     {
         "id": "instagram",
         "name": "Instagram",
-        "unicode": "&#xe044;",
+        "unicode": "\ue044",
         "unicodeText": "e044",
         "color": "#000000",
         "url": "",
@@ -1366,7 +1366,7 @@
     {
         "id": "instructables",
         "name": "instructables",
-        "unicode": "&#xe944;",
+        "unicode": "\ue944",
         "unicodeText": "e944",
         "color": "#f8b514",
         "url": "https://www.instructables.com/",
@@ -1377,7 +1377,7 @@
     {
         "id": "internet",
         "name": "Internet",
-        "unicode": "&#xe957;",
+        "unicode": "\ue957",
         "unicodeText": "e957",
         "color": "#000000",
         "url": "",
@@ -1388,7 +1388,7 @@
     {
         "id": "invision",
         "name": "InVision",
-        "unicode": "&#xe95a;",
+        "unicode": "\ue95a",
         "unicodeText": "e95a",
         "color": "#e81e61",
         "url": "https://www.invisionapp.com/",
@@ -1399,7 +1399,7 @@
     {
         "id": "issuu",
         "name": "issuu",
-        "unicode": "&#xe045;",
+        "unicode": "\ue045",
         "unicodeText": "e045",
         "color": "#F26F61",
         "url": "",
@@ -1410,7 +1410,7 @@
     {
         "id": "istock",
         "name": "iStock",
-        "unicode": "&#xe046;",
+        "unicode": "\ue046",
         "unicodeText": "e046",
         "color": "#000000",
         "url": "",
@@ -1421,7 +1421,7 @@
     {
         "id": "itchio",
         "name": "itch.io",
-        "unicode": "&#xe962;",
+        "unicode": "\ue962",
         "unicodeText": "e962",
         "color": "#FA5C5C",
         "url": "https://itch.io/",
@@ -1432,7 +1432,7 @@
     {
         "id": "itunes",
         "name": "iTunes",
-        "unicode": "&#xe047;",
+        "unicode": "\ue047",
         "unicodeText": "e047",
         "color": "#ff5e51",
         "url": "",
@@ -1443,7 +1443,7 @@
     {
         "id": "jamendo",
         "name": "JAMENDO",
-        "unicode": "&#xe963;",
+        "unicode": "\ue963",
         "unicodeText": "e963",
         "color": "#ff1f59",
         "url": "https://www.jamendo.com",
@@ -1454,7 +1454,7 @@
     {
         "id": "keybase",
         "name": "Keybase",
-        "unicode": "&#xe048;",
+        "unicode": "\ue048",
         "unicodeText": "e048",
         "color": "#FF7100",
         "url": "",
@@ -1465,7 +1465,7 @@
     {
         "id": "kobo",
         "name": "Kobo",
-        "unicode": "&#xe948;",
+        "unicode": "\ue948",
         "unicodeText": "e948",
         "color": "#BF0000",
         "url": "",
@@ -1476,7 +1476,7 @@
     {
         "id": "lanyrd",
         "name": "Lanyrd",
-        "unicode": "&#xe049;",
+        "unicode": "\ue049",
         "unicodeText": "e049",
         "color": "#3c80c9",
         "url": "",
@@ -1487,7 +1487,7 @@
     {
         "id": "lastfm",
         "name": "last.fm",
-        "unicode": "&#xe04a;",
+        "unicode": "\ue04a",
         "unicodeText": "e04a",
         "color": "#d41316",
         "url": "",
@@ -1498,7 +1498,7 @@
     {
         "id": "letterboxd",
         "name": "Letterboxd",
-        "unicode": "&#xe96d;",
+        "unicode": "\ue96d",
         "unicodeText": "e96d",
         "color": "#2c3440",
         "url": "https://letterboxd.com/",
@@ -1509,7 +1509,7 @@
     {
         "id": "line",
         "name": "LINE",
-        "unicode": "&#xe04b;",
+        "unicode": "\ue04b",
         "unicodeText": "e04b",
         "color": "#00B901",
         "url": "",
@@ -1520,7 +1520,7 @@
     {
         "id": "linkedin",
         "name": "Linkedin",
-        "unicode": "&#xe04c;",
+        "unicode": "\ue04c",
         "unicodeText": "e04c",
         "color": "#3371b7",
         "url": "",
@@ -1531,7 +1531,7 @@
     {
         "id": "livejournal",
         "name": "LiveJournal",
-        "unicode": "&#xe04d;",
+        "unicode": "\ue04d",
         "unicodeText": "e04d",
         "color": "#0099CC",
         "url": "",
@@ -1542,7 +1542,7 @@
     {
         "id": "livemaster",
         "name": "livemaster",
-        "unicode": "&#xe93e;",
+        "unicode": "\ue93e",
         "unicodeText": "e93e",
         "color": "#e76d00",
         "url": "https://www.livemaster.ru/",
@@ -1553,7 +1553,7 @@
     {
         "id": "logmein",
         "name": "LogMeIn",
-        "unicode": "&#xe91a;",
+        "unicode": "\ue91a",
         "unicodeText": "e91a",
         "color": "#45B6F3",
         "url": "https://www.logmein.com",
@@ -1564,7 +1564,7 @@
     {
         "id": "loomly",
         "name": "loomly",
-        "unicode": "&#xe932;",
+        "unicode": "\ue932",
         "unicodeText": "e932",
         "color": "#00425f",
         "url": "https://www.loomly.com/",
@@ -1575,7 +1575,7 @@
     {
         "id": "lyft",
         "name": "lyft",
-        "unicode": "&#xe04e;",
+        "unicode": "\ue04e",
         "unicodeText": "e04e",
         "color": "#FF00BF",
         "url": "",
@@ -1586,7 +1586,7 @@
     {
         "id": "macos",
         "name": "macOS",
-        "unicode": "&#xe04f;",
+        "unicode": "\ue04f",
         "unicodeText": "e04f",
         "color": "#000000",
         "url": "",
@@ -1597,7 +1597,7 @@
     {
         "id": "mail",
         "name": "Mail",
-        "unicode": "&#xe050;",
+        "unicode": "\ue050",
         "unicodeText": "e050",
         "color": "#000000",
         "url": "",
@@ -1608,7 +1608,7 @@
     {
         "id": "mailru",
         "name": "Mail.ru",
-        "unicode": "&#xe94a;",
+        "unicode": "\ue94a",
         "unicodeText": "e94a",
         "color": "#FDA840",
         "url": "",
@@ -1619,7 +1619,7 @@
     {
         "id": "mastodon",
         "name": "Mastodon",
-        "unicode": "&#xe913;",
+        "unicode": "\ue913",
         "unicodeText": "e913",
         "color": "#2986D6",
         "url": "https://joinmastodon.org/",
@@ -1630,7 +1630,7 @@
     {
         "id": "medium",
         "name": "Medium",
-        "unicode": "&#xe051;",
+        "unicode": "\ue051",
         "unicodeText": "e051",
         "color": "#000000",
         "url": "",
@@ -1641,7 +1641,7 @@
     {
         "id": "meetup",
         "name": "Meetup",
-        "unicode": "&#xe052;",
+        "unicode": "\ue052",
         "unicodeText": "e052",
         "color": "#e2373c",
         "url": "",
@@ -1652,7 +1652,7 @@
     {
         "id": "messenger",
         "name": "Facebook Messenger",
-        "unicode": "&#xe906;",
+        "unicode": "\ue906",
         "unicodeText": "e906",
         "color": "#0084ff",
         "url": "https://messenger.com",
@@ -1663,7 +1663,7 @@
     {
         "id": "metapop",
         "name": "Metapop",
-        "unicode": "&#xe970;",
+        "unicode": "\ue970",
         "unicodeText": "e970",
         "color": "#181920",
         "url": "https://metapop.com/",
@@ -1674,7 +1674,7 @@
     {
         "id": "microsoft",
         "name": "Microsoft",
-        "unicode": "&#xe90e;",
+        "unicode": "\ue90e",
         "unicodeText": "e90e",
         "color": "#666666",
         "url": "https://www.microsoft.com",
@@ -1685,7 +1685,7 @@
     {
         "id": "mix",
         "name": "MIX",
-        "unicode": "&#xe964;",
+        "unicode": "\ue964",
         "unicodeText": "e964",
         "color": "#fd8235",
         "url": "https://mix.com/",
@@ -1696,7 +1696,7 @@
     {
         "id": "mixcloud",
         "name": "Mixcloud",
-        "unicode": "&#xe053;",
+        "unicode": "\ue053",
         "unicodeText": "e053",
         "color": "#000000",
         "url": "",
@@ -1707,7 +1707,7 @@
     {
         "id": "mixer",
         "name": "Mixer",
-        "unicode": "&#xe00d;",
+        "unicode": "\ue00d",
         "unicodeText": "e00d",
         "color": "#1FBAED",
         "url": "https://mixer.com",
@@ -1718,7 +1718,7 @@
     {
         "id": "mobcrush",
         "name": "mobcrush",
-        "unicode": "&#xe90d;",
+        "unicode": "\ue90d",
         "unicodeText": "e90d",
         "color": "#FFEE00",
         "url": "https://www.mobcrush.com",
@@ -1729,7 +1729,7 @@
     {
         "id": "moddb",
         "name": "Mod DB",
-        "unicode": "&#xe94b;",
+        "unicode": "\ue94b",
         "unicodeText": "e94b",
         "color": "#CC0300",
         "url": "http://www.moddb.com/",
@@ -1740,7 +1740,7 @@
     {
         "id": "modelmayhem",
         "name": "Model Mayhem",
-        "unicode": "&#xe054;",
+        "unicode": "\ue054",
         "unicodeText": "e054",
         "color": "#000000",
         "url": "",
@@ -1751,7 +1751,7 @@
     {
         "id": "mumble",
         "name": "mumble",
-        "unicode": "&#xe055;",
+        "unicode": "\ue055",
         "unicodeText": "e055",
         "color": "#5AB5D1",
         "url": "",
@@ -1762,7 +1762,7 @@
     {
         "id": "myanimelist",
         "name": "MyAnimeList",
-        "unicode": "&#xe950;",
+        "unicode": "\ue950",
         "unicodeText": "e950",
         "color": "#2E51A2",
         "url": "https://myanimelist.net/",
@@ -1773,7 +1773,7 @@
     {
         "id": "myspace",
         "name": "Myspace",
-        "unicode": "&#xe056;",
+        "unicode": "\ue056",
         "unicodeText": "e056",
         "color": "#323232",
         "url": "",
@@ -1784,7 +1784,7 @@
     {
         "id": "napster",
         "name": "napster",
-        "unicode": "&#xe954;",
+        "unicode": "\ue954",
         "unicodeText": "e954",
         "color": "#000000",
         "url": "https://www.napster.com/",
@@ -1795,7 +1795,7 @@
     {
         "id": "natgeo",
         "name": "Natgeo",
-        "unicode": "&#xe912;",
+        "unicode": "\ue912",
         "unicodeText": "e912",
         "color": "#222222",
         "url": "http://www.nationalgeographic.com/",
@@ -1806,7 +1806,7 @@
     {
         "id": "naver",
         "name": "NAVER",
-        "unicode": "&#xe971;",
+        "unicode": "\ue971",
         "unicodeText": "e971",
         "color": "#03cf5d",
         "url": "https://www.naver.com/",
@@ -1817,7 +1817,7 @@
     {
         "id": "newsvine",
         "name": "NewsVine",
-        "unicode": "&#xe057;",
+        "unicode": "\ue057",
         "unicodeText": "e057",
         "color": "#075B2F",
         "url": "",
@@ -1828,7 +1828,7 @@
     {
         "id": "nextdoor",
         "name": "Nextdoor",
-        "unicode": "&#xe942;",
+        "unicode": "\ue942",
         "unicodeText": "e942",
         "color": "#01B247",
         "url": "https://nextdoor.com/",
@@ -1839,7 +1839,7 @@
     {
         "id": "niconico",
         "name": "niconico",
-        "unicode": "&#xe939;",
+        "unicode": "\ue939",
         "unicodeText": "e939",
         "color": "#000000",
         "url": "http://www.nicovideo.jp/",
@@ -1850,7 +1850,7 @@
     {
         "id": "nintendo",
         "name": "Nintendo Network",
-        "unicode": "&#xe058;",
+        "unicode": "\ue058",
         "unicodeText": "e058",
         "color": "#F58A33",
         "url": "",
@@ -1861,7 +1861,7 @@
     {
         "id": "npm",
         "name": "npm",
-        "unicode": "&#xe059;",
+        "unicode": "\ue059",
         "unicodeText": "e059",
         "color": "#C12127",
         "url": "",
@@ -1872,7 +1872,7 @@
     {
         "id": "odnoklassniki",
         "name": "Odnoklassniki",
-        "unicode": "&#xe05a;",
+        "unicode": "\ue05a",
         "unicodeText": "e05a",
         "color": "#f48420",
         "url": "",
@@ -1883,7 +1883,7 @@
     {
         "id": "openaigym",
         "name": "OpenAI Gym",
-        "unicode": "&#xe919;",
+        "unicode": "\ue919",
         "unicodeText": "e919",
         "color": "#29A8B3",
         "url": "https://gym.openai.com",
@@ -1894,7 +1894,7 @@
     {
         "id": "openid",
         "name": "OpenID",
-        "unicode": "&#xe05b;",
+        "unicode": "\ue05b",
         "unicodeText": "e05b",
         "color": "#f78c40",
         "url": "",
@@ -1905,7 +1905,7 @@
     {
         "id": "opera",
         "name": "Opera",
-        "unicode": "&#xe05c;",
+        "unicode": "\ue05c",
         "unicodeText": "e05c",
         "color": "#FF1B2D",
         "url": "",
@@ -1916,7 +1916,7 @@
     {
         "id": "origin",
         "name": "Origin",
-        "unicode": "&#xe941;",
+        "unicode": "\ue941",
         "unicodeText": "e941",
         "color": "#F56C2E",
         "url": "https://www.origin.com",
@@ -1927,7 +1927,7 @@
     {
         "id": "outlook",
         "name": "Outlook",
-        "unicode": "&#xe05d;",
+        "unicode": "\ue05d",
         "unicodeText": "e05d",
         "color": "#0072C6",
         "url": "",
@@ -1938,7 +1938,7 @@
     {
         "id": "overwatch",
         "name": "Overwatch",
-        "unicode": "&#xe05e;",
+        "unicode": "\ue05e",
         "unicodeText": "e05e",
         "color": "#9E9E9E",
         "url": "",
@@ -1949,7 +1949,7 @@
     {
         "id": "pandora",
         "name": "Pandora",
-        "unicode": "&#xe907;",
+        "unicode": "\ue907",
         "unicodeText": "e907",
         "color": "#224099",
         "url": "http://www.pandora.com",
@@ -1960,7 +1960,7 @@
     {
         "id": "patreon",
         "name": "Patreon",
-        "unicode": "&#xe05f;",
+        "unicode": "\ue05f",
         "unicodeText": "e05f",
         "color": "#F96854",
         "url": "",
@@ -1971,7 +1971,7 @@
     {
         "id": "paypal",
         "name": "Paypal",
-        "unicode": "&#xe060;",
+        "unicode": "\ue060",
         "unicodeText": "e060",
         "color": "#009cde",
         "url": "",
@@ -1982,7 +1982,7 @@
     {
         "id": "periscope",
         "name": "Periscope",
-        "unicode": "&#xe061;",
+        "unicode": "\ue061",
         "unicodeText": "e061",
         "color": "#3AA4C6",
         "url": "",
@@ -1993,7 +1993,7 @@
     {
         "id": "persona",
         "name": "Mozilla Persona",
-        "unicode": "&#xe062;",
+        "unicode": "\ue062",
         "unicodeText": "e062",
         "color": "#e6753d",
         "url": "",
@@ -2004,7 +2004,7 @@
     {
         "id": "pinterest",
         "name": "Pinterest",
-        "unicode": "&#xe063;",
+        "unicode": "\ue063",
         "unicodeText": "e063",
         "color": "#c92619",
         "url": "",
@@ -2015,7 +2015,7 @@
     {
         "id": "pixiv",
         "name": "pixiv",
-        "unicode": "&#xe94f;",
+        "unicode": "\ue94f",
         "unicodeText": "e94f",
         "color": "#049CFF",
         "url": "https://www.pixiv.net/",
@@ -2026,7 +2026,7 @@
     {
         "id": "play",
         "name": "Google Play",
-        "unicode": "&#xe064;",
+        "unicode": "\ue064",
         "unicodeText": "e064",
         "color": "#000000",
         "url": "",
@@ -2037,7 +2037,7 @@
     {
         "id": "player",
         "name": "Player.me",
-        "unicode": "&#xe065;",
+        "unicode": "\ue065",
         "unicodeText": "e065",
         "color": "#6E41BD",
         "url": "",
@@ -2048,7 +2048,7 @@
     {
         "id": "playstation",
         "name": "PlayStation",
-        "unicode": "&#xe066;",
+        "unicode": "\ue066",
         "unicodeText": "e066",
         "color": "#000000",
         "url": "",
@@ -2059,7 +2059,7 @@
     {
         "id": "pocket",
         "name": "Pocket",
-        "unicode": "&#xe067;",
+        "unicode": "\ue067",
         "unicodeText": "e067",
         "color": "#ED4055",
         "url": "",
@@ -2070,7 +2070,7 @@
     {
         "id": "portfolio",
         "name": "Adobe Portfolio",
-        "unicode": "&#xe943;",
+        "unicode": "\ue943",
         "unicodeText": "e943",
         "color": "#54AFFF",
         "url": "https://www.myportfolio.com/",
@@ -2081,7 +2081,7 @@
     {
         "id": "qobuz",
         "name": "Qobuz",
-        "unicode": "&#xe911;",
+        "unicode": "\ue911",
         "unicodeText": "e911",
         "color": "#298FBF",
         "url": "http://www.qobuz.com/",
@@ -2092,7 +2092,7 @@
     {
         "id": "qq",
         "name": "QQ",
-        "unicode": "&#xe068;",
+        "unicode": "\ue068",
         "unicodeText": "e068",
         "color": "#4297d3",
         "url": "",
@@ -2103,7 +2103,7 @@
     {
         "id": "quora",
         "name": "Quora",
-        "unicode": "&#xe069;",
+        "unicode": "\ue069",
         "unicodeText": "e069",
         "color": "#cb202d",
         "url": "",
@@ -2114,7 +2114,7 @@
     {
         "id": "raidcall",
         "name": "RaidCall",
-        "unicode": "&#xe06a;",
+        "unicode": "\ue06a",
         "unicodeText": "e06a",
         "color": "#073558",
         "url": "",
@@ -2125,7 +2125,7 @@
     {
         "id": "ravelry",
         "name": "Ravelry",
-        "unicode": "&#xe06b;",
+        "unicode": "\ue06b",
         "unicodeText": "e06b",
         "color": "#B6014C",
         "url": "",
@@ -2136,7 +2136,7 @@
     {
         "id": "realtor",
         "name": "Realtor",
-        "unicode": "&#xe90f;",
+        "unicode": "\ue90f",
         "unicodeText": "e90f",
         "color": "#D52228",
         "url": "https://www.realtor.com/",
@@ -2147,7 +2147,7 @@
     {
         "id": "redbubble",
         "name": "REDBUBBLE",
-        "unicode": "&#xe979;",
+        "unicode": "\ue979",
         "unicodeText": "e979",
         "color": "#e41421",
         "url": "https://www.redbubble.com",
@@ -2158,7 +2158,7 @@
     {
         "id": "reddit",
         "name": "reddit",
-        "unicode": "&#xe06c;",
+        "unicode": "\ue06c",
         "unicodeText": "e06c",
         "color": "#e74a1e",
         "url": "",
@@ -2169,7 +2169,7 @@
     {
         "id": "redfin",
         "name": "Redfin",
-        "unicode": "&#xe925;",
+        "unicode": "\ue925",
         "unicodeText": "e925",
         "color": "#C82022",
         "url": "https://www.redfin.com/",
@@ -2180,7 +2180,7 @@
     {
         "id": "remote",
         "name": "remote",
-        "unicode": "&#xe972;",
+        "unicode": "\ue972",
         "unicodeText": "e972",
         "color": "#1dd3a5",
         "url": "https://remote.com/",
@@ -2191,7 +2191,7 @@
     {
         "id": "renren",
         "name": "renren",
-        "unicode": "&#xe06d;",
+        "unicode": "\ue06d",
         "unicodeText": "e06d",
         "color": "#2266b0",
         "url": "",
@@ -2202,7 +2202,7 @@
     {
         "id": "researchgate",
         "name": "ResearchGate",
-        "unicode": "&#xe06e;",
+        "unicode": "\ue06e",
         "unicodeText": "e06e",
         "color": "#00CCBB",
         "url": "",
@@ -2213,7 +2213,7 @@
     {
         "id": "residentadvisor",
         "name": "Resident Advisor",
-        "unicode": "&#xe06f;",
+        "unicode": "\ue06f",
         "unicodeText": "e06f",
         "color": "#B3BE1B",
         "url": "",
@@ -2224,7 +2224,7 @@
     {
         "id": "reverbnation",
         "name": "REVERBNATION",
-        "unicode": "&#xe070;",
+        "unicode": "\ue070",
         "unicodeText": "e070",
         "color": "#000000",
         "url": "",
@@ -2235,7 +2235,7 @@
     {
         "id": "rss",
         "name": "RSS",
-        "unicode": "&#xe071;",
+        "unicode": "\ue071",
         "unicodeText": "e071",
         "color": "#f26109",
         "url": "",
@@ -2246,7 +2246,7 @@
     {
         "id": "seedrs",
         "name": "Seedrs",
-        "unicode": "&#xe929;",
+        "unicode": "\ue929",
         "unicodeText": "e929",
         "color": "#7FBB31",
         "url": "https://www.seedrs.com/",
@@ -2257,7 +2257,7 @@
     {
         "id": "seenthis",
         "name": "SeenThis",
-        "unicode": "&#xe95d;",
+        "unicode": "\ue95d",
         "unicodeText": "e95d",
         "color": "#80DA01",
         "url": "https://seenthis.net/",
@@ -2268,7 +2268,7 @@
     {
         "id": "sharepoint",
         "name": "SharePoint",
-        "unicode": "&#xe965;",
+        "unicode": "\ue965",
         "unicodeText": "e965",
         "color": "#0078d7",
         "url": "https://products.office.com/sharepoint/",
@@ -2279,7 +2279,7 @@
     {
         "id": "sharethis",
         "name": "ShareThis",
-        "unicode": "&#xe072;",
+        "unicode": "\ue072",
         "unicodeText": "e072",
         "color": "#01bf01",
         "url": "",
@@ -2290,7 +2290,7 @@
     {
         "id": "shopify",
         "name": "Shopify",
-        "unicode": "&#xe927;",
+        "unicode": "\ue927",
         "unicodeText": "e927",
         "color": "#5C6AC4",
         "url": "https://www.shopify.com",
@@ -2301,7 +2301,7 @@
     {
         "id": "sketchfab",
         "name": "Sketchfab",
-        "unicode": "&#xe90c;",
+        "unicode": "\ue90c",
         "unicodeText": "e90c",
         "color": "#00A5D6",
         "url": "https://sketchfab.com",
@@ -2312,7 +2312,7 @@
     {
         "id": "skype",
         "name": "skype",
-        "unicode": "&#xe073;",
+        "unicode": "\ue073",
         "unicodeText": "e073",
         "color": "#28abe3",
         "url": "",
@@ -2323,7 +2323,7 @@
     {
         "id": "slack",
         "name": "Slack",
-        "unicode": "&#xe918;",
+        "unicode": "\ue918",
         "unicodeText": "e918",
         "color": "#4B6BC6",
         "url": "https://slack.com",
@@ -2334,7 +2334,7 @@
     {
         "id": "slideshare",
         "name": "SlideShare",
-        "unicode": "&#xe074;",
+        "unicode": "\ue074",
         "unicodeText": "e074",
         "color": "#4ba3a6",
         "url": "",
@@ -2345,7 +2345,7 @@
     {
         "id": "smashcast",
         "name": "smashcast",
-        "unicode": "&#x\ue03e;",
+        "unicode": "\ue03e",
         "unicodeText": "e03e",
         "color": "#154e78",
         "url": "",
@@ -2356,7 +2356,7 @@
     {
         "id": "smashwords",
         "name": "Smashwords",
-        "unicode": "&#xe947;",
+        "unicode": "\ue947",
         "unicodeText": "e947",
         "color": "#4181C3",
         "url": "",
@@ -2367,7 +2367,7 @@
     {
         "id": "smugmug",
         "name": "SmugMug",
-        "unicode": "&#xe075;",
+        "unicode": "\ue075",
         "unicodeText": "e075",
         "color": "#ACFD32",
         "url": "",
@@ -2378,7 +2378,7 @@
     {
         "id": "snapchat",
         "name": "Snapchat",
-        "unicode": "&#xe076;",
+        "unicode": "\ue076",
         "unicodeText": "e076",
         "color": "#fffa37",
         "url": "",
@@ -2389,7 +2389,7 @@
     {
         "id": "society6",
         "name": "society6",
-        "unicode": "&#xe97a;",
+        "unicode": "\ue97a",
         "unicodeText": "e97a",
         "color": "#000000",
         "url": "https://society6.com/",
@@ -2400,7 +2400,7 @@
     {
         "id": "songkick",
         "name": "songkick",
-        "unicode": "&#xe077;",
+        "unicode": "\ue077",
         "unicodeText": "e077",
         "color": "#F80046",
         "url": "",
@@ -2411,7 +2411,7 @@
     {
         "id": "soroush",
         "name": "Soroush",
-        "unicode": "&#xe97d;",
+        "unicode": "\ue97d",
         "unicodeText": "e97d",
         "color": "#0614A1",
         "url": "https://sapp.ir",
@@ -2422,7 +2422,7 @@
     {
         "id": "soundcloud",
         "name": "soundcloud",
-        "unicode": "&#xe078;",
+        "unicode": "\ue078",
         "unicodeText": "e078",
         "color": "#fe3801",
         "url": "",
@@ -2433,7 +2433,7 @@
     {
         "id": "spip",
         "name": "SPIP",
-        "unicode": "&#xe953;",
+        "unicode": "\ue953",
         "unicodeText": "e953",
         "color": "#E00D6F",
         "url": "https://www.spip.net",
@@ -2444,7 +2444,7 @@
     {
         "id": "splice",
         "name": "Splice",
-        "unicode": "&#xe96f;",
+        "unicode": "\ue96f",
         "unicodeText": "e96f",
         "color": "#131313",
         "url": "https://splice.com/",
@@ -2455,7 +2455,7 @@
     {
         "id": "spotify",
         "name": "Spotify",
-        "unicode": "&#xe079;",
+        "unicode": "\ue079",
         "unicodeText": "e079",
         "color": "#7bb342",
         "url": "",
@@ -2466,7 +2466,7 @@
     {
         "id": "spreadshirt",
         "name": "spreadshirt",
-        "unicode": "&#xe900;",
+        "unicode": "\ue900",
         "unicodeText": "e900",
         "color": "#00b2a6",
         "url": "https://www.spreadshirt.de/",
@@ -2477,7 +2477,7 @@
     {
         "id": "squarespace",
         "name": "Squarespace",
-        "unicode": "&#xe92d;",
+        "unicode": "\ue92d",
         "unicodeText": "e92d",
         "color": "#121212",
         "url": "https://www.squarespace.com",
@@ -2488,7 +2488,7 @@
     {
         "id": "stackexchange",
         "name": "StackExchange",
-        "unicode": "&#xe07a;",
+        "unicode": "\ue07a",
         "unicodeText": "e07a",
         "color": "#2f2f2f",
         "url": "",
@@ -2499,7 +2499,7 @@
     {
         "id": "stackoverflow",
         "name": "stackoverflow",
-        "unicode": "&#xe07b;",
+        "unicode": "\ue07b",
         "unicodeText": "e07b",
         "color": "#FD9827",
         "url": "",
@@ -2510,7 +2510,7 @@
     {
         "id": "stage32",
         "name": "STAGE32",
-        "unicode": "&#xe96a;",
+        "unicode": "\ue96a",
         "unicodeText": "e96a",
         "color": "#D13B52",
         "url": "https://www.stage32.com",
@@ -2521,7 +2521,7 @@
     {
         "id": "starcraft",
         "name": "Starcraft",
-        "unicode": "&#xe07c;",
+        "unicode": "\ue07c",
         "unicodeText": "e07c",
         "color": "#002250",
         "url": "",
@@ -2532,7 +2532,7 @@
     {
         "id": "stayfriends",
         "name": "StayFriends",
-        "unicode": "&#xe07d;",
+        "unicode": "\ue07d",
         "unicodeText": "e07d",
         "color": "#F08A1C",
         "url": "",
@@ -2543,7 +2543,7 @@
     {
         "id": "steam",
         "name": "steam",
-        "unicode": "&#xe07e;",
+        "unicode": "\ue07e",
         "unicodeText": "e07e",
         "color": "#171a21",
         "url": "",
@@ -2554,7 +2554,7 @@
     {
         "id": "stitcher",
         "name": "Stitcher",
-        "unicode": "&#xe977;",
+        "unicode": "\ue977",
         "unicodeText": "e977",
         "color": "#3ec6ff",
         "url": "https://www.stitcher.com/",
@@ -2565,7 +2565,7 @@
     {
         "id": "storehouse",
         "name": "Storehouse",
-        "unicode": "&#xe07f;",
+        "unicode": "\ue07f",
         "unicodeText": "e07f",
         "color": "#25B0E6",
         "url": "",
@@ -2576,7 +2576,7 @@
     {
         "id": "strava",
         "name": "STRAVA",
-        "unicode": "&#xe080;",
+        "unicode": "\ue080",
         "unicodeText": "e080",
         "color": "#FC4C02",
         "url": "",
@@ -2587,7 +2587,7 @@
     {
         "id": "streamjar",
         "name": "StreamJar",
-        "unicode": "&#xe081;",
+        "unicode": "\ue081",
         "unicodeText": "e081",
         "color": "#503a60",
         "url": "",
@@ -2598,7 +2598,7 @@
     {
         "id": "stumbleupon",
         "name": "StumbleUpon",
-        "unicode": "&#xe082;",
+        "unicode": "\ue082",
         "unicodeText": "e082",
         "color": "#e64011",
         "url": "",
@@ -2609,7 +2609,7 @@
     {
         "id": "swarm",
         "name": "Swarm",
-        "unicode": "&#xe083;",
+        "unicode": "\ue083",
         "unicodeText": "e083",
         "color": "#FC9D3C",
         "url": "",
@@ -2620,7 +2620,7 @@
     {
         "id": "teamspeak",
         "name": "TeamSpeak",
-        "unicode": "&#xe084;",
+        "unicode": "\ue084",
         "unicodeText": "e084",
         "color": "#465674",
         "url": "",
@@ -2631,7 +2631,7 @@
     {
         "id": "teamviewer",
         "name": "TeamViewer",
-        "unicode": "&#xe085;",
+        "unicode": "\ue085",
         "unicodeText": "e085",
         "color": "#168EF4",
         "url": "",
@@ -2642,7 +2642,7 @@
     {
         "id": "technorati",
         "name": "Technorati",
-        "unicode": "&#xe086;",
+        "unicode": "\ue086",
         "unicodeText": "e086",
         "color": "#5cb030",
         "url": "",
@@ -2653,7 +2653,7 @@
     {
         "id": "telegram",
         "name": "Telegram",
-        "unicode": "&#xe087;",
+        "unicode": "\ue087",
         "unicodeText": "e087",
         "color": "#0088cc",
         "url": "",
@@ -2664,7 +2664,7 @@
     {
         "id": "threads",
         "name": "threads",
-        "unicode": "&#x\ue981;",
+        "unicode": "\ue981",
         "unicodeText": "e981",
         "color": "#000000",
         "url": "",
@@ -2675,7 +2675,7 @@
     {
         "id": "threema",
         "name": "Threema",
-        "unicode": "&#xe96e;",
+        "unicode": "\ue96e",
         "unicodeText": "e96e",
         "color": "#4fbc24",
         "url": "https://threema.ch",
@@ -2686,7 +2686,7 @@
     {
         "id": "tidal",
         "name": "Tidal",
-        "unicode": "&#xe910;",
+        "unicode": "\ue910",
         "unicodeText": "e910",
         "color": "#01FFFF",
         "url": "http://tidal.com/",
@@ -2697,7 +2697,7 @@
     {
         "id": "tiktok",
         "name": "TikTok",
-        "unicode": "&#xe96b;",
+        "unicode": "\ue96b",
         "unicodeText": "e96b",
         "color": "#09e5dd",
         "url": "https://www.tiktok.com/",
@@ -2708,7 +2708,7 @@
     {
         "id": "tinder",
         "name": "Tinder",
-        "unicode": "&#xe966;",
+        "unicode": "\ue966",
         "unicodeText": "e966",
         "color": "#fd5068",
         "url": "https://tinder.com",
@@ -2719,7 +2719,7 @@
     {
         "id": "toneden",
         "name": "ToneDen",
-        "unicode": "&#xe93a;",
+        "unicode": "\ue93a",
         "unicodeText": "e93a",
         "color": "#777BF9",
         "url": "https://www.toneden.io/",
@@ -2730,7 +2730,7 @@
     {
         "id": "toptal",
         "name": "Toptal",
-        "unicode": "&#xe92e;",
+        "unicode": "\ue92e",
         "unicodeText": "e92e",
         "color": "#4C73AA",
         "url": "https://www.toptal.com",
@@ -2741,7 +2741,7 @@
     {
         "id": "torial",
         "name": "Torial",
-        "unicode": "&#xe95b;",
+        "unicode": "\ue95b",
         "unicodeText": "e95b",
         "color": "#333333",
         "url": "https://www.torial.com/",
@@ -2752,7 +2752,7 @@
     {
         "id": "traxsource",
         "name": "Traxsource",
-        "unicode": "&#xe94d;",
+        "unicode": "\ue94d",
         "unicodeText": "e94d",
         "color": "#40A0FF",
         "url": "https://www.traxsource.com/",
@@ -2763,7 +2763,7 @@
     {
         "id": "trello",
         "name": "Trello",
-        "unicode": "&#xe902;",
+        "unicode": "\ue902",
         "unicodeText": "e902",
         "color": "#0079bf",
         "url": "https://trello.com",
@@ -2774,7 +2774,7 @@
     {
         "id": "tripadvisor",
         "name": "tripadvisor",
-        "unicode": "&#xe088;",
+        "unicode": "\ue088",
         "unicodeText": "e088",
         "color": "#4B7E37",
         "url": "",
@@ -2785,7 +2785,7 @@
     {
         "id": "tripit",
         "name": "Tripit",
-        "unicode": "&#xe089;",
+        "unicode": "\ue089",
         "unicodeText": "e089",
         "color": "#1982C3",
         "url": "",
@@ -2796,7 +2796,7 @@
     {
         "id": "triplej",
         "name": "triplej",
-        "unicode": "&#xe08a;",
+        "unicode": "\ue08a",
         "unicodeText": "e08a",
         "color": "#E53531",
         "url": "",
@@ -2807,7 +2807,7 @@
     {
         "id": "trulia",
         "name": "Trulia",
-        "unicode": "&#xe931;",
+        "unicode": "\ue931",
         "unicodeText": "e931",
         "color": "#20BF63",
         "url": "https://www.trulia.com/",
@@ -2818,7 +2818,7 @@
     {
         "id": "tumblr",
         "name": "tumblr",
-        "unicode": "&#xe08b;",
+        "unicode": "\ue08b",
         "unicodeText": "e08b",
         "color": "#45556c",
         "url": "",
@@ -2829,7 +2829,7 @@
     {
         "id": "tunein",
         "name": "tunein",
-        "unicode": "&#xe903;",
+        "unicode": "\ue903",
         "unicodeText": "e903",
         "color": "#36b4a7",
         "url": "http://tunein.com/",
@@ -2840,7 +2840,7 @@
     {
         "id": "twitch",
         "name": "Twitch",
-        "unicode": "&#xe08c;",
+        "unicode": "\ue08c",
         "unicodeText": "e08c",
         "color": "#6441a5",
         "url": "",
@@ -2851,7 +2851,7 @@
     {
         "id": "twitter",
         "name": "Twitter",
-        "unicode": "&#xe08d;",
+        "unicode": "\ue08d",
         "unicodeText": "e08d",
         "color": "#4da7de",
         "url": "",
@@ -2862,7 +2862,7 @@
     {
         "id": "uber",
         "name": "UBER",
-        "unicode": "&#xe08e;",
+        "unicode": "\ue08e",
         "unicodeText": "e08e",
         "color": "#000000",
         "url": "",
@@ -2873,7 +2873,7 @@
     {
         "id": "ubuntu",
         "name": "Ubuntu",
-        "unicode": "&#xe958;",
+        "unicode": "\ue958",
         "unicodeText": "e958",
         "color": "#e95420",
         "url": "https://www.ubuntu.com/",
@@ -2884,7 +2884,7 @@
     {
         "id": "udemy",
         "name": "udemy",
-        "unicode": "&#xe93f;",
+        "unicode": "\ue93f",
         "unicodeText": "e93f",
         "color": "#17aa1c",
         "url": "https://www.udemy.com",
@@ -2895,7 +2895,7 @@
     {
         "id": "unsplash",
         "name": "Unsplash",
-        "unicode": "&#xe914;",
+        "unicode": "\ue914",
         "unicodeText": "e914",
         "color": "#000000",
         "url": "https://unsplash.com/",
@@ -2906,7 +2906,7 @@
     {
         "id": "upwork",
         "name": "Upwork",
-        "unicode": "&#xe934;",
+        "unicode": "\ue934",
         "unicodeText": "e934",
         "color": "#5BBC2F",
         "url": "https://www.upwork.com/",
@@ -2917,7 +2917,7 @@
     {
         "id": "ventrilo",
         "name": "Ventrilo",
-        "unicode": "&#xe08f;",
+        "unicode": "\ue08f",
         "unicodeText": "e08f",
         "color": "#77808A",
         "url": "",
@@ -2928,7 +2928,7 @@
     {
         "id": "viadeo",
         "name": "Viadeo",
-        "unicode": "&#xe090;",
+        "unicode": "\ue090",
         "unicodeText": "e090",
         "color": "#e4a000",
         "url": "",
@@ -2939,7 +2939,7 @@
     {
         "id": "viber",
         "name": "Viber",
-        "unicode": "&#xe091;",
+        "unicode": "\ue091",
         "unicodeText": "e091",
         "color": "#7b519d",
         "url": "",
@@ -2950,7 +2950,7 @@
     {
         "id": "viewbug",
         "name": "viewbug",
-        "unicode": "&#xe092;",
+        "unicode": "\ue092",
         "unicodeText": "e092",
         "color": "#2B9FCF",
         "url": "",
@@ -2961,7 +2961,7 @@
     {
         "id": "vimeo",
         "name": "vimeo",
-        "unicode": "&#xe093;",
+        "unicode": "\ue093",
         "unicodeText": "e093",
         "color": "#51b5e7",
         "url": "",
@@ -2972,7 +2972,7 @@
     {
         "id": "vine",
         "name": "Vine",
-        "unicode": "&#xe094;",
+        "unicode": "\ue094",
         "unicodeText": "e094",
         "color": "#00b389",
         "url": "",
@@ -2983,7 +2983,7 @@
     {
         "id": "vkontakte",
         "name": "VKontakte",
-        "unicode": "&#xe095;",
+        "unicode": "\ue095",
         "unicodeText": "e095",
         "color": "#5a7fa6",
         "url": "",
@@ -2994,7 +2994,7 @@
     {
         "id": "vsco",
         "name": "VSCO",
-        "unicode": "&#xe976;",
+        "unicode": "\ue976",
         "unicodeText": "e976",
         "color": "#000000",
         "url": "https://vsco.co/",
@@ -3005,7 +3005,7 @@
     {
         "id": "warcraft",
         "name": "Warcraft",
-        "unicode": "&#xe096;",
+        "unicode": "\ue096",
         "unicodeText": "e096",
         "color": "#1EB10A",
         "url": "",
@@ -3016,7 +3016,7 @@
     {
         "id": "wechat",
         "name": "WeChat",
-        "unicode": "&#xe097;",
+        "unicode": "\ue097",
         "unicodeText": "e097",
         "color": "#09b507",
         "url": "",
@@ -3027,7 +3027,7 @@
     {
         "id": "weibo",
         "name": "Sina Weibo",
-        "unicode": "&#xe098;",
+        "unicode": "\ue098",
         "unicodeText": "e098",
         "color": "#e31c34",
         "url": "",
@@ -3038,7 +3038,7 @@
     {
         "id": "whatsapp",
         "name": "WhatsApp",
-        "unicode": "&#xe099;",
+        "unicode": "\ue099",
         "unicodeText": "e099",
         "color": "#20B038",
         "url": "",
@@ -3049,7 +3049,7 @@
     {
         "id": "wickr",
         "name": "Wickr",
-        "unicode": "&#xe952;",
+        "unicode": "\ue952",
         "unicodeText": "e952",
         "color": "#F29100",
         "url": "https://www.wickr.com/",
@@ -3060,7 +3060,7 @@
     {
         "id": "wikipedia",
         "name": "Wikipedia",
-        "unicode": "&#xe09a;",
+        "unicode": "\ue09a",
         "unicodeText": "e09a",
         "color": "#000000",
         "url": "",
@@ -3071,7 +3071,7 @@
     {
         "id": "windguru",
         "name": "Windguru",
-        "unicode": "&#xe967;",
+        "unicode": "\ue967",
         "unicodeText": "e967",
         "color": "#2972B4",
         "url": "https://www.windguru.cz/",
@@ -3082,7 +3082,7 @@
     {
         "id": "windows",
         "name": "Windows",
-        "unicode": "&#xe09b;",
+        "unicode": "\ue09b",
         "unicodeText": "e09b",
         "color": "#00BDF6",
         "url": "",
@@ -3093,7 +3093,7 @@
     {
         "id": "wix",
         "name": "Wix",
-        "unicode": "&#xe924;",
+        "unicode": "\ue924",
         "unicodeText": "e924",
         "color": "#0096FF",
         "url": "https://www.wix.com/",
@@ -3104,7 +3104,7 @@
     {
         "id": "wordpress",
         "name": "WordPress",
-        "unicode": "&#xe09c;",
+        "unicode": "\ue09c",
         "unicodeText": "e09c",
         "color": "#464646",
         "url": "",
@@ -3115,7 +3115,7 @@
     {
         "id": "wykop",
         "name": "wykop",
-        "unicode": "&#xe09d;",
+        "unicode": "\ue09d",
         "unicodeText": "e09d",
         "color": "#328efe",
         "url": "",
@@ -3126,7 +3126,7 @@
     {
         "id": "x",
         "name": "x",
-        "unicode": "&#x\ue982;",
+        "unicode": "\ue982",
         "unicodeText": "e982",
         "color": "#000000",
         "url": "",
@@ -3137,7 +3137,7 @@
     {
         "id": "xbox",
         "name": "XBOX",
-        "unicode": "&#xe09e;",
+        "unicode": "\ue09e",
         "unicodeText": "e09e",
         "color": "#92C83E",
         "url": "",
@@ -3148,7 +3148,7 @@
     {
         "id": "xing",
         "name": "Xing",
-        "unicode": "&#xe09f;",
+        "unicode": "\ue09f",
         "unicodeText": "e09f",
         "color": "#005a60",
         "url": "",
@@ -3159,7 +3159,7 @@
     {
         "id": "yahoo",
         "name": "Yahoo!",
-        "unicode": "&#xe0a0;",
+        "unicode": "\ue0a0",
         "unicodeText": "e0a0",
         "color": "#6e2a85",
         "url": "",
@@ -3170,7 +3170,7 @@
     {
         "id": "yammer",
         "name": "Yammer",
-        "unicode": "&#xe0a1;",
+        "unicode": "\ue0a1",
         "unicodeText": "e0a1",
         "color": "#1175C4",
         "url": "",
@@ -3181,7 +3181,7 @@
     {
         "id": "yandex",
         "name": "Yandex",
-        "unicode": "&#xe0a2;",
+        "unicode": "\ue0a2",
         "unicodeText": "e0a2",
         "color": "#FF0000",
         "url": "",
@@ -3192,7 +3192,7 @@
     {
         "id": "yelp",
         "name": "yelp",
-        "unicode": "&#xe0a3;",
+        "unicode": "\ue0a3",
         "unicodeText": "e0a3",
         "color": "#c83218",
         "url": "",
@@ -3203,7 +3203,7 @@
     {
         "id": "younow",
         "name": "Younow",
-        "unicode": "&#xe0a4;",
+        "unicode": "\ue0a4",
         "unicodeText": "e0a4",
         "color": "#61C03E",
         "url": "",
@@ -3214,7 +3214,7 @@
     {
         "id": "youtube",
         "name": "YouTube",
-        "unicode": "&#xe0a5;",
+        "unicode": "\ue0a5",
         "unicodeText": "e0a5",
         "color": "#e02a20",
         "url": "",
@@ -3225,7 +3225,7 @@
     {
         "id": "yt-gaming",
         "name": "Youtube Gaming",
-        "unicode": "&#xe90b;",
+        "unicode": "\ue90b",
         "unicodeText": "e90b",
         "color": "#E91D00",
         "url": "https://gaming.youtube.com/",
@@ -3236,7 +3236,7 @@
     {
         "id": "zapier",
         "name": "Zapier",
-        "unicode": "&#xe0a6;",
+        "unicode": "\ue0a6",
         "unicodeText": "e0a6",
         "color": "#FF4A00",
         "url": "",
@@ -3247,7 +3247,7 @@
     {
         "id": "zazzle",
         "name": "Zazzle",
-        "unicode": "&#xe97b;",
+        "unicode": "\ue97b",
         "unicodeText": "e97b",
         "color": "#46c3e0",
         "url": "https://www.zazzle.com/",
@@ -3258,7 +3258,7 @@
     {
         "id": "zerply",
         "name": "Zerply",
-        "unicode": "&#xe0a7;",
+        "unicode": "\ue0a7",
         "unicodeText": "e0a7",
         "color": "#9DBC7A",
         "url": "",
@@ -3269,7 +3269,7 @@
     {
         "id": "zillow",
         "name": "Zillow",
-        "unicode": "&#xe938;",
+        "unicode": "\ue938",
         "unicodeText": "e938",
         "color": "#0074e4",
         "url": "https://www.zillow.com/",
@@ -3280,7 +3280,7 @@
     {
         "id": "zomato",
         "name": "zomato",
-        "unicode": "&#xe0a8;",
+        "unicode": "\ue0a8",
         "unicodeText": "e0a8",
         "color": "#cb202d",
         "url": "",
@@ -3291,7 +3291,7 @@
     {
         "id": "zoom",
         "name": "Zoom",
-        "unicode": "&#xe921;",
+        "unicode": "\ue921",
         "unicodeText": "e921",
         "color": "#2D8CFF",
         "url": "https://zoom.us/",
@@ -3302,7 +3302,7 @@
     {
         "id": "zynga",
         "name": "zynga",
-        "unicode": "&#xe0a9;",
+        "unicode": "\ue0a9",
         "unicodeText": "e0a9",
         "color": "#DC0606",
         "url": "",
