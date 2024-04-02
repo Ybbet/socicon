@@ -1,5 +1,6 @@
 # 2 april 2024 - v3.7.3
 - **Feature:** Thanks to @coolseed, the original author of Socicon, the json and javascript have been enriched with information as before.
+- Update issue template for submitting new icon.
 
 # 28 march 2024 - v3.7.2
 - **New icon:** X (ex-Twitter)
