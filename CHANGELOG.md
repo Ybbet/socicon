@@ -51,7 +51,7 @@
 - **New icons:** beBee, hitbox, Reverbnation, Formulr
 
 # March 2016 - v3.0.2
-- **New icons:** Viber, Zomato, Quora, Draugiem, Endomodo, Filmweb, Stackexchange, Wykop, Teamspeak, Ventrilo, Raidcall, Mumble, Younow, Teamviewer
+- **New icons:** Viber, Zomato, Quora, Draugiem, endomondo, Filmweb, Stackexchange, Wykop, Teamspeak, Ventrilo, Raidcall, Mumble, Younow, Teamviewer
 - **Icons update:** Medium
 
 # December 2015 - v3.0.1
