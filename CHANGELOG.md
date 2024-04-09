@@ -1,3 +1,8 @@
+
+# 9 april 2024 - v3.8.0
+- **Feature:** Rewriting icon categories.
+- Typo for endomondo
+
 # 2 april 2024 - v3.7.3
 - **Feature:** Thanks to @coolseed, the original author of Socicon, the json and javascript have been enriched with information as before.
 - Update issue template for submitting new icon.
@@ -87,21 +92,16 @@
 - **Site:** removed showcase section
 
 # November 2014 - v2.0
-
 - New design, new website
 - New showcase section
 - **New icons:** Patreon, App.net, Mail icon, New Foursquare, Goodreads, Paypal, Houzz, Playstation, Smugsmug, Stackoverflow, Swarm, Triple J, Yammer, New Envato, Odnoklassniki
 - Removed easID and Netcodes icons
 
 # February 2014 - v1.6
-
 - **Add icons:** TripIt, Lanyrd, SlideShare, Buffer, RSS, VKontakte, DISQUS
 
 # November 2013 - v1.5
-
 - Launch of the Socicon images generator
 
 # August 2013 - v1.0 
-
 - First release of Socicon
-
