@@ -1,3 +1,6 @@
+# 26 september 2024 - v3.8.1
+- Update categories
+- Update the README file about the collaboration.
 
 # 9 april 2024 - v3.8.0
 - **Feature:** Rewriting icon categories.
