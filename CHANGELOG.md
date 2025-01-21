@@ -1,3 +1,6 @@
+# 21 january 2025 - v3.8.2
+- **New icon:** Bluesky, Signal
+
 # 26 september 2024 - v3.8.1
 - Update categories
 - Update the README file about the collaboration.
