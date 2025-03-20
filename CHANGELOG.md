@@ -1,3 +1,6 @@
+# 20 march 2025 - v3.8.3
+- **New icon:** Linktree
+
 # 21 january 2025 - v3.8.2
 - **New icon:** Bluesky, Signal
 
@@ -109,5 +112,5 @@
 # November 2013 - v1.5
 - Launch of the Socicon images generator
 
-# August 2013 - v1.0 
+# August 2013 - v1.0
 - First release of Socicon
