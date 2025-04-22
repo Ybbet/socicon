@@ -1,3 +1,6 @@
+# 22 april 2025 - v3.8.4
+- **Update:** Typo, linktree without capital in class name.
+
 # 20 march 2025 - v3.8.3
 - **New icon:** Linktree
 
