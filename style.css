@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'Socicon';
-  src:  url('fonts/Socicon.eot?pkydzl');
-  src:  url('fonts/Socicon.eot?pkydzl#iefix') format('embedded-opentype'),
-    url('fonts/Socicon.ttf?pkydzl') format('truetype'),
-    url('fonts/Socicon.woff?pkydzl') format('woff'),
-    url('fonts/Socicon.svg?pkydzl#Socicon') format('svg');
+  src:  url('fonts/Socicon.eot?rwr5lb');
+  src:  url('fonts/Socicon.eot?rwr5lb#iefix') format('embedded-opentype'),
+    url('fonts/Socicon.ttf?rwr5lb') format('truetype'),
+    url('fonts/Socicon.woff?rwr5lb') format('woff'),
+    url('fonts/Socicon.svg?rwr5lb#Socicon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.socicon-bereal:before {
+  content: "\e986";
+}
 .socicon-linktree:before {
   content: "\e985";
 }
