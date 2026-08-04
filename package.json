@@ -13,17 +13,17 @@
   "type": "module",
   "scripts": {
     "build": "npm run generate && npm run site:data && npm run check",
-    "check": "node scripts/check-assets.mjs",
-    "clean": "node scripts/clean-assets.mjs",
-    "generate": "node scripts/generate-assets.mjs",
-    "metadata:apply": "node scripts/apply-metadata-suggestions.mjs",
-    "metadata:audit": "node scripts/audit-metadata.mjs",
-    "metadata:bootstrap": "node scripts/bootstrap-metadata.mjs",
-    "metadata:enrich": "node scripts/enrich-metadata.mjs",
-    "metadata:update": "node scripts/update-metadata.mjs",
+    "check": "node scripts/check.mjs",
+    "clean": "node scripts/clean.mjs",
+    "generate": "node scripts/generate.mjs",
+    "metadata:apply": "node scripts/metadata-apply.mjs",
+    "metadata:audit": "node scripts/metadata-audit.mjs",
+    "metadata:bootstrap": "node scripts/metadata-bootstrap.mjs",
+    "metadata:enrich": "node scripts/metadata-enrich.mjs",
+    "metadata:update": "node scripts/metadata-update.mjs",
     "rebuild": "npm run clean && npm run build",
-    "release:build": "bash scripts/build-release.sh",
-    "site:data": "node scripts/generate-site-data.mjs"
+    "release:build": "bash scripts/release-build.sh",
+    "site:data": "node scripts/site-data.mjs"
   },
   "devDependencies": {
     "svgpath": "^2.6.0"

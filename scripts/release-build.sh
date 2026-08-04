@@ -33,11 +33,11 @@ info() {
 }
 
 usage() {
-  echo "Usage: scripts/build-release.sh <version>"
+  echo "Usage: scripts/release-build.sh <version>"
   echo ""
   echo "Examples:"
-  echo "  scripts/build-release.sh 3.9.0"
-  echo "  scripts/build-release.sh v3.9.0"
+  echo "  scripts/release-build.sh 3.9.0"
+  echo "  scripts/release-build.sh v3.9.0"
 }
 
 validate_version() {
