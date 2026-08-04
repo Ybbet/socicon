@@ -1,0 +1,25 @@
+{
+  "name": "socicon",
+  "description": "More information on [socicon website](http://socicon.teddypayet.com/)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ybbet/socicon.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ybbet/socicon/issues"
+  },
+  "homepage": "https://github.com/Ybbet/socicon#readme",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "metadata:bootstrap": "node scripts/bootstrap-metadata.mjs",
+    "generate": "node scripts/generate-assets.mjs",
+    "check": "node scripts/check-assets.mjs",
+    "build": "npm run generate && npm run check",
+    "clean": "node scripts/clean-assets.mjs",
+    "rebuild": "npm run clean && npm run build"
+  },
+  "devDependencies": {
+    "svgpath": "^2.6.0"
+  }
+}
