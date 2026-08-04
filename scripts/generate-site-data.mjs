@@ -37,8 +37,11 @@ const argumentsSet = new Set(
   process.argv.slice(2)
 );
 
-const compactOutput = argumentsSet.has("--compact");
-const includeInactive = argumentsSet.has("--include-inactive");
+const compactOutput =
+  argumentsSet.has("--compact");
+
+const includeInactive =
+  argumentsSet.has("--include-inactive");
 
 async function readJson(file) {
   try {
@@ -54,7 +57,10 @@ async function readJson(file) {
   }
 }
 
-async function writeJson(file, data) {
+async function writeJson(
+  file,
+  data
+) {
   const content = compactOutput
     ? `${JSON.stringify(data)}\n`
     : `${JSON.stringify(data, null, 2)}\n`;
@@ -108,51 +114,18 @@ function sortStrings(values) {
   );
 }
 
-function arraysAreEqual(first, second) {
-  return (
-    first.length === second.length &&
-    first.every(
-      (value, index) =>
-        value === second[index]
+function normalizeTags(value) {
+  if (!Array.isArray(value)) {
+    return [];
+  }
+
+  return sortStrings(
+    unique(
+      value
+        .map(normalizeTag)
+        .filter(Boolean)
     )
   );
-}
-
-function compareIcons(first, second) {
-  return first.name.localeCompare(
-    second.name,
-    "en",
-    {
-      sensitivity: "base",
-      numeric: true
-    }
-  );
-}
-
-function compareLabels(first, second) {
-  return first.label.localeCompare(
-    second.label,
-    "en",
-    {
-      sensitivity: "base",
-      numeric: true
-    }
-  );
-}
-
-function incrementCounter(map, key) {
-  map.set(
-    key,
-    (map.get(key) ?? 0) + 1
-  );
-}
-
-function normalizeStatus(value) {
-  const status = normalizeSearchText(
-    value || "active"
-  );
-
-  return status || "active";
 }
 
 function normalizeAliases(value) {
@@ -169,26 +142,63 @@ function normalizeAliases(value) {
   );
 }
 
-function normalizeTags(value) {
-  if (!Array.isArray(value)) {
-    return [];
-  }
+function normalizeStatus(value) {
+  const status =
+    normalizeSearchText(
+      value || "active"
+    );
 
-  return sortStrings(
-    unique(
-      value
-        .map(normalizeTag)
-        .filter(Boolean)
-    )
+  return status || "active";
+}
+
+function compareIcons(
+  first,
+  second
+) {
+  return first.name.localeCompare(
+    second.name,
+    "en",
+    {
+      sensitivity: "base",
+      numeric: true
+    }
   );
 }
 
-function getChartEntryMap(chartList) {
+function compareLabels(
+  first,
+  second
+) {
+  return first.label.localeCompare(
+    second.label,
+    "en",
+    {
+      sensitivity: "base",
+      numeric: true
+    }
+  );
+}
+
+function incrementCounter(
+  map,
+  key
+) {
+  map.set(
+    key,
+    (map.get(key) ?? 0) + 1
+  );
+}
+
+function getChartEntryMap(
+  chartList
+) {
   return new Map(
-    chartList.map((entry) => [
-      entry.id,
-      entry
-    ])
+    chartList.map(
+      (entry) => [
+        entry.id,
+        entry
+      ]
+    )
   );
 }
 
@@ -233,28 +243,38 @@ function validateIcon({
   metadata,
   chartEntry,
   allowedCategories,
+  minimumTags,
   maximumTags
 }) {
   const errors = [];
   const warnings = [];
 
-  if (!metadata.name) {
+  const name =
+    normalizeText(metadata.name);
+
+  const category =
+    normalizeText(metadata.category);
+
+  const tags =
+    normalizeTags(metadata.tags);
+
+  if (!name) {
     errors.push(
       `Icon "${iconId}" does not have a name.`
     );
   }
 
-  if (!metadata.category) {
+  if (!category) {
     errors.push(
       `Icon "${iconId}" does not have a category.`
     );
   } else if (
     allowedCategories.size > 0 &&
-    !allowedCategories.has(metadata.category)
+    !allowedCategories.has(category)
   ) {
     errors.push(
       `Icon "${iconId}" uses an invalid category: ` +
-      `"${metadata.category}".`
+      `"${category}".`
     );
   }
 
@@ -264,17 +284,23 @@ function validateIcon({
     );
   }
 
-  const tags = normalizeTags(
-    metadata.tags
-  );
+  if (
+    minimumTags > 0 &&
+    tags.length < minimumTags
+  ) {
+    warnings.push(
+      `Icon "${iconId}" contains fewer than ` +
+      `${minimumTags} tag(s).`
+    );
+  }
 
   if (
     maximumTags > 0 &&
     tags.length > maximumTags
   ) {
-    warnings.push(
+    errors.push(
       `Icon "${iconId}" contains more than ` +
-      `${maximumTags} tags.`
+      `${maximumTags} tag(s).`
     );
   }
 
@@ -284,15 +310,10 @@ function validateIcon({
     );
   }
 
-  if (!metadata.description) {
-    warnings.push(
-      `Icon "${iconId}" does not have a description.`
-    );
-  }
-
   if (!chartEntry) {
     errors.push(
-      `Icon "${iconId}" is missing from ${CHART_LIST_FILE}.`
+      `Icon "${iconId}" is missing from ` +
+      `${CHART_LIST_FILE}.`
     );
 
     return {
@@ -324,52 +345,64 @@ function buildIconRecord({
   metadata,
   chartEntry
 }) {
-  const tags = normalizeTags(
-    metadata.tags
-  );
-
-  const aliases = normalizeAliases(
-    metadata.aliases
-  );
-
-  const status = normalizeStatus(
-    metadata.status
-  );
+  const category =
+    normalizeText(metadata.category);
 
   return {
     id: iconId,
+
     name: normalizeText(
-      metadata.name || chartEntry.name || iconId
+      metadata.name ||
+      chartEntry.name ||
+      iconId
     ),
-    category: normalizeText(
-      metadata.category
-    ),
-    categoryId: normalizeIdentifier(
-      metadata.category
-    ),
-    tags,
-    aliases,
-    description: normalizeText(
-      metadata.description
-    ),
-    status,
-    color: normalizeText(
-      metadata.color || chartEntry.color
-    ),
-    url: normalizeText(
-      metadata.url || chartEntry.url
-    ),
-    unicode: normalizeText(
-      chartEntry.unicode
-    ),
-    unicodeText: normalizeText(
-      chartEntry.unicodeText
-    ),
-    cssClass: `socicon-${iconId}`,
-    svg: `svg/${iconId}.svg`,
-    path: normalizeText(
-      chartEntry.path
-    )
+
+    category,
+
+    categoryId:
+      normalizeIdentifier(category),
+
+    tags:
+      normalizeTags(metadata.tags),
+
+    aliases:
+      normalizeAliases(metadata.aliases),
+
+    status:
+      normalizeStatus(metadata.status),
+
+    color:
+      normalizeText(
+        metadata.color ||
+        chartEntry.color
+      ),
+
+    url:
+      normalizeText(
+        metadata.url ||
+        chartEntry.url
+      ),
+
+    unicode:
+      normalizeText(
+        chartEntry.unicode
+      ),
+
+    unicodeText:
+      normalizeText(
+        chartEntry.unicodeText
+      ),
+
+    cssClass:
+      `socicon-${iconId}`,
+
+    svg:
+      `svg/${iconId}.svg`,
+
+    path:
+      normalizeText(
+        chartEntry.path
+      )
   };
 }
 
@@ -386,11 +419,10 @@ function buildCategoryRecords(
     );
   }
 
-  const configuredCategories = Array.isArray(
-    rules.categories
-  )
-    ? rules.categories
-    : [];
+  const configuredCategories =
+    Array.isArray(rules.categories)
+      ? rules.categories
+      : [];
 
   const labels = unique([
     ...configuredCategories,
@@ -399,9 +431,13 @@ function buildCategoryRecords(
 
   return labels
     .map((label) => ({
-      id: normalizeIdentifier(label),
+      id:
+        normalizeIdentifier(label),
+
       label,
-      count: counters.get(label) ?? 0
+
+      count:
+        counters.get(label) ?? 0
     }))
     .filter(
       (category) =>
@@ -410,7 +446,9 @@ function buildCategoryRecords(
     .sort(compareLabels);
 }
 
-function buildTagRecords(icons) {
+function buildTagRecords(
+  icons
+) {
   const counters = new Map();
   const categoriesByTag = new Map();
 
@@ -421,7 +459,9 @@ function buildTagRecords(icons) {
         tag
       );
 
-      if (!categoriesByTag.has(tag)) {
+      if (
+        !categoriesByTag.has(tag)
+      ) {
         categoriesByTag.set(
           tag,
           new Set()
@@ -436,12 +476,18 @@ function buildTagRecords(icons) {
 
   return [...counters.entries()]
     .map(([tag, count]) => ({
-      id: normalizeIdentifier(tag),
-      label: tag,
+      id:
+        normalizeIdentifier(tag),
+
+      label:
+        tag,
+
       count,
-      categories: sortStrings(
-        categoriesByTag.get(tag) ?? []
-      )
+
+      categories:
+        sortStrings(
+          categoriesByTag.get(tag) ?? []
+        )
     }))
     .sort(compareLabels);
 }
@@ -453,8 +499,7 @@ function buildSearchText(icon) {
       icon.name,
       icon.category,
       ...icon.tags,
-      ...icon.aliases,
-      icon.description
+      ...icon.aliases
     ]
       .map(normalizeSearchText)
       .filter(Boolean)
@@ -462,7 +507,8 @@ function buildSearchText(icon) {
 }
 
 function buildSearchTokens(icon) {
-  const text = buildSearchText(icon);
+  const text =
+    buildSearchText(icon);
 
   return sortStrings(
     unique(
@@ -477,27 +523,51 @@ function buildSearchTokens(icon) {
   );
 }
 
-function buildSearchIndex(icons) {
-  return icons.map((icon) => ({
-    id: icon.id,
-    name: icon.name,
-    category: icon.category,
-    categoryId: icon.categoryId,
-    tags: icon.tags,
-    aliases: icon.aliases,
-    description: icon.description,
-    status: icon.status,
-    text: buildSearchText(icon),
-    tokens: buildSearchTokens(icon)
-  }));
+function buildSearchIndex(
+  icons
+) {
+  return icons.map(
+    (icon) => ({
+      id:
+        icon.id,
+
+      name:
+        icon.name,
+
+      category:
+        icon.category,
+
+      categoryId:
+        icon.categoryId,
+
+      tags:
+        icon.tags,
+
+      aliases:
+        icon.aliases,
+
+      status:
+        icon.status,
+
+      text:
+        buildSearchText(icon),
+
+      tokens:
+        buildSearchTokens(icon)
+    })
+  );
 }
 
-function findDuplicateIdentifiers(records) {
+function findDuplicateIdentifiers(
+  records
+) {
   const identifiers = new Map();
   const duplicates = [];
 
   for (const record of records) {
-    if (!identifiers.has(record.id)) {
+    if (
+      !identifiers.has(record.id)
+    ) {
       identifiers.set(
         record.id,
         record.label
@@ -507,9 +577,14 @@ function findDuplicateIdentifiers(records) {
     }
 
     duplicates.push({
-      id: record.id,
-      first: identifiers.get(record.id),
-      second: record.label
+      id:
+        record.id,
+
+      first:
+        identifiers.get(record.id),
+
+      second:
+        record.label
     });
   }
 
@@ -549,7 +624,8 @@ function validateGeneratedData({
   for (const entry of searchIndex) {
     if (!iconIds.has(entry.id)) {
       errors.push(
-        `Search index contains unknown icon "${entry.id}".`
+        `Search index contains unknown icon ` +
+        `"${entry.id}".`
       );
     }
   }
@@ -557,13 +633,16 @@ function validateGeneratedData({
   const categoryIds =
     new Set(
       categories.map(
-        (category) => category.id
+        (category) =>
+          category.id
       )
     );
 
   for (const icon of icons) {
     if (
-      !categoryIds.has(icon.categoryId)
+      !categoryIds.has(
+        icon.categoryId
+      )
     ) {
       errors.push(
         `Icon "${icon.id}" references unknown category ` +
@@ -573,26 +652,39 @@ function validateGeneratedData({
   }
 
   const categoryDuplicates =
-    findDuplicateIdentifiers(categories);
+    findDuplicateIdentifiers(
+      categories
+    );
 
-  for (const duplicate of categoryDuplicates) {
+  for (
+    const duplicate
+    of categoryDuplicates
+  ) {
     errors.push(
       `Category identifier collision "${duplicate.id}" ` +
-      `between "${duplicate.first}" and "${duplicate.second}".`
+      `between "${duplicate.first}" and ` +
+      `"${duplicate.second}".`
     );
   }
 
   const tagDuplicates =
-    findDuplicateIdentifiers(tags);
+    findDuplicateIdentifiers(
+      tags
+    );
 
-  for (const duplicate of tagDuplicates) {
+  for (
+    const duplicate
+    of tagDuplicates
+  ) {
     errors.push(
       `Tag identifier collision "${duplicate.id}" ` +
-      `between "${duplicate.first}" and "${duplicate.second}".`
+      `between "${duplicate.first}" and ` +
+      `"${duplicate.second}".`
     );
   }
 
-  const categoryCounts = new Map();
+  const categoryCounts =
+    new Map();
 
   for (const icon of icons) {
     incrementCounter(
@@ -603,9 +695,13 @@ function validateGeneratedData({
 
   for (const category of categories) {
     const expected =
-      categoryCounts.get(category.label) ?? 0;
+      categoryCounts.get(
+        category.label
+      ) ?? 0;
 
-    if (category.count !== expected) {
+    if (
+      category.count !== expected
+    ) {
       errors.push(
         `Category "${category.label}" has an invalid count: ` +
         `${category.count}, expected ${expected}.`
@@ -613,7 +709,8 @@ function validateGeneratedData({
     }
   }
 
-  const tagCounts = new Map();
+  const tagCounts =
+    new Map();
 
   for (const icon of icons) {
     for (const tag of icon.tags) {
@@ -626,9 +723,13 @@ function validateGeneratedData({
 
   for (const tag of tags) {
     const expected =
-      tagCounts.get(tag.label) ?? 0;
+      tagCounts.get(
+        tag.label
+      ) ?? 0;
 
-    if (tag.count !== expected) {
+    if (
+      tag.count !== expected
+    ) {
       errors.push(
         `Tag "${tag.label}" has an invalid count: ` +
         `${tag.count}, expected ${expected}.`
@@ -639,45 +740,73 @@ function validateGeneratedData({
   return errors;
 }
 
-const metadata = await readJson(
-  METADATA_FILE
-);
+const metadata =
+  await readJson(
+    METADATA_FILE
+  );
 
-const chartList = await readJson(
-  CHART_LIST_FILE
-);
+const chartList =
+  await readJson(
+    CHART_LIST_FILE
+  );
 
-const rules = await readJson(
-  RULES_FILE
-);
+const rules =
+  await readJson(
+    RULES_FILE
+  );
 
-const rootErrors = validateRootData({
-  metadata,
-  chartList,
-  rules
-});
+const rootErrors =
+  validateRootData({
+    metadata,
+    chartList,
+    rules
+  });
 
 if (rootErrors.length > 0) {
   for (const error of rootErrors) {
-    console.error(`Error: ${error}`);
+    console.error(
+      `Error: ${error}`
+    );
   }
 
   process.exit(1);
 }
 
-const allowedCategories = new Set(
-  Array.isArray(rules.categories)
-    ? rules.categories
-    : []
-);
+const allowedCategories =
+  new Set(
+    Array.isArray(rules.categories)
+      ? rules.categories
+      : []
+  );
+
+if (allowedCategories.size === 0) {
+  console.error(
+    `${RULES_FILE} does not define any allowed categories.`
+  );
+
+  process.exit(1);
+}
+
+const configuredMinimumTags =
+  Number(rules.minimumTags);
+
+const minimumTags =
+  configuredMinimumTags > 0
+    ? configuredMinimumTags
+    : 0;
+
+const configuredMaximumTags =
+  Number(rules.maximumTags);
 
 const maximumTags =
-  Number(rules.maximumTags) > 0
-    ? Number(rules.maximumTags)
+  configuredMaximumTags > 0
+    ? configuredMaximumTags
     : 0;
 
 const chartEntryMap =
-  getChartEntryMap(chartList);
+  getChartEntryMap(
+    chartList
+  );
 
 const errors = [];
 const warnings = [];
@@ -696,6 +825,7 @@ for (
       metadata: iconMetadata,
       chartEntry,
       allowedCategories,
+      minimumTags,
       maximumTags
     });
 
@@ -711,11 +841,12 @@ for (
     continue;
   }
 
-  const icon = buildIconRecord({
-    iconId,
-    metadata: iconMetadata,
-    chartEntry
-  });
+  const icon =
+    buildIconRecord({
+      iconId,
+      metadata: iconMetadata,
+      chartEntry
+    });
 
   if (
     !includeInactive &&
@@ -736,18 +867,25 @@ for (const chartEntry of chartList) {
   ) {
     errors.push(
       `Icon "${chartEntry.id}" exists in ` +
-      `${CHART_LIST_FILE} but not in ${METADATA_FILE}.`
+      `${CHART_LIST_FILE} but not in ` +
+      `${METADATA_FILE}.`
     );
   }
 }
 
 if (errors.length > 0) {
   console.error("");
-  console.error("Validation errors");
-  console.error("-----------------");
+  console.error(
+    "Validation errors"
+  );
+  console.error(
+    "-----------------"
+  );
 
   for (const error of errors) {
-    console.error(`- ${error}`);
+    console.error(
+      `- ${error}`
+    );
   }
 
   console.error("");
@@ -780,7 +918,9 @@ const generatedErrors =
     searchIndex
   });
 
-if (generatedErrors.length > 0) {
+if (
+  generatedErrors.length > 0
+) {
   console.error("");
   console.error(
     "Generated data validation errors"
@@ -789,8 +929,13 @@ if (generatedErrors.length > 0) {
     "--------------------------------"
   );
 
-  for (const error of generatedErrors) {
-    console.error(`- ${error}`);
+  for (
+    const error
+    of generatedErrors
+  ) {
+    console.error(
+      `- ${error}`
+    );
   }
 
   console.error("");
@@ -829,15 +974,18 @@ await writeJson(
 );
 
 console.log(
-  `Generated ${icons.length} icon entries in ${ICONS_FILE}.`
+  `Generated ${icons.length} icon entries in ` +
+  `${ICONS_FILE}.`
 );
 
 console.log(
-  `Generated ${categories.length} categories in ${CATEGORIES_FILE}.`
+  `Generated ${categories.length} categories in ` +
+  `${CATEGORIES_FILE}.`
 );
 
 console.log(
-  `Generated ${tags.length} tags in ${TAGS_FILE}.`
+  `Generated ${tags.length} tags in ` +
+  `${TAGS_FILE}.`
 );
 
 console.log(
@@ -852,7 +1000,9 @@ if (warnings.length > 0) {
   );
 
   for (const warning of warnings) {
-    console.log(`Warning: ${warning}`);
+    console.log(
+      `Warning: ${warning}`
+    );
   }
 } else {
   console.log("");

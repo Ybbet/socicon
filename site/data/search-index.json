@@ -8,7 +8,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "8tracks social",
     "tokens": [
@@ -25,7 +24,6 @@
       "photo"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "500px photography photo",
     "tokens": [
@@ -41,7 +39,6 @@
     "categoryId": "design",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "portfolio adobe portfolio design",
     "tokens": [
@@ -59,7 +56,6 @@
       "homestays"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "airbnb social homestays",
     "tokens": [
@@ -75,7 +71,6 @@
     "categoryId": "marketplace",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "alibaba marketplace",
     "tokens": [
@@ -90,7 +85,6 @@
     "categoryId": "marketplace",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "aliexpress marketplace",
     "tokens": [
@@ -109,7 +103,6 @@
       "warcraft"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "alliance gaming blizzard warcraft",
     "tokens": [
@@ -130,7 +123,6 @@
       "shopping"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "amazon marketplace ecommerce retail shopping",
     "tokens": [
@@ -150,7 +142,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "amplement social",
     "tokens": [
@@ -168,7 +159,6 @@
       "operating system"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "android system mobile operating system",
     "tokens": [
@@ -187,7 +177,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "angellist social",
     "tokens": [
@@ -204,7 +193,6 @@
       "pro"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "angieslist angie's list services pro",
     "tokens": [
@@ -222,7 +210,6 @@
     "categoryId": "marketplace",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "appstore app store marketplace",
     "tokens": [
@@ -242,7 +229,6 @@
       "os"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "apple system operating system os",
     "tokens": [
@@ -261,7 +247,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "appnet social",
     "tokens": [
@@ -276,7 +261,6 @@
     "categoryId": "gaming",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "artstation gaming",
     "tokens": [
@@ -291,7 +275,6 @@
     "categoryId": "social",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "ask social",
     "tokens": [
@@ -310,7 +293,6 @@
       "product"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "augment services 3d augmented reality product",
     "tokens": [
@@ -332,7 +314,6 @@
       "lawyer"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "avvo services directory lawyer",
     "tokens": [
@@ -351,7 +332,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "baidu social",
     "tokens": [
@@ -366,7 +346,6 @@
     "categoryId": "social",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "bale social",
     "tokens": [
@@ -383,7 +362,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "bandcamp social",
     "tokens": [
@@ -403,7 +381,6 @@
       "network"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "battlenet battle.net gaming blizzard launcher network",
     "tokens": [
@@ -423,7 +400,6 @@
     "categoryId": "music",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "beatport music",
     "tokens": [
@@ -441,7 +417,6 @@
       "networking"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "bebee social affinity networking",
     "tokens": [
@@ -460,7 +435,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "bebo social",
     "tokens": [
@@ -480,7 +454,6 @@
       "showcase"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "behance design adobe creative portfolio showcase",
     "tokens": [
@@ -503,7 +476,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "bereal social mobile photo",
     "tokens": [
@@ -520,7 +492,6 @@
     "categoryId": "sport",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "besport sport",
     "tokens": [
@@ -535,7 +506,6 @@
     "categoryId": "services",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "bing services",
     "tokens": [
@@ -555,7 +525,6 @@
       "manage"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "bitbucket development code coding collaborate manage",
     "tokens": [
@@ -574,7 +543,6 @@
     "categoryId": "system",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "blackberry system",
     "tokens": [
@@ -593,7 +561,6 @@
       "publisher"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "blizzard gaming developer publisher",
     "tokens": [
@@ -613,7 +580,6 @@
       "google"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "blogger services blog google",
     "tokens": [
@@ -632,7 +598,6 @@
       "blog"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "bloglovin bloglovin' services blog",
     "tokens": [
@@ -650,7 +615,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "bluesky social",
     "tokens": [
@@ -665,7 +629,6 @@
     "categoryId": "professional",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "bonanza professional",
     "tokens": [
@@ -680,7 +643,6 @@
     "categoryId": "marketplace",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "bookbub marketplace",
     "tokens": [
@@ -695,7 +657,6 @@
     "categoryId": "marketplace",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "booking marketplace",
     "tokens": [
@@ -712,7 +673,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "buffer social",
     "tokens": [
@@ -727,7 +687,6 @@
     "categoryId": "services",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "calendly services",
     "tokens": [
@@ -742,7 +701,6 @@
     "categoryId": "music",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "cdbaby cd baby music",
     "tokens": [
@@ -762,7 +720,6 @@
       "google"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "chrome system browser google",
     "tokens": [
@@ -779,7 +736,6 @@
     "categoryId": "professional",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "codepen professional",
     "tokens": [
@@ -794,7 +750,6 @@
     "categoryId": "professional",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "codered professional",
     "tokens": [
@@ -811,7 +766,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "coderwall social",
     "tokens": [
@@ -826,7 +780,6 @@
     "categoryId": "services",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "collectorz services",
     "tokens": [
@@ -841,7 +794,6 @@
     "categoryId": "social",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "craigslist social",
     "tokens": [
@@ -856,7 +808,6 @@
     "categoryId": "services",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "crunchbase services",
     "tokens": [
@@ -876,7 +827,6 @@
       "mods"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "curse gaming app community mods",
     "tokens": [
@@ -896,7 +846,6 @@
       "film"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "dailymotion video film",
     "tokens": [
@@ -912,7 +861,6 @@
     "categoryId": "system",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "debian system",
     "tokens": [
@@ -930,7 +878,6 @@
       "playlist"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "deezer music playlist",
     "tokens": [
@@ -948,7 +895,6 @@
       "website"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "delicious services website",
     "tokens": [
@@ -968,7 +914,6 @@
       "photo"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "deviantart design art creative photo",
     "tokens": [
@@ -991,7 +936,6 @@
       "rpg"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "diablo gaming action blizzard rpg",
     "tokens": [
@@ -1011,7 +955,6 @@
       "website"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "digg services website",
     "tokens": [
@@ -1030,7 +973,6 @@
       "voice"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "discord communication gaming voice",
     "tokens": [
@@ -1049,7 +991,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "disqus social",
     "tokens": [
@@ -1067,7 +1008,6 @@
       "streaming"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "dlive gaming streaming",
     "tokens": [
@@ -1083,7 +1023,6 @@
     "categoryId": "services",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "doodle services",
     "tokens": [
@@ -1100,7 +1039,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "douban social",
     "tokens": [
@@ -1117,7 +1055,6 @@
       "frype"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "draugiem draugiem.lv social frype",
     "tokens": [
@@ -1138,7 +1075,6 @@
       "work"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "dribbble design portfolio work",
     "tokens": [
@@ -1157,7 +1093,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "drupal social",
     "tokens": [
@@ -1175,7 +1110,6 @@
       "shopping"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "ebay marketplace ecommerce shopping",
     "tokens": [
@@ -1192,7 +1126,6 @@
     "categoryId": "communication",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "eitaa communication",
     "tokens": [
@@ -1207,7 +1140,6 @@
     "categoryId": "system",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "elementaryos elementary os system",
     "tokens": [
@@ -1226,7 +1158,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "ello social",
     "tokens": [
@@ -1243,7 +1174,6 @@
       "sport"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "endomondo sport",
     "tokens": [
@@ -1266,7 +1196,6 @@
       "theme"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "envato marketplace audio code module photo plugin template theme",
     "tokens": [
@@ -1290,7 +1219,6 @@
       "shop"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "etsy marketplace shop",
     "tokens": [
@@ -1311,7 +1239,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "facebook social blog journal like",
     "tokens": [
@@ -1333,7 +1260,6 @@
       "video"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "messenger facebook messenger communication call message video",
     "tokens": [
@@ -1356,7 +1282,6 @@
       "rss"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "feedburner services feed google rss",
     "tokens": [
@@ -1374,7 +1299,6 @@
     "categoryId": "services",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "filmfreeway services",
     "tokens": [
@@ -1392,7 +1316,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "filmweb video film social",
     "tokens": [
@@ -1412,7 +1335,6 @@
       "mozilla"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "firefox system browser mozilla",
     "tokens": [
@@ -1429,7 +1351,6 @@
     "categoryId": "professional",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "fiverr professional",
     "tokens": [
@@ -1446,7 +1367,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "flattr social",
     "tokens": [
@@ -1466,7 +1386,6 @@
       "yahoo"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "flickr photography photo pro video yahoo",
     "tokens": [
@@ -1485,7 +1404,6 @@
     "categoryId": "communication",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "flipboard communication",
     "tokens": [
@@ -1509,7 +1427,6 @@
       "team"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "formulr sport championships circuits drivers manufacturers motorsport rider social team",
     "tokens": [
@@ -1534,7 +1451,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "forrst social",
     "tokens": [
@@ -1557,7 +1473,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "foursquare places bar go out guide hotel restaurant reviews social",
     "tokens": [
@@ -1580,7 +1495,6 @@
     "categoryId": "professional",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "freelancer professional",
     "tokens": [
@@ -1597,7 +1511,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "friendfeed social",
     "tokens": [
@@ -1612,7 +1525,6 @@
     "categoryId": "services",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "fundable services",
     "tokens": [
@@ -1629,7 +1541,6 @@
       "photo"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "fyuse photography photo",
     "tokens": [
@@ -1649,7 +1560,6 @@
       "support"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "gamejolt game jolt gaming indie support",
     "tokens": [
@@ -1668,7 +1578,6 @@
     "categoryId": "gaming",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "gamefor gaming",
     "tokens": [
@@ -1685,7 +1594,6 @@
       "stream"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "gamewisp gaming stream",
     "tokens": [
@@ -1701,7 +1609,6 @@
     "categoryId": "professional",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "ghost professional",
     "tokens": [
@@ -1721,7 +1628,6 @@
       "repository"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "github development code collaboration git repository",
     "tokens": [
@@ -1740,7 +1646,6 @@
     "categoryId": "development",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "gitlab development",
     "tokens": [
@@ -1755,7 +1660,6 @@
     "categoryId": "communication",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "gitter communication",
     "tokens": [
@@ -1770,7 +1674,6 @@
     "categoryId": "system",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "gnome system",
     "tokens": [
@@ -1792,7 +1695,6 @@
       "universities"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "goodreads academic abstracts books literature publisher search universities",
     "tokens": [
@@ -1815,7 +1717,6 @@
       "search"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "google social search",
     "tokens": [
@@ -1831,7 +1732,6 @@
     "categoryId": "services",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "googlecalendar google calendar services",
     "tokens": [
@@ -1853,7 +1753,6 @@
       "questions"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "googlegroups google groups social community discusion forum questions",
     "tokens": [
@@ -1877,7 +1776,6 @@
       "google"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "googlehangouts google hangouts communication google",
     "tokens": [
@@ -1894,7 +1792,6 @@
     "categoryId": "services",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "googlemaps google maps services",
     "tokens": [
@@ -1914,7 +1811,6 @@
       "video"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "googlephotos google photos photography google video",
     "tokens": [
@@ -1937,7 +1833,6 @@
       "tv"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "play google play marketplace app film store tv",
     "tokens": [
@@ -1957,7 +1852,6 @@
     "categoryId": "music",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "googleplaymusic google play music music",
     "tokens": [
@@ -1982,7 +1876,6 @@
       "universities"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "googlescholar google scholar academic abstracts books google literature publisher search universities",
     "tokens": [
@@ -2010,7 +1903,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "googleplus google+ social blog google journal",
     "tokens": [
@@ -2028,7 +1920,6 @@
     "categoryId": "communication",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "gotomeeting communication",
     "tokens": [
@@ -2046,7 +1937,6 @@
       "playlist"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "grooveshark music playlist",
     "tokens": [
@@ -2065,7 +1955,6 @@
       "services"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "guru professional pro services",
     "tokens": [
@@ -2082,7 +1971,6 @@
     "categoryId": "services",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "gust services",
     "tokens": [
@@ -2097,7 +1985,6 @@
     "categoryId": "services",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "hackernews hacker news services",
     "tokens": [
@@ -2114,7 +2001,6 @@
     "categoryId": "services",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "hackerone services",
     "tokens": [
@@ -2134,7 +2020,6 @@
       "recruit"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "hackerrank development coding compete job recruit",
     "tokens": [
@@ -2157,7 +2042,6 @@
       "gaming"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "hearthstone gaming blizzard card",
     "tokens": [
@@ -2177,7 +2061,6 @@
       "journal"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "hellocoton social blog journal",
     "tokens": [
@@ -2202,7 +2085,6 @@
       "warcraft"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "heroes hereos of the storm gaming blizzard diablo hearthstone overwatch starcraft warcraft",
     "tokens": [
@@ -2230,7 +2112,6 @@
       "streaming"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "hitbox gaming streaming",
     "tokens": [
@@ -2246,7 +2127,6 @@
     "categoryId": "services",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "homeadvisor services",
     "tokens": [
@@ -2261,7 +2141,6 @@
     "categoryId": "services",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "homes services",
     "tokens": [
@@ -2276,7 +2155,6 @@
     "categoryId": "services",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "homify services",
     "tokens": [
@@ -2295,7 +2173,6 @@
       "warcraft"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "horde gaming blizzard warcraft",
     "tokens": [
@@ -2314,7 +2191,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "houzz social",
     "tokens": [
@@ -2331,7 +2207,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "icq social",
     "tokens": [
@@ -2348,7 +2223,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "identica social",
     "tokens": [
@@ -2365,7 +2239,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "imdb social",
     "tokens": [
@@ -2380,7 +2253,6 @@
     "categoryId": "gaming",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "indiedb indie db gaming",
     "tokens": [
@@ -2401,7 +2273,6 @@
       "video"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "instagram photography facebook photo video",
     "tokens": [
@@ -2419,7 +2290,6 @@
     "categoryId": "design",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "instructables design",
     "tokens": [
@@ -2437,7 +2307,6 @@
       "web"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "internet system network web",
     "tokens": [
@@ -2454,7 +2323,6 @@
     "categoryId": "design",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "invision design",
     "tokens": [
@@ -2474,7 +2342,6 @@
       "read"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "issuu services magazine publication publish read",
     "tokens": [
@@ -2495,7 +2362,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "istock social",
     "tokens": [
@@ -2510,7 +2376,6 @@
     "categoryId": "gaming",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "itchio itch.io gaming",
     "tokens": [
@@ -2530,7 +2395,6 @@
       "playlist"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "itunes music playlist",
     "tokens": [
@@ -2546,7 +2410,6 @@
     "categoryId": "music",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "jamendo music",
     "tokens": [
@@ -2564,7 +2427,6 @@
       "key"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "keybase services encrypt key",
     "tokens": [
@@ -2581,7 +2443,6 @@
     "categoryId": "marketplace",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "kobo marketplace",
     "tokens": [
@@ -2598,7 +2459,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "lanyrd social",
     "tokens": [
@@ -2616,7 +2476,6 @@
       "playlist"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "lastfm last.fm music playlist",
     "tokens": [
@@ -2634,7 +2493,6 @@
     "categoryId": "services",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "letterboxd services",
     "tokens": [
@@ -2656,7 +2514,6 @@
       "video"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "line communication audio free message photo share video",
     "tokens": [
@@ -2681,7 +2538,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "linkedin professional entreprise pro social",
     "tokens": [
@@ -2703,7 +2559,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "linktree services bookmark link social",
     "tokens": [
@@ -2724,7 +2579,6 @@
       "link"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "livejournal social community link",
     "tokens": [
@@ -2741,7 +2595,6 @@
     "categoryId": "marketplace",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "livemaster marketplace",
     "tokens": [
@@ -2756,7 +2609,6 @@
     "categoryId": "services",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "logmein services",
     "tokens": [
@@ -2771,7 +2623,6 @@
     "categoryId": "social",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "loomly social",
     "tokens": [
@@ -2790,7 +2641,6 @@
       "ride"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "lyft transport geo lift ride",
     "tokens": [
@@ -2813,7 +2663,6 @@
       "os"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "macos system apple mac operating os",
     "tokens": [
@@ -2834,7 +2683,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "mail social",
     "tokens": [
@@ -2849,7 +2697,6 @@
     "categoryId": "services",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "mailru mail.ru services",
     "tokens": [
@@ -2866,7 +2713,6 @@
     "categoryId": "communication",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "mastodon communication",
     "tokens": [
@@ -2883,7 +2729,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "medium social",
     "tokens": [
@@ -2900,7 +2745,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "meetup social",
     "tokens": [
@@ -2915,7 +2759,6 @@
     "categoryId": "music",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "metapop music",
     "tokens": [
@@ -2933,7 +2776,6 @@
       "windows"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "microsoft system software windows",
     "tokens": [
@@ -2950,7 +2792,6 @@
     "categoryId": "services",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "mix services",
     "tokens": [
@@ -2969,7 +2810,6 @@
       "radio"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "mixcloud music playlist radio",
     "tokens": [
@@ -2989,7 +2829,6 @@
       "video"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "mixer streaming gaming video",
     "tokens": [
@@ -3009,7 +2848,6 @@
       "streaming"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "mobcrush video gaming streaming",
     "tokens": [
@@ -3026,7 +2864,6 @@
     "categoryId": "gaming",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "moddb mod db gaming",
     "tokens": [
@@ -3045,7 +2882,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "modelmayhem model mayhem social",
     "tokens": [
@@ -3064,7 +2900,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "persona mozilla persona social",
     "tokens": [
@@ -3083,7 +2918,6 @@
       "voice"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "mumble communication gaming voice",
     "tokens": [
@@ -3100,7 +2934,6 @@
     "categoryId": "services",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "myanimelist services",
     "tokens": [
@@ -3119,7 +2952,6 @@
       "musician"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "myspace music blog musician",
     "tokens": [
@@ -3136,7 +2968,6 @@
     "categoryId": "music",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "napster music",
     "tokens": [
@@ -3151,7 +2982,6 @@
     "categoryId": "places",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "natgeo places",
     "tokens": [
@@ -3166,7 +2996,6 @@
     "categoryId": "communication",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "naver communication",
     "tokens": [
@@ -3183,7 +3012,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "newsvine social",
     "tokens": [
@@ -3198,7 +3026,6 @@
     "categoryId": "social",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "nextdoor social",
     "tokens": [
@@ -3213,7 +3040,6 @@
     "categoryId": "video",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "niconico video",
     "tokens": [
@@ -3230,7 +3056,6 @@
       "gaming"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "nintendo nintendo network gaming",
     "tokens": [
@@ -3249,7 +3074,6 @@
       "node.js"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "npm development js node.js",
     "tokens": [
@@ -3268,7 +3092,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "odnoklassniki social",
     "tokens": [
@@ -3283,7 +3106,6 @@
     "categoryId": "services",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "openaigym openai gym services",
     "tokens": [
@@ -3302,7 +3124,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "openid social",
     "tokens": [
@@ -3319,7 +3140,6 @@
       "browser"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "opera system browser",
     "tokens": [
@@ -3335,7 +3155,6 @@
     "categoryId": "gaming",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "origin gaming",
     "tokens": [
@@ -3352,7 +3171,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "outlook social",
     "tokens": [
@@ -3371,7 +3189,6 @@
       "gaming"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "overwatch gaming blizzard fps",
     "tokens": [
@@ -3390,7 +3207,6 @@
       "radio"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "pandora music radio",
     "tokens": [
@@ -3410,7 +3226,6 @@
       "support"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "patreon services creator membership support",
     "tokens": [
@@ -3432,7 +3247,6 @@
       "transaction"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "paypal services money payment transaction",
     "tokens": [
@@ -3452,7 +3266,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "periscope social",
     "tokens": [
@@ -3472,7 +3285,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "pinterest services board pin pinit social",
     "tokens": [
@@ -3491,7 +3303,6 @@
     "categoryId": "design",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "pixiv design",
     "tokens": [
@@ -3511,7 +3322,6 @@
       "profile"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "player player.me gaming community connect profile",
     "tokens": [
@@ -3532,7 +3342,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "playstation gaming social",
     "tokens": [
@@ -3550,7 +3359,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "pocket social",
     "tokens": [
@@ -3565,7 +3373,6 @@
     "categoryId": "music",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "qobuz music",
     "tokens": [
@@ -3582,7 +3389,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "qq social",
     "tokens": [
@@ -3601,7 +3407,6 @@
       "question"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "quora community answer knowledge question",
     "tokens": [
@@ -3622,7 +3427,6 @@
       "voice"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "raidcall communication gaming voice",
     "tokens": [
@@ -3641,7 +3445,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "ravelry social",
     "tokens": [
@@ -3656,7 +3459,6 @@
     "categoryId": "services",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "realtor services",
     "tokens": [
@@ -3673,7 +3475,6 @@
       "shop"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "redbubble design shop",
     "tokens": [
@@ -3692,7 +3493,6 @@
       "share"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "reddit services bookmark share",
     "tokens": [
@@ -3709,7 +3509,6 @@
     "categoryId": "services",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "redfin services",
     "tokens": [
@@ -3724,7 +3523,6 @@
     "categoryId": "professional",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "remote professional",
     "tokens": [
@@ -3741,7 +3539,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "renren social",
     "tokens": [
@@ -3760,7 +3557,6 @@
       "scientific"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "researchgate academic knowledge research scientific",
     "tokens": [
@@ -3780,7 +3576,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "residentadvisor resident advisor social",
     "tokens": [
@@ -3802,7 +3597,6 @@
       "musician"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "reverbnation music artist blog musician",
     "tokens": [
@@ -3822,7 +3616,6 @@
       "feed"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "rss services feed",
     "tokens": [
@@ -3838,7 +3631,6 @@
     "categoryId": "professional",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "seedrs professional",
     "tokens": [
@@ -3853,7 +3645,6 @@
     "categoryId": "community",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "seenthis community",
     "tokens": [
@@ -3868,7 +3659,6 @@
     "categoryId": "services",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "sharepoint services",
     "tokens": [
@@ -3885,7 +3675,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "sharethis social",
     "tokens": [
@@ -3900,7 +3689,6 @@
     "categoryId": "music",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "shopify music",
     "tokens": [
@@ -3919,7 +3707,6 @@
       "privacy"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "signal communication encrypted message privacy",
     "tokens": [
@@ -3939,7 +3726,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "weibo sina weibo social",
     "tokens": [
@@ -3959,7 +3745,6 @@
       "portfolio"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "sketchfab design 3d model portfolio",
     "tokens": [
@@ -3979,7 +3764,6 @@
       "microsoft"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "skype communication microsoft",
     "tokens": [
@@ -3995,7 +3779,6 @@
     "categoryId": "communication",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "slack communication",
     "tokens": [
@@ -4012,7 +3795,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "slideshare social",
     "tokens": [
@@ -4030,7 +3812,6 @@
       "streaming"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "smashcast video gaming streaming",
     "tokens": [
@@ -4047,7 +3828,6 @@
     "categoryId": "marketplace",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "smashwords marketplace",
     "tokens": [
@@ -4064,7 +3844,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "smugmug social",
     "tokens": [
@@ -4081,7 +3860,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "snapchat social",
     "tokens": [
@@ -4098,7 +3876,6 @@
       "shop"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "society6 marketplace shop",
     "tokens": [
@@ -4118,7 +3895,6 @@
       "tickets"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "songkick music bands concerts tickets",
     "tokens": [
@@ -4136,7 +3912,6 @@
     "categoryId": "communication",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "soroush communication",
     "tokens": [
@@ -4155,7 +3930,6 @@
       "musician"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "soundcloud music blog musician",
     "tokens": [
@@ -4172,7 +3946,6 @@
     "categoryId": "services",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "spip services",
     "tokens": [
@@ -4187,7 +3960,6 @@
     "categoryId": "services",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "splice services",
     "tokens": [
@@ -4205,7 +3977,6 @@
       "playlist"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "spotify music playlist",
     "tokens": [
@@ -4224,7 +3995,6 @@
       "fashion"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "spreadshirt marketplace clothes fashion",
     "tokens": [
@@ -4241,7 +4011,6 @@
     "categoryId": "services",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "squarespace services",
     "tokens": [
@@ -4259,7 +4028,6 @@
       "forum"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "stackexchange community expert forum",
     "tokens": [
@@ -4281,7 +4049,6 @@
       "question"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "stackoverflow development code community programming question",
     "tokens": [
@@ -4300,7 +4067,6 @@
     "categoryId": "social",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "stage32 social",
     "tokens": [
@@ -4319,7 +4085,6 @@
       "rts"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "starcraft gaming blizzard rts",
     "tokens": [
@@ -4338,7 +4103,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "stayfriends social",
     "tokens": [
@@ -4356,7 +4120,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "steam gaming social",
     "tokens": [
@@ -4374,7 +4137,6 @@
       "podcast"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "stitcher services podcast",
     "tokens": [
@@ -4392,7 +4154,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "storehouse social",
     "tokens": [
@@ -4410,7 +4171,6 @@
       "running"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "strava sport bike running",
     "tokens": [
@@ -4434,7 +4194,6 @@
       "video"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "streamjar streaming community gaming stream tip tool video",
     "tokens": [
@@ -4457,7 +4216,6 @@
       "website"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "stumbleupon services website",
     "tokens": [
@@ -4475,7 +4233,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "swarm social",
     "tokens": [
@@ -4493,7 +4250,6 @@
       "voice"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "teamspeak communication gaming voice",
     "tokens": [
@@ -4513,7 +4269,6 @@
       "screen"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "teamviewer development distant screen",
     "tokens": [
@@ -4533,7 +4288,6 @@
       "search"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "technorati services blog search",
     "tokens": [
@@ -4552,7 +4306,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "telegram social",
     "tokens": [
@@ -4567,7 +4320,6 @@
     "categoryId": "social",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "threads social",
     "tokens": [
@@ -4582,7 +4334,6 @@
     "categoryId": "communication",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "threema communication",
     "tokens": [
@@ -4597,7 +4348,6 @@
     "categoryId": "music",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "tidal music",
     "tokens": [
@@ -4612,7 +4362,6 @@
     "categoryId": "social",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "tiktok social",
     "tokens": [
@@ -4627,7 +4376,6 @@
     "categoryId": "social",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "tinder social",
     "tokens": [
@@ -4642,7 +4390,6 @@
     "categoryId": "social",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "toneden social",
     "tokens": [
@@ -4657,7 +4404,6 @@
     "categoryId": "professional",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "toptal professional",
     "tokens": [
@@ -4672,7 +4418,6 @@
     "categoryId": "services",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "torial services",
     "tokens": [
@@ -4687,7 +4432,6 @@
     "categoryId": "music",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "traxsource music",
     "tokens": [
@@ -4704,7 +4448,6 @@
       "organize"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "trello services organize",
     "tokens": [
@@ -4724,7 +4467,6 @@
       "travel"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "tripadvisor places hotel review travel",
     "tokens": [
@@ -4744,7 +4486,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "tripit social",
     "tokens": [
@@ -4761,7 +4502,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "triplej social",
     "tokens": [
@@ -4776,7 +4516,6 @@
     "categoryId": "places",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "trulia places",
     "tokens": [
@@ -4795,7 +4534,6 @@
       "yahoo"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "tumblr services blog system yahoo",
     "tokens": [
@@ -4816,7 +4554,6 @@
       "talk"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "tunein music radio talk",
     "tokens": [
@@ -4836,7 +4573,6 @@
       "streaming"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "twitch streaming gaming",
     "tokens": [
@@ -4856,7 +4592,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "twitter social blog journal",
     "tokens": [
@@ -4877,7 +4612,6 @@
       "ride"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "uber transport geo lift ride",
     "tokens": [
@@ -4899,7 +4633,6 @@
       "os"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "ubuntu system linux operating system os",
     "tokens": [
@@ -4917,7 +4650,6 @@
     "categoryId": "academic",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "udemy academic",
     "tokens": [
@@ -4932,7 +4664,6 @@
     "categoryId": "photography",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "unsplash photography",
     "tokens": [
@@ -4947,7 +4678,6 @@
     "categoryId": "professional",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "upwork professional",
     "tokens": [
@@ -4965,7 +4695,6 @@
       "voice"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "ventrilo communication gaming voice",
     "tokens": [
@@ -4986,7 +4715,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "viadeo professional entreprise pro social",
     "tokens": [
@@ -5008,7 +4736,6 @@
       "telephone"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "viber communication chat message telephone",
     "tokens": [
@@ -5030,7 +4757,6 @@
       "photo"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "viewbug photography challenges contests photo",
     "tokens": [
@@ -5051,7 +4777,6 @@
       "pro"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "vimeo video film pro",
     "tokens": [
@@ -5071,7 +4796,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "vine video film social",
     "tokens": [
@@ -5090,7 +4814,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "vkontakte social",
     "tokens": [
@@ -5105,7 +4828,6 @@
     "categoryId": "photography",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "vsco photography",
     "tokens": [
@@ -5124,7 +4846,6 @@
       "mmorpg"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "warcraft gaming blizzard mmorpg",
     "tokens": [
@@ -5145,7 +4866,6 @@
       "research"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "wechat communication call free research",
     "tokens": [
@@ -5163,7 +4883,6 @@
     "categoryId": "communication",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "whatsapp communication",
     "tokens": [
@@ -5178,7 +4897,6 @@
     "categoryId": "communication",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "wickr communication",
     "tokens": [
@@ -5193,7 +4911,6 @@
     "categoryId": "academic",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "wikipedia academic",
     "tokens": [
@@ -5208,7 +4925,6 @@
     "categoryId": "services",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "windguru services",
     "tokens": [
@@ -5226,7 +4942,6 @@
       "os"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "windows system operating system os",
     "tokens": [
@@ -5243,7 +4958,6 @@
     "categoryId": "services",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "wix services",
     "tokens": [
@@ -5263,7 +4977,6 @@
       "system"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "wordpress services blog cms open source system",
     "tokens": [
@@ -5285,7 +4998,6 @@
       "blog"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "wykop community blog",
     "tokens": [
@@ -5301,7 +5013,6 @@
     "categoryId": "social",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "x social",
     "tokens": [
@@ -5318,7 +5029,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "xbox gaming social",
     "tokens": [
@@ -5338,7 +5048,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "xing professional entreprise pro social",
     "tokens": [
@@ -5361,7 +5070,6 @@
       "search"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "yahoo yahoo! services chat feed mail search",
     "tokens": [
@@ -5382,7 +5090,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "yammer social",
     "tokens": [
@@ -5399,7 +5106,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "yandex social",
     "tokens": [
@@ -5418,7 +5124,6 @@
       "review"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "yelp places business restaurant review",
     "tokens": [
@@ -5438,7 +5143,6 @@
       "video"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "younow streaming video",
     "tokens": [
@@ -5459,7 +5163,6 @@
       "video"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "youtube video film google social",
     "tokens": [
@@ -5480,7 +5183,6 @@
       "streaming"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "yt-gaming youtube gaming gaming streaming",
     "tokens": [
@@ -5501,7 +5203,6 @@
       "workflow"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "zapier services automation integration workflow",
     "tokens": [
@@ -5521,7 +5222,6 @@
       "shop"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "zazzle marketplace shop",
     "tokens": [
@@ -5539,7 +5239,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "zerply social",
     "tokens": [
@@ -5554,7 +5253,6 @@
     "categoryId": "places",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "zillow places",
     "tokens": [
@@ -5573,7 +5271,6 @@
       "review"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "zomato places food restaurant review",
     "tokens": [
@@ -5591,7 +5288,6 @@
     "categoryId": "communication",
     "tags": [],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "zoom communication",
     "tokens": [
@@ -5608,7 +5304,6 @@
       "social"
     ],
     "aliases": [],
-    "description": "",
     "status": "active",
     "text": "zynga social",
     "tokens": [
