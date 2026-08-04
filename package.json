@@ -13,10 +13,12 @@
   "type": "module",
   "scripts": {
     "metadata:bootstrap": "node scripts/bootstrap-metadata.mjs",
+    "metadata:audit": "node scripts/audit-metadata.mjs",
+    "metadata:update": "node scripts/update-metadata.mjs",
     "generate": "node scripts/generate-assets.mjs",
     "check": "node scripts/check-assets.mjs",
-    "build": "npm run generate && npm run check",
     "clean": "node scripts/clean-assets.mjs",
+    "build": "npm run generate && npm run check",
     "rebuild": "npm run clean && npm run build",
     "release:build": "bash scripts/build-release.sh"
   },

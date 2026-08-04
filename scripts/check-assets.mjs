@@ -45,6 +45,12 @@ for (const file of REQUIRED_FILES) {
 const selection = await readJson("selection.json");
 const metadata = await readJson("icons-metadata.json");
 const chart = await readJson("chart-list.json");
+const rules = await readJson("metadata-rules.json");
+
+const allowedCategories = new Set(rules.categories);
+const forbiddenTags = new Set(
+  rules.forbiddenTags.map((tag) => tag.toLowerCase())
+);
 
 if (!selection || !metadata || !chart) {
   process.exit(1);
@@ -98,11 +104,48 @@ for (const sourceIcon of selectionIcons) {
   }
 
   const unicodeText = code.toString(16).padStart(4, "0");
+  const iconMetadata = metadata[id];
 
   if (!metadata[id]) {
     fail(`Metadata is missing for icon "${id}".`);
   }
+  if (
+    iconMetadata &&
+    !allowedCategories.has(iconMetadata.category)
+  ) {
+    fail(
+      `Icon "${id}" uses an invalid category: ` +
+      `"${iconMetadata.category}".`
+    );
+  }
 
+  if (iconMetadata) {
+    const tags = Array.isArray(iconMetadata.tags)
+      ? iconMetadata.tags
+      : [];
+
+    const normalizedTags = tags.map((tag) =>
+      String(tag).trim().toLowerCase()
+    );
+
+    if (new Set(normalizedTags).size !== normalizedTags.length) {
+      fail(`Icon "${id}" contains duplicate tags.`);
+    }
+
+    for (const tag of normalizedTags) {
+      if (forbiddenTags.has(tag)) {
+        fail(
+          `Icon "${id}" uses the forbidden tag "${tag}".`
+        );
+      }
+
+      if (tag !== tag.toLowerCase()) {
+        fail(
+          `Icon "${id}" contains a non-lowercase tag: "${tag}".`
+        );
+      }
+    }
+  }
   if (!chartById.has(id)) {
     fail(`Icon "${id}" is missing from chart-list.json.`);
   }

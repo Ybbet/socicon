@@ -1,0 +1,251 @@
+{
+  "categories": [
+    "Academic",
+    "Communication",
+    "Community",
+    "Design",
+    "Development",
+    "Gaming",
+    "Marketplace",
+    "Music",
+    "Photography",
+    "Places",
+    "Professional",
+    "Services",
+    "Social",
+    "Sport",
+    "Streaming",
+    "System",
+    "Transport",
+    "Video"
+  ],
+  "categoryAliases": {
+    "Dev": "Development",
+    "IT": "Development",
+    "Pro": "Professional",
+    "Feed - Bookmark": "Services"
+  },
+  "tagAliases": {
+    "apps": "app",
+    "blogs": "blog",
+    "games": "gaming",
+    "messages": "message",
+    "mixes": "mix",
+    "musicians": "musician",
+    "photos": "photo",
+    "photographer": "photo",
+    "photography": "photo",
+    "playlists": "playlist",
+    "publications": "publication",
+    "publishers": "publisher",
+    "riders": "rider",
+    "sites": "website",
+    "teams": "team",
+    "tweets": "tweet"
+  },
+  "forbiddenTags": [
+    "+1",
+    "360",
+    "blogging",
+    "tweet",
+    "twitter"
+  ],
+  "removeBrandNameTags": true,
+  "minimumTags": 0,
+  "maximumTags": 0,
+  "iconOverrides": {
+    "amazon": {
+      "category": "Marketplace",
+      "tags": [
+        "ecommerce",
+        "retail",
+        "shopping"
+      ]
+    },
+    "android": {
+      "category": "System",
+      "tags": [
+        "mobile",
+        "operating system"
+      ]
+    },
+    "bereal": {
+      "category": "Social",
+      "tags": [
+        "mobile",
+        "photo",
+        "social"
+      ]
+    },
+    "github": {
+      "category": "Development",
+      "tags": [
+        "code",
+        "collaboration",
+        "git",
+        "repository"
+      ]
+    },
+    "augment": {
+        "category": "Services",
+        "tags": [
+        "3d",
+        "augmented reality",
+        "product"
+        ]
+    },
+    "internet": {
+        "category": "System",
+        "tags": [
+        "network",
+        "web"
+        ]
+    },
+    "signal": {
+        "category": "Communication",
+        "tags": [
+        "encrypted",
+        "message",
+        "privacy"
+        ]
+    },
+    "sketchfab": {
+        "category": "Design",
+        "tags": [
+        "3d",
+        "model",
+        "portfolio"
+        ]
+    },
+    "zapier": {
+        "category": "Services",
+        "tags": [
+        "automation",
+        "integration",
+        "workflow"
+        ]
+    },
+    "ebay": {
+        "category": "Marketplace",
+        "tags": [
+            "ecommerce",
+            "shopping"
+        ]
+    },
+    "quora": {
+        "category": "Community",
+        "tags": [
+            "answer",
+            "knowledge",
+            "question"
+        ]
+    },
+    "stackoverflow": {
+        "category": "Development",
+        "tags": [
+            "code",
+            "community",
+            "programming",
+            "question"
+        ]
+    },
+    "paypal": {
+        "category": "Services",
+        "tags": [
+            "money",
+            "payment",
+            "transaction"
+        ]
+    },
+    "patreon": {
+        "category": "Services",
+        "tags": [
+            "creator",
+            "membership",
+            "support"
+        ]
+    },
+    "tripadvisor": {
+        "category": "Places",
+        "tags": [
+        "hotel",
+        "review",
+        "travel"
+        ]
+    },
+    "yelp": {
+        "category": "Places",
+        "tags": [
+            "business",
+            "restaurant",
+            "review"
+        ]
+    },
+    "zomato": {
+        "category": "Places",
+        "tags": [
+            "food",
+            "restaurant",
+            "review"
+        ]
+    },
+    "battlenet": {
+        "category": "Gaming",
+        "tags": [
+            "blizzard",
+            "gaming",
+            "launcher",
+            "network"
+        ]
+    },
+    "blizzard": {
+        "category": "Gaming",
+        "tags": [
+            "developer",
+            "gaming",
+            "publisher"
+        ]
+    },
+    "diablo": {
+        "category": "Gaming",
+        "tags": [
+            "action",
+            "blizzard",
+            "gaming",
+            "rpg"
+        ]
+    },
+    "hearthstone": {
+        "category": "Gaming",
+        "tags": [
+            "blizzard",
+            "card",
+            "gaming"
+        ]
+    },
+    "overwatch": {
+        "category": "Gaming",
+        "tags": [
+            "blizzard",
+            "fps",
+            "gaming"
+        ]
+    },
+    "starcraft": {
+        "category": "Gaming",
+        "tags": [
+            "blizzard",
+            "gaming",
+            "rts"
+        ]
+    },
+    "warcraft": {
+        "category": "Gaming",
+        "tags": [
+            "blizzard",
+            "gaming",
+            "mmorpg"
+        ]
+    }
+  }
+}
