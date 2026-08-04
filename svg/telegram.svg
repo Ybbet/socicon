@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1024 1024"
+     role="img"
+     aria-labelledby="telegram-title">
+  <title id="telegram-title">Telegram</title>
+  <path fill="currentColor" d="M950 880l-910-356c0 0-44-14-40-42s38-40 38-40l226-76c18-58 72-244 82-280 12-40 20-48 26-50 2 0 4 0 4 0 16-2 28 8 28 8l144 142 228-174c62-26 86 30 86 30l162 816c0 54-74 22-74 22zM836 694c-16-14-394-360-432-396l-22-188c-2-18-18-18-26-4-16 52-54 190-74 252l536 356c0 0 30 20 30 0 0 0 0-8-12-20z"/>
+</svg>

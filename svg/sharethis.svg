@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1024 1024"
+     role="img"
+     aria-labelledby="sharethis-title">
+  <title id="sharethis-title">ShareThis</title>
+  <path fill="currentColor" d="M362 448c0-4-2-8-2-10l368-184c30 28 70 44 114 44 100 0 180-82 180-180 0-102-80-182-180-182s-180 80-180 182c0 4 2 6 2 10l-368 182c-30-26-70-42-114-42-102 0-182 80-182 180s80 182 180 182c44 0 86-18 116-44l366 184c0 2 0 6 0 10 0 100 82 180 182 180s180-80 180-180c0-100-80-182-180-182-44 0-86 16-116 44l-368-184c0-2 2-6 2-10z"/>
+</svg>

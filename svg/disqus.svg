@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1024 1024"
+     role="img"
+     aria-labelledby="disqus-title">
+  <title id="disqus-title">DISQUS</title>
+  <path fill="currentColor" d="M526 570h-54v-244h54c82 0 140 40 140 122v0c0 80-58 122-140 122zM530 946c-272 0-492-224-492-498 0-74 16-144 44-206l-82-202 212 28c86-72 196-118 318-118 274 0 494 224 494 498s-220 498-494 498zM798 450c0-144-100-248-276-248h-184v492h186c174 0 274-100 274-244z"/>
+</svg>

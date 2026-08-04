@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1024 1024"
+     role="img"
+     aria-labelledby="forrst-title">
+  <title id="forrst-title">Forrst</title>
+  <path fill="currentColor" d="M460-64h-376l428 1024 428-1024h-376v170l172 86-12 26-160-80v78l98 54-14 26-84-44v114h-104v-176l-86 60-16-24 102-72z"/>
+</svg>

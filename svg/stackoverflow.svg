@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1024 1024"
+     role="img"
+     aria-labelledby="stackoverflow-title">
+  <title id="stackoverflow-title">stackoverflow</title>
+  <path fill="currentColor" d="M696 18h-510l2 344h-76l-2-426h668v430h-82zM236 162h398v-82h-398zM246 314l402-38-8-88-402 38zM282 488l390-110-24-84-388 110zM378 684l344-208-44-76-346 210zM738 492l-236 328 72 50 234-328zM760 946l86 14 68-398-88-14z"/>
+</svg>

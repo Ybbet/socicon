@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1024 1024"
+     role="img"
+     aria-labelledby="twitch-title">
+  <title id="twitch-title">Twitch</title>
+  <path fill="currentColor" d="M734 70h-200l-134-134h-132v134h-246v712l68 178h912v-624zM912 382v490h-734v-646h200v-134l134 134h244zM668 692v-266h88v266zM422 426h90v266h-90z"/>
+</svg>

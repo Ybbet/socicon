@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1024 1024"
+     role="img"
+     aria-labelledby="paypal-title">
+  <title id="paypal-title">Paypal</title>
+  <path fill="currentColor" d="M636 960h-370c-24 0-46-18-50-44l-148-944c-4-20 10-36 30-36h176c24 0 46 18 50 44l40 254c4 26 26 44 50 44h118c242 0 382 116 420 350 16 102 0 182-48 238-52 62-146 94-268 94zM678 614c-20-132-122-132-220-132h-54l38 248c2 14 16 26 30 26h26c66 0 130 0 162-38 20-24 26-56 18-104z"/>
+</svg>

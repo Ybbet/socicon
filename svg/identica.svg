@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1024 1024"
+     role="img"
+     aria-labelledby="identica-title">
+  <title id="identica-title">Identica</title>
+  <path fill="currentColor" d="M0 476c0-252 208-456 466-456 74 0 144 18 206 48l352-104-114 366c16 46 24 96 24 146 0 252-208 456-466 456s-468-204-468-456zM784 476c0-38-8-76-20-110l58-164 6-16c0 0 0 2 0 2l20-54-74 18-160 50c-44-22-94-34-148-34-174-2-316 138-316 308s142 308 318 310c174 0 316-140 316-310z"/>
+</svg>

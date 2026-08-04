@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1024 1024"
+     role="img"
+     aria-labelledby="hackerrank-title">
+  <title id="hackerrank-title">HackerRank</title>
+  <path fill="currentColor" d="M658 382v-296h-50c-10 0-20-8-20-20 0-6 4-12 10-14l112-108c4-4 10-8 16-8s12 4 14 8l120 108c6 2 8 8 8 14 0 12-8 20-18 20h-50v714c0 10-8 18-18 18h-106c-10 0-18-8-18-18v-276h-292v286h50c10 0 20 8 20 20 0 6-4 12-10 14l-112 108c-4 4-10 8-16 8s-12-4-14-8l-120-108c-6-2-8-8-8-14 0-12 8-20 18-20h50v-714c0-10 8-18 18-18h106c10 0 18 8 18 18v286h292z"/>
+</svg>

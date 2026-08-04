@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1024 1024"
+     role="img"
+     aria-labelledby="raidcall-title">
+  <title id="raidcall-title">RaidCall</title>
+  <path fill="currentColor" d="M198 532l86 62c-20 170 84 296 84 296s-22-10-194-120c-172-110-174-154-174-154v-446l156-234h236l-236 374c-50 74-30 174 42 222zM786 464c-82-50-190-30-248 50-56 78-42 188 32 250 2 4 6 6 10 8 4 4 6 6 10 8l252 180h-366l-22-14c-166-122-204-358-84-526l24-32c122-168 358-206 526-84l104 76v256z"/>
+</svg>

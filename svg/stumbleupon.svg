@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1024 1024"
+     role="img"
+     aria-labelledby="stumbleupon-title">
+  <title id="stumbleupon-title">StumbleUpon</title>
+  <path fill="currentColor" d="M512 664c-30 0-54-24-54-54v-328c-2-124-104-226-230-226s-228 104-228 230c0 2 0 142 0 142h176v-140c0-30 24-54 54-54s54 24 54 54v330c4 122 104 220 228 220s224-98 228-220v-74l-104-30-70 32v64c0 30-24 54-54 54zM1024 286c0-126-102-230-228-230s-228 102-230 228v142l70-32 104 32v-144c0-30 24-54 54-54s54 24 54 54v146h176c0 0 0-140 0-142z"/>
+</svg>

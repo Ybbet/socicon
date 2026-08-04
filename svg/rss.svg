@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1024 1024"
+     role="img"
+     aria-labelledby="rss-title">
+  <title id="rss-title">RSS</title>
+  <path fill="currentColor" d="M274 74c0-76-60-136-136-136s-136 60-136 136c0 74 60 136 136 136s136-62 136-136zM2 416c128 0 248-50 338-140s140-212 140-340h196c0 372-302 676-674 676zM2 764c454 0 824-372 824-828h196c0 564-458 1024-1020 1024z"/>
+</svg>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1024 1024"
+     role="img"
+     aria-labelledby="stackexchange-title">
+  <title id="stackexchange-title">StackExchange</title>
+  <path fill="currentColor" d="M794 960h-564c-72 0-130-60-130-136v-44h824v44c0 76-58 136-130 136zM100 296v-44c0-76 58-136 130-136h352v-180l174 180h38c72 0 130 60 130 134v44h-824zM100 732v-170h824v170zM100 512v-170h824v170z"/>
+</svg>

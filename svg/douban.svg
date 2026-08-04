@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1024 1024"
+     role="img"
+     aria-labelledby="douban-title">
+  <title id="douban-title">douban</title>
+  <path fill="currentColor" d="M0 944h1024v-112h-1024zM838 294h102v430h-854v-430h90l76-244h-252v-98h1024v98h-258zM258 612h514v-204h-514zM622 50h-226l-76 244h374z"/>
+</svg>

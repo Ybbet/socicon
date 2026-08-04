@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1024 1024"
+     role="img"
+     aria-labelledby="stitcher-title">
+  <title id="stitcher-title">Stitcher</title>
+  <path fill="currentColor" d="M5.12 588.288h188.416v-335.872h-188.416v335.872zM214.016 645.632h188.416v-369.664h-188.416v369.664zM423.936 615.936h188.416v-379.904h-188.416v379.904zM632.832 670.208h188.416v-393.216h-188.416v393.216zM841.728 600.576h188.416v-295.936h-188.416v295.936z"/>
+</svg>

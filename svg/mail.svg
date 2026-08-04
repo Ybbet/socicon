@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1024 1024"
+     role="img"
+     aria-labelledby="mail-title">
+  <title id="mail-title">Mail</title>
+  <path fill="currentColor" d="M546 330c-10-8-22-14-34-14s-24 6-34 14l-478 390v-614h1024v614zM512 448c10 0 20 4 28 10l406 332h-868l406-332c8-6 18-10 28-10z"/>
+</svg>
