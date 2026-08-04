@@ -1,5 +1,6 @@
 {
   "name": "socicon",
+  "version": "3.10.0",
   "description": "More information on [socicon website](http://socicon.teddypayet.com/)",
   "repository": {
     "type": "git",

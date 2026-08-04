@@ -1,7 +1,19 @@
+# 5 August 2026 - v3.10.0
+- Metadata-driven workflow for icon maintenance.
+- Metadata enrichment workflow with manual review and approval.
+- Metadata audit, normalization and validation tools.
+- Normalized icon categories and tags.
+- Website metadata generation (`site/data`).
+- Improved icon catalog and standalone SVG generation.
+- Improved generated asset validation.
+- Automated production release packaging.
+- Aligned maintenance script names with npm commands.
+- Expanded README with development, metadata and release workflows.
+
 # 4 August 2026 - v3.9.0
 - **New icon:** BeReal
 - Metadata catalog (`icons-metadata.json`) used to describe all icons.
-- Asset generation scripts:
+- Initial asset generation workflow:
   - bootstrap metadata
   - generate catalogs
   - generate individual SVG files
