@@ -1,0 +1,1536 @@
+[
+  {
+    "id": "3d",
+    "label": "3d",
+    "count": 2,
+    "categories": [
+      "Design",
+      "Services"
+    ]
+  },
+  {
+    "id": "abstracts",
+    "label": "abstracts",
+    "count": 2,
+    "categories": [
+      "Academic"
+    ]
+  },
+  {
+    "id": "action",
+    "label": "action",
+    "count": 1,
+    "categories": [
+      "Gaming"
+    ]
+  },
+  {
+    "id": "adobe",
+    "label": "adobe",
+    "count": 1,
+    "categories": [
+      "Design"
+    ]
+  },
+  {
+    "id": "affinity",
+    "label": "affinity",
+    "count": 1,
+    "categories": [
+      "Social"
+    ]
+  },
+  {
+    "id": "answer",
+    "label": "answer",
+    "count": 1,
+    "categories": [
+      "Community"
+    ]
+  },
+  {
+    "id": "app",
+    "label": "app",
+    "count": 2,
+    "categories": [
+      "Gaming",
+      "Marketplace"
+    ]
+  },
+  {
+    "id": "apple",
+    "label": "apple",
+    "count": 1,
+    "categories": [
+      "System"
+    ]
+  },
+  {
+    "id": "art",
+    "label": "art",
+    "count": 1,
+    "categories": [
+      "Design"
+    ]
+  },
+  {
+    "id": "artist",
+    "label": "artist",
+    "count": 1,
+    "categories": [
+      "Music"
+    ]
+  },
+  {
+    "id": "audio",
+    "label": "audio",
+    "count": 2,
+    "categories": [
+      "Communication",
+      "Marketplace"
+    ]
+  },
+  {
+    "id": "augmented-reality",
+    "label": "augmented reality",
+    "count": 1,
+    "categories": [
+      "Services"
+    ]
+  },
+  {
+    "id": "automation",
+    "label": "automation",
+    "count": 1,
+    "categories": [
+      "Services"
+    ]
+  },
+  {
+    "id": "bands",
+    "label": "bands",
+    "count": 1,
+    "categories": [
+      "Music"
+    ]
+  },
+  {
+    "id": "bar",
+    "label": "bar",
+    "count": 1,
+    "categories": [
+      "Places"
+    ]
+  },
+  {
+    "id": "bike",
+    "label": "bike",
+    "count": 1,
+    "categories": [
+      "Sport"
+    ]
+  },
+  {
+    "id": "blizzard",
+    "label": "blizzard",
+    "count": 9,
+    "categories": [
+      "Gaming"
+    ]
+  },
+  {
+    "id": "blog",
+    "label": "blog",
+    "count": 13,
+    "categories": [
+      "Community",
+      "Music",
+      "Services",
+      "Social"
+    ]
+  },
+  {
+    "id": "board",
+    "label": "board",
+    "count": 1,
+    "categories": [
+      "Services"
+    ]
+  },
+  {
+    "id": "bookmark",
+    "label": "bookmark",
+    "count": 2,
+    "categories": [
+      "Services"
+    ]
+  },
+  {
+    "id": "books",
+    "label": "books",
+    "count": 2,
+    "categories": [
+      "Academic"
+    ]
+  },
+  {
+    "id": "browser",
+    "label": "browser",
+    "count": 3,
+    "categories": [
+      "System"
+    ]
+  },
+  {
+    "id": "business",
+    "label": "business",
+    "count": 1,
+    "categories": [
+      "Places"
+    ]
+  },
+  {
+    "id": "call",
+    "label": "call",
+    "count": 2,
+    "categories": [
+      "Communication"
+    ]
+  },
+  {
+    "id": "card",
+    "label": "card",
+    "count": 1,
+    "categories": [
+      "Gaming"
+    ]
+  },
+  {
+    "id": "challenges",
+    "label": "challenges",
+    "count": 1,
+    "categories": [
+      "Photography"
+    ]
+  },
+  {
+    "id": "championships",
+    "label": "championships",
+    "count": 1,
+    "categories": [
+      "Sport"
+    ]
+  },
+  {
+    "id": "chat",
+    "label": "chat",
+    "count": 2,
+    "categories": [
+      "Communication",
+      "Services"
+    ]
+  },
+  {
+    "id": "circuits",
+    "label": "circuits",
+    "count": 1,
+    "categories": [
+      "Sport"
+    ]
+  },
+  {
+    "id": "clothes",
+    "label": "clothes",
+    "count": 1,
+    "categories": [
+      "Marketplace"
+    ]
+  },
+  {
+    "id": "cms",
+    "label": "cms",
+    "count": 1,
+    "categories": [
+      "Services"
+    ]
+  },
+  {
+    "id": "code",
+    "label": "code",
+    "count": 4,
+    "categories": [
+      "Development",
+      "Marketplace"
+    ]
+  },
+  {
+    "id": "coding",
+    "label": "coding",
+    "count": 2,
+    "categories": [
+      "Development"
+    ]
+  },
+  {
+    "id": "collaborate",
+    "label": "collaborate",
+    "count": 1,
+    "categories": [
+      "Development"
+    ]
+  },
+  {
+    "id": "collaboration",
+    "label": "collaboration",
+    "count": 1,
+    "categories": [
+      "Development"
+    ]
+  },
+  {
+    "id": "communication",
+    "label": "communication",
+    "count": 1,
+    "categories": [
+      "Communication"
+    ]
+  },
+  {
+    "id": "community",
+    "label": "community",
+    "count": 6,
+    "categories": [
+      "Development",
+      "Gaming",
+      "Social",
+      "Streaming"
+    ]
+  },
+  {
+    "id": "compete",
+    "label": "compete",
+    "count": 1,
+    "categories": [
+      "Development"
+    ]
+  },
+  {
+    "id": "concerts",
+    "label": "concerts",
+    "count": 1,
+    "categories": [
+      "Music"
+    ]
+  },
+  {
+    "id": "connect",
+    "label": "connect",
+    "count": 1,
+    "categories": [
+      "Gaming"
+    ]
+  },
+  {
+    "id": "contests",
+    "label": "contests",
+    "count": 1,
+    "categories": [
+      "Photography"
+    ]
+  },
+  {
+    "id": "creative",
+    "label": "creative",
+    "count": 2,
+    "categories": [
+      "Design"
+    ]
+  },
+  {
+    "id": "creator",
+    "label": "creator",
+    "count": 1,
+    "categories": [
+      "Services"
+    ]
+  },
+  {
+    "id": "design",
+    "label": "design",
+    "count": 1,
+    "categories": [
+      "Design"
+    ]
+  },
+  {
+    "id": "developer",
+    "label": "developer",
+    "count": 1,
+    "categories": [
+      "Gaming"
+    ]
+  },
+  {
+    "id": "diablo",
+    "label": "diablo",
+    "count": 1,
+    "categories": [
+      "Gaming"
+    ]
+  },
+  {
+    "id": "directory",
+    "label": "directory",
+    "count": 1,
+    "categories": [
+      "Services"
+    ]
+  },
+  {
+    "id": "discusion",
+    "label": "discusion",
+    "count": 1,
+    "categories": [
+      "Social"
+    ]
+  },
+  {
+    "id": "distant",
+    "label": "distant",
+    "count": 1,
+    "categories": [
+      "Development"
+    ]
+  },
+  {
+    "id": "drivers",
+    "label": "drivers",
+    "count": 1,
+    "categories": [
+      "Sport"
+    ]
+  },
+  {
+    "id": "ecommerce",
+    "label": "ecommerce",
+    "count": 2,
+    "categories": [
+      "Marketplace"
+    ]
+  },
+  {
+    "id": "encrypt",
+    "label": "encrypt",
+    "count": 1,
+    "categories": [
+      "Services"
+    ]
+  },
+  {
+    "id": "encrypted",
+    "label": "encrypted",
+    "count": 1,
+    "categories": [
+      "Communication"
+    ]
+  },
+  {
+    "id": "entreprise",
+    "label": "entreprise",
+    "count": 3,
+    "categories": [
+      "Professional"
+    ]
+  },
+  {
+    "id": "expert",
+    "label": "expert",
+    "count": 1,
+    "categories": [
+      "Community"
+    ]
+  },
+  {
+    "id": "facebook",
+    "label": "facebook",
+    "count": 1,
+    "categories": [
+      "Photography"
+    ]
+  },
+  {
+    "id": "fashion",
+    "label": "fashion",
+    "count": 1,
+    "categories": [
+      "Marketplace"
+    ]
+  },
+  {
+    "id": "feed",
+    "label": "feed",
+    "count": 3,
+    "categories": [
+      "Services"
+    ]
+  },
+  {
+    "id": "film",
+    "label": "film",
+    "count": 6,
+    "categories": [
+      "Marketplace",
+      "Video"
+    ]
+  },
+  {
+    "id": "food",
+    "label": "food",
+    "count": 1,
+    "categories": [
+      "Places"
+    ]
+  },
+  {
+    "id": "forum",
+    "label": "forum",
+    "count": 2,
+    "categories": [
+      "Community",
+      "Social"
+    ]
+  },
+  {
+    "id": "fps",
+    "label": "fps",
+    "count": 1,
+    "categories": [
+      "Gaming"
+    ]
+  },
+  {
+    "id": "free",
+    "label": "free",
+    "count": 2,
+    "categories": [
+      "Communication"
+    ]
+  },
+  {
+    "id": "frype",
+    "label": "frype",
+    "count": 1,
+    "categories": [
+      "Social"
+    ]
+  },
+  {
+    "id": "gaming",
+    "label": "gaming",
+    "count": 29,
+    "categories": [
+      "Communication",
+      "Gaming",
+      "Streaming",
+      "Video"
+    ]
+  },
+  {
+    "id": "geo",
+    "label": "geo",
+    "count": 2,
+    "categories": [
+      "Transport"
+    ]
+  },
+  {
+    "id": "git",
+    "label": "git",
+    "count": 1,
+    "categories": [
+      "Development"
+    ]
+  },
+  {
+    "id": "go-out",
+    "label": "go out",
+    "count": 1,
+    "categories": [
+      "Places"
+    ]
+  },
+  {
+    "id": "google",
+    "label": "google",
+    "count": 8,
+    "categories": [
+      "Academic",
+      "Communication",
+      "Photography",
+      "Services",
+      "Social",
+      "System",
+      "Video"
+    ]
+  },
+  {
+    "id": "guide",
+    "label": "guide",
+    "count": 1,
+    "categories": [
+      "Places"
+    ]
+  },
+  {
+    "id": "hearthstone",
+    "label": "hearthstone",
+    "count": 1,
+    "categories": [
+      "Gaming"
+    ]
+  },
+  {
+    "id": "homestays",
+    "label": "homestays",
+    "count": 1,
+    "categories": [
+      "Social"
+    ]
+  },
+  {
+    "id": "hotel",
+    "label": "hotel",
+    "count": 2,
+    "categories": [
+      "Places"
+    ]
+  },
+  {
+    "id": "indie",
+    "label": "indie",
+    "count": 1,
+    "categories": [
+      "Gaming"
+    ]
+  },
+  {
+    "id": "integration",
+    "label": "integration",
+    "count": 1,
+    "categories": [
+      "Services"
+    ]
+  },
+  {
+    "id": "job",
+    "label": "job",
+    "count": 1,
+    "categories": [
+      "Development"
+    ]
+  },
+  {
+    "id": "journal",
+    "label": "journal",
+    "count": 4,
+    "categories": [
+      "Social"
+    ]
+  },
+  {
+    "id": "js",
+    "label": "js",
+    "count": 1,
+    "categories": [
+      "Development"
+    ]
+  },
+  {
+    "id": "key",
+    "label": "key",
+    "count": 1,
+    "categories": [
+      "Services"
+    ]
+  },
+  {
+    "id": "knowledge",
+    "label": "knowledge",
+    "count": 2,
+    "categories": [
+      "Academic",
+      "Community"
+    ]
+  },
+  {
+    "id": "launcher",
+    "label": "launcher",
+    "count": 1,
+    "categories": [
+      "Gaming"
+    ]
+  },
+  {
+    "id": "lawyer",
+    "label": "lawyer",
+    "count": 1,
+    "categories": [
+      "Services"
+    ]
+  },
+  {
+    "id": "lift",
+    "label": "lift",
+    "count": 2,
+    "categories": [
+      "Transport"
+    ]
+  },
+  {
+    "id": "like",
+    "label": "like",
+    "count": 1,
+    "categories": [
+      "Social"
+    ]
+  },
+  {
+    "id": "link",
+    "label": "link",
+    "count": 2,
+    "categories": [
+      "Services",
+      "Social"
+    ]
+  },
+  {
+    "id": "linux",
+    "label": "linux",
+    "count": 1,
+    "categories": [
+      "System"
+    ]
+  },
+  {
+    "id": "literature",
+    "label": "literature",
+    "count": 2,
+    "categories": [
+      "Academic"
+    ]
+  },
+  {
+    "id": "mac",
+    "label": "mac",
+    "count": 1,
+    "categories": [
+      "System"
+    ]
+  },
+  {
+    "id": "magazine",
+    "label": "magazine",
+    "count": 1,
+    "categories": [
+      "Services"
+    ]
+  },
+  {
+    "id": "mail",
+    "label": "mail",
+    "count": 1,
+    "categories": [
+      "Services"
+    ]
+  },
+  {
+    "id": "manage",
+    "label": "manage",
+    "count": 1,
+    "categories": [
+      "Development"
+    ]
+  },
+  {
+    "id": "manufacturers",
+    "label": "manufacturers",
+    "count": 1,
+    "categories": [
+      "Sport"
+    ]
+  },
+  {
+    "id": "membership",
+    "label": "membership",
+    "count": 1,
+    "categories": [
+      "Services"
+    ]
+  },
+  {
+    "id": "message",
+    "label": "message",
+    "count": 4,
+    "categories": [
+      "Communication"
+    ]
+  },
+  {
+    "id": "microsoft",
+    "label": "microsoft",
+    "count": 1,
+    "categories": [
+      "Communication"
+    ]
+  },
+  {
+    "id": "mmorpg",
+    "label": "mmorpg",
+    "count": 1,
+    "categories": [
+      "Gaming"
+    ]
+  },
+  {
+    "id": "mobile",
+    "label": "mobile",
+    "count": 2,
+    "categories": [
+      "Social",
+      "System"
+    ]
+  },
+  {
+    "id": "model",
+    "label": "model",
+    "count": 1,
+    "categories": [
+      "Design"
+    ]
+  },
+  {
+    "id": "mods",
+    "label": "mods",
+    "count": 1,
+    "categories": [
+      "Gaming"
+    ]
+  },
+  {
+    "id": "module",
+    "label": "module",
+    "count": 1,
+    "categories": [
+      "Marketplace"
+    ]
+  },
+  {
+    "id": "money",
+    "label": "money",
+    "count": 1,
+    "categories": [
+      "Services"
+    ]
+  },
+  {
+    "id": "motorsport",
+    "label": "motorsport",
+    "count": 1,
+    "categories": [
+      "Sport"
+    ]
+  },
+  {
+    "id": "mozilla",
+    "label": "mozilla",
+    "count": 1,
+    "categories": [
+      "System"
+    ]
+  },
+  {
+    "id": "music",
+    "label": "music",
+    "count": 9,
+    "categories": [
+      "Music"
+    ]
+  },
+  {
+    "id": "musician",
+    "label": "musician",
+    "count": 3,
+    "categories": [
+      "Music"
+    ]
+  },
+  {
+    "id": "network",
+    "label": "network",
+    "count": 2,
+    "categories": [
+      "Gaming",
+      "System"
+    ]
+  },
+  {
+    "id": "networking",
+    "label": "networking",
+    "count": 1,
+    "categories": [
+      "Social"
+    ]
+  },
+  {
+    "id": "node-js",
+    "label": "node.js",
+    "count": 1,
+    "categories": [
+      "Development"
+    ]
+  },
+  {
+    "id": "open-source",
+    "label": "open source",
+    "count": 1,
+    "categories": [
+      "Services"
+    ]
+  },
+  {
+    "id": "operating",
+    "label": "operating",
+    "count": 1,
+    "categories": [
+      "System"
+    ]
+  },
+  {
+    "id": "operating-system",
+    "label": "operating system",
+    "count": 4,
+    "categories": [
+      "System"
+    ]
+  },
+  {
+    "id": "organize",
+    "label": "organize",
+    "count": 1,
+    "categories": [
+      "Services"
+    ]
+  },
+  {
+    "id": "os",
+    "label": "os",
+    "count": 4,
+    "categories": [
+      "System"
+    ]
+  },
+  {
+    "id": "overwatch",
+    "label": "overwatch",
+    "count": 1,
+    "categories": [
+      "Gaming"
+    ]
+  },
+  {
+    "id": "payment",
+    "label": "payment",
+    "count": 1,
+    "categories": [
+      "Services"
+    ]
+  },
+  {
+    "id": "photo",
+    "label": "photo",
+    "count": 9,
+    "categories": [
+      "Communication",
+      "Design",
+      "Marketplace",
+      "Photography",
+      "Social"
+    ]
+  },
+  {
+    "id": "pin",
+    "label": "pin",
+    "count": 1,
+    "categories": [
+      "Services"
+    ]
+  },
+  {
+    "id": "pinit",
+    "label": "pinit",
+    "count": 1,
+    "categories": [
+      "Services"
+    ]
+  },
+  {
+    "id": "playlist",
+    "label": "playlist",
+    "count": 6,
+    "categories": [
+      "Music"
+    ]
+  },
+  {
+    "id": "plugin",
+    "label": "plugin",
+    "count": 1,
+    "categories": [
+      "Marketplace"
+    ]
+  },
+  {
+    "id": "podcast",
+    "label": "podcast",
+    "count": 1,
+    "categories": [
+      "Services"
+    ]
+  },
+  {
+    "id": "portfolio",
+    "label": "portfolio",
+    "count": 3,
+    "categories": [
+      "Design"
+    ]
+  },
+  {
+    "id": "privacy",
+    "label": "privacy",
+    "count": 1,
+    "categories": [
+      "Communication"
+    ]
+  },
+  {
+    "id": "pro",
+    "label": "pro",
+    "count": 7,
+    "categories": [
+      "Photography",
+      "Professional",
+      "Services",
+      "Video"
+    ]
+  },
+  {
+    "id": "product",
+    "label": "product",
+    "count": 1,
+    "categories": [
+      "Services"
+    ]
+  },
+  {
+    "id": "profile",
+    "label": "profile",
+    "count": 1,
+    "categories": [
+      "Gaming"
+    ]
+  },
+  {
+    "id": "programming",
+    "label": "programming",
+    "count": 1,
+    "categories": [
+      "Development"
+    ]
+  },
+  {
+    "id": "publication",
+    "label": "publication",
+    "count": 1,
+    "categories": [
+      "Services"
+    ]
+  },
+  {
+    "id": "publish",
+    "label": "publish",
+    "count": 1,
+    "categories": [
+      "Services"
+    ]
+  },
+  {
+    "id": "publisher",
+    "label": "publisher",
+    "count": 3,
+    "categories": [
+      "Academic",
+      "Gaming"
+    ]
+  },
+  {
+    "id": "question",
+    "label": "question",
+    "count": 2,
+    "categories": [
+      "Community",
+      "Development"
+    ]
+  },
+  {
+    "id": "questions",
+    "label": "questions",
+    "count": 1,
+    "categories": [
+      "Social"
+    ]
+  },
+  {
+    "id": "radio",
+    "label": "radio",
+    "count": 3,
+    "categories": [
+      "Music"
+    ]
+  },
+  {
+    "id": "read",
+    "label": "read",
+    "count": 1,
+    "categories": [
+      "Services"
+    ]
+  },
+  {
+    "id": "recruit",
+    "label": "recruit",
+    "count": 1,
+    "categories": [
+      "Development"
+    ]
+  },
+  {
+    "id": "repository",
+    "label": "repository",
+    "count": 1,
+    "categories": [
+      "Development"
+    ]
+  },
+  {
+    "id": "research",
+    "label": "research",
+    "count": 2,
+    "categories": [
+      "Academic",
+      "Communication"
+    ]
+  },
+  {
+    "id": "restaurant",
+    "label": "restaurant",
+    "count": 3,
+    "categories": [
+      "Places"
+    ]
+  },
+  {
+    "id": "retail",
+    "label": "retail",
+    "count": 1,
+    "categories": [
+      "Marketplace"
+    ]
+  },
+  {
+    "id": "review",
+    "label": "review",
+    "count": 3,
+    "categories": [
+      "Places"
+    ]
+  },
+  {
+    "id": "reviews",
+    "label": "reviews",
+    "count": 1,
+    "categories": [
+      "Places"
+    ]
+  },
+  {
+    "id": "ride",
+    "label": "ride",
+    "count": 2,
+    "categories": [
+      "Transport"
+    ]
+  },
+  {
+    "id": "rider",
+    "label": "rider",
+    "count": 1,
+    "categories": [
+      "Sport"
+    ]
+  },
+  {
+    "id": "rpg",
+    "label": "rpg",
+    "count": 1,
+    "categories": [
+      "Gaming"
+    ]
+  },
+  {
+    "id": "rss",
+    "label": "rss",
+    "count": 1,
+    "categories": [
+      "Services"
+    ]
+  },
+  {
+    "id": "rts",
+    "label": "rts",
+    "count": 1,
+    "categories": [
+      "Gaming"
+    ]
+  },
+  {
+    "id": "running",
+    "label": "running",
+    "count": 1,
+    "categories": [
+      "Sport"
+    ]
+  },
+  {
+    "id": "scientific",
+    "label": "scientific",
+    "count": 1,
+    "categories": [
+      "Academic"
+    ]
+  },
+  {
+    "id": "screen",
+    "label": "screen",
+    "count": 1,
+    "categories": [
+      "Development"
+    ]
+  },
+  {
+    "id": "search",
+    "label": "search",
+    "count": 5,
+    "categories": [
+      "Academic",
+      "Services",
+      "Social"
+    ]
+  },
+  {
+    "id": "services",
+    "label": "services",
+    "count": 1,
+    "categories": [
+      "Professional"
+    ]
+  },
+  {
+    "id": "share",
+    "label": "share",
+    "count": 2,
+    "categories": [
+      "Communication",
+      "Services"
+    ]
+  },
+  {
+    "id": "shop",
+    "label": "shop",
+    "count": 4,
+    "categories": [
+      "Design",
+      "Marketplace"
+    ]
+  },
+  {
+    "id": "shopping",
+    "label": "shopping",
+    "count": 2,
+    "categories": [
+      "Marketplace"
+    ]
+  },
+  {
+    "id": "showcase",
+    "label": "showcase",
+    "count": 1,
+    "categories": [
+      "Design"
+    ]
+  },
+  {
+    "id": "social",
+    "label": "social",
+    "count": 71,
+    "categories": [
+      "Gaming",
+      "Places",
+      "Professional",
+      "Services",
+      "Social",
+      "Sport",
+      "Video"
+    ]
+  },
+  {
+    "id": "software",
+    "label": "software",
+    "count": 1,
+    "categories": [
+      "System"
+    ]
+  },
+  {
+    "id": "sport",
+    "label": "sport",
+    "count": 1,
+    "categories": [
+      "Sport"
+    ]
+  },
+  {
+    "id": "starcraft",
+    "label": "starcraft",
+    "count": 1,
+    "categories": [
+      "Gaming"
+    ]
+  },
+  {
+    "id": "store",
+    "label": "store",
+    "count": 1,
+    "categories": [
+      "Marketplace"
+    ]
+  },
+  {
+    "id": "stream",
+    "label": "stream",
+    "count": 2,
+    "categories": [
+      "Gaming",
+      "Streaming"
+    ]
+  },
+  {
+    "id": "streaming",
+    "label": "streaming",
+    "count": 6,
+    "categories": [
+      "Gaming",
+      "Streaming",
+      "Video"
+    ]
+  },
+  {
+    "id": "support",
+    "label": "support",
+    "count": 2,
+    "categories": [
+      "Gaming",
+      "Services"
+    ]
+  },
+  {
+    "id": "system",
+    "label": "system",
+    "count": 2,
+    "categories": [
+      "Services"
+    ]
+  },
+  {
+    "id": "talk",
+    "label": "talk",
+    "count": 1,
+    "categories": [
+      "Music"
+    ]
+  },
+  {
+    "id": "team",
+    "label": "team",
+    "count": 1,
+    "categories": [
+      "Sport"
+    ]
+  },
+  {
+    "id": "telephone",
+    "label": "telephone",
+    "count": 1,
+    "categories": [
+      "Communication"
+    ]
+  },
+  {
+    "id": "template",
+    "label": "template",
+    "count": 1,
+    "categories": [
+      "Marketplace"
+    ]
+  },
+  {
+    "id": "theme",
+    "label": "theme",
+    "count": 1,
+    "categories": [
+      "Marketplace"
+    ]
+  },
+  {
+    "id": "tickets",
+    "label": "tickets",
+    "count": 1,
+    "categories": [
+      "Music"
+    ]
+  },
+  {
+    "id": "tip",
+    "label": "tip",
+    "count": 1,
+    "categories": [
+      "Streaming"
+    ]
+  },
+  {
+    "id": "tool",
+    "label": "tool",
+    "count": 1,
+    "categories": [
+      "Streaming"
+    ]
+  },
+  {
+    "id": "transaction",
+    "label": "transaction",
+    "count": 1,
+    "categories": [
+      "Services"
+    ]
+  },
+  {
+    "id": "travel",
+    "label": "travel",
+    "count": 1,
+    "categories": [
+      "Places"
+    ]
+  },
+  {
+    "id": "tv",
+    "label": "tv",
+    "count": 1,
+    "categories": [
+      "Marketplace"
+    ]
+  },
+  {
+    "id": "universities",
+    "label": "universities",
+    "count": 2,
+    "categories": [
+      "Academic"
+    ]
+  },
+  {
+    "id": "video",
+    "label": "video",
+    "count": 9,
+    "categories": [
+      "Communication",
+      "Photography",
+      "Streaming",
+      "Video"
+    ]
+  },
+  {
+    "id": "voice",
+    "label": "voice",
+    "count": 5,
+    "categories": [
+      "Communication"
+    ]
+  },
+  {
+    "id": "warcraft",
+    "label": "warcraft",
+    "count": 3,
+    "categories": [
+      "Gaming"
+    ]
+  },
+  {
+    "id": "web",
+    "label": "web",
+    "count": 1,
+    "categories": [
+      "System"
+    ]
+  },
+  {
+    "id": "website",
+    "label": "website",
+    "count": 3,
+    "categories": [
+      "Services"
+    ]
+  },
+  {
+    "id": "windows",
+    "label": "windows",
+    "count": 1,
+    "categories": [
+      "System"
+    ]
+  },
+  {
+    "id": "work",
+    "label": "work",
+    "count": 1,
+    "categories": [
+      "Design"
+    ]
+  },
+  {
+    "id": "workflow",
+    "label": "workflow",
+    "count": 1,
+    "categories": [
+      "Services"
+    ]
+  },
+  {
+    "id": "yahoo",
+    "label": "yahoo",
+    "count": 2,
+    "categories": [
+      "Photography",
+      "Services"
+    ]
+  }
+]

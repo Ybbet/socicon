@@ -22,11 +22,14 @@ rm -rf "$PACKAGE_DIRECTORY"
 mkdir -p \
   "${PACKAGE_DIRECTORY}/fonts" \
   "${PACKAGE_DIRECTORY}/svg" \
-  "${PACKAGE_DIRECTORY}/demo-files"
+  "${PACKAGE_DIRECTORY}/demo-files" \
+  "${PACKAGE_DIRECTORY}/site/data"
 
 cp -R fonts/. "${PACKAGE_DIRECTORY}/fonts/"
 cp -R svg/. "${PACKAGE_DIRECTORY}/svg/"
 cp -R demo-files/. "${PACKAGE_DIRECTORY}/demo-files/"
+cp -R site/data/. \
+  "${PACKAGE_DIRECTORY}/site/data/"
 
 cp \
   demo.html \

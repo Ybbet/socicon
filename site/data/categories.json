@@ -1,0 +1,92 @@
+[
+  {
+    "id": "academic",
+    "label": "Academic",
+    "count": 5
+  },
+  {
+    "id": "communication",
+    "label": "Communication",
+    "count": 24
+  },
+  {
+    "id": "community",
+    "label": "Community",
+    "count": 4
+  },
+  {
+    "id": "design",
+    "label": "Design",
+    "count": 9
+  },
+  {
+    "id": "development",
+    "label": "Development",
+    "count": 7
+  },
+  {
+    "id": "gaming",
+    "label": "Gaming",
+    "count": 27
+  },
+  {
+    "id": "marketplace",
+    "label": "Marketplace",
+    "count": 16
+  },
+  {
+    "id": "music",
+    "label": "Music",
+    "count": 22
+  },
+  {
+    "id": "photography",
+    "label": "Photography",
+    "count": 8
+  },
+  {
+    "id": "places",
+    "label": "Places",
+    "count": 7
+  },
+  {
+    "id": "professional",
+    "label": "Professional",
+    "count": 14
+  },
+  {
+    "id": "services",
+    "label": "Services",
+    "count": 54
+  },
+  {
+    "id": "social",
+    "label": "Social",
+    "count": 76
+  },
+  {
+    "id": "sport",
+    "label": "Sport",
+    "count": 4
+  },
+  {
+    "id": "streaming",
+    "label": "Streaming",
+    "count": 4
+  },
+  {
+    "id": "system",
+    "label": "System",
+    "count": 14
+  },
+  {
+    "id": "transport",
+    "label": "Transport",
+    "count": 2
+  },
+  {
+    "id": "video",
+    "label": "Video",
+    "count": 8
+  }
+]
