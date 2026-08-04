@@ -4,5 +4,5 @@
      role="img"
      aria-labelledby="hackernews-title">
   <title id="hackernews-title">Hacker News</title>
-  <path fill="currentColor" d="M579.584 306.688v-370.688h-134.144v370.688l-330.752 653.312h155.648l241.664-492.544 250.88 492.544h145.408l-328.704-653.312z"/>
+  <path fill="currentColor" d="M579.584 653.312v370.688h-134.144v-370.688l-330.752-653.312h155.648l241.664 492.544 250.88-492.544h145.408l-328.704 653.312z"/>
 </svg>

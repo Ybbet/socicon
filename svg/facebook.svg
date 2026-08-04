@@ -4,5 +4,5 @@
      role="img"
      aria-labelledby="facebook-title">
   <title id="facebook-title">Facebook</title>
-  <path fill="currentColor" d="M592-64v468h156l24 182h-180v116c0 52 14 88 90 88h96v162c-16 4-74 8-140 8-140 0-234-84-234-240v-134h-158v-182h158v-468z"/>
+  <path fill="currentColor" d="M592 1024v-468h156l24-182h-180v-116c0-52 14-88 90-88h96v-162c-16-4-74-8-140-8-140 0-234 84-234 240v134h-158v182h158v468z"/>
 </svg>

@@ -91,16 +91,19 @@ function createStandaloneSvg({
   paths,
   attributes,
   width,
-  height,
-  ascent
+  height
 }) {
   const pathElements = paths.map((pathData, index) => {
-    const transformedPath = transformIcoMoonPath(pathData, ascent);
     const pathAttributes = getSvgPathAttributes(
       attributes[index] || {}
     );
 
-    return `  <path ${pathAttributes} d="${escapeXml(transformedPath)}"/>`;
+    /**
+     * Paths from selection.json already use the correct orientation
+     * for a standalone SVG viewBox. The vertical transformation used
+     * by chart-list.json must not be applied here.
+     */
+    return `  <path ${pathAttributes} d="${escapeXml(pathData)}"/>`;
   });
 
   return [
@@ -247,8 +250,7 @@ for (const sourceIcon of selection.icons) {
     paths,
     attributes,
     width,
-    height: fontHeight,
-    ascent
+    height: fontHeight
   });
 
   await writeFile(

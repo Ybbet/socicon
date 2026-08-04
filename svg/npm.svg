@@ -4,5 +4,5 @@
      role="img"
      aria-labelledby="npm-title">
   <title id="npm-title">npm</title>
-  <path fill="currentColor" d="M0 960h1024v-1024h-206v810h-300v-810h-518z"/>
+  <path fill="currentColor" d="M0 0h1024v1024h-206v-810h-300v810h-518z"/>
 </svg>

@@ -4,5 +4,5 @@
      role="img"
      aria-labelledby="natgeo-title">
   <title id="natgeo-title">Natgeo</title>
-  <path fill="currentColor" d="M154.624-64v1024h714.752v-1024h-714.752zM765.952 39.424v817.152h-507.904v-818.176h507.904z"/>
+  <path fill="currentColor" d="M154.624 1024v-1024h714.752v1024h-714.752zM765.952 920.576v-817.152h-507.904v818.176h507.904z"/>
 </svg>

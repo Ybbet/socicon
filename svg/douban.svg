@@ -4,5 +4,5 @@
      role="img"
      aria-labelledby="douban-title">
   <title id="douban-title">douban</title>
-  <path fill="currentColor" d="M0 944h1024v-112h-1024zM838 294h102v430h-854v-430h90l76-244h-252v-98h1024v98h-258zM258 612h514v-204h-514zM622 50h-226l-76 244h374z"/>
+  <path fill="currentColor" d="M0 16h1024v112h-1024zM838 666h102v-430h-854v430h90l76 244h-252v98h1024v-98h-258zM258 348h514v204h-514zM622 910h-226l-76-244h374z"/>
 </svg>

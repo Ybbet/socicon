@@ -4,5 +4,5 @@
      role="img"
      aria-labelledby="houzz-title">
   <title id="houzz-title">houzz</title>
-  <path fill="currentColor" d="M512-62l286 174v336l-286-172zM512 618v344l-296-174v-348l294 172 288-164v340zM508 274l-292 166v-338z"/>
+  <path fill="currentColor" d="M512 1022l286-174v-336l-286 172zM512 342v-344l-296 174v348l294-172 288 164v-340zM508 686l-292-166v338z"/>
 </svg>

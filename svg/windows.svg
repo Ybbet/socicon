@@ -4,5 +4,5 @@
      role="img"
      aria-labelledby="windows-title">
   <title id="windows-title">Windows</title>
-  <path fill="currentColor" d="M-2 78l422-56v396h-424zM-4 468h424v412l-422-62zM460 16l564-76v478h-564zM460 886v-418h564v494z"/>
+  <path fill="currentColor" d="M-2 882l422 56v-396h-424zM-4 492h424v-412l-422 62zM460 944l564 76v-478h-564zM460 74v418h564v-494z"/>
 </svg>

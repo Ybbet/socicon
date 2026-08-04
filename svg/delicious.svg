@@ -4,5 +4,5 @@
      role="img"
      aria-labelledby="delicious-title">
   <title id="delicious-title">Delicious</title>
-  <path fill="currentColor" d="M1024 448h-512v-512h-512v512h512v512h512z"/>
+  <path fill="currentColor" d="M1024 512h-512v512h-512v-512h512v-512h512z"/>
 </svg>

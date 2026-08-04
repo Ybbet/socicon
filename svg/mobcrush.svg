@@ -4,5 +4,5 @@
      role="img"
      aria-labelledby="mobcrush-title">
   <title id="mobcrush-title">mobcrush</title>
-  <path fill="currentColor" d="M773.12 844.288v-146.432h-124.928v-249.856h-125.952v249.856h-271.36v146.432h-250.88v-792.576h250.88v396.288h124.928v-249.856h272.384v249.856h124.928v-396.288h250.88v792.576z"/>
+  <path fill="currentColor" d="M773.12 115.712v146.432h-124.928v249.856h-125.952v-249.856h-271.36v-146.432h-250.88v792.576h250.88v-396.288h124.928v249.856h272.384v-249.856h124.928v396.288h250.88v-792.576z"/>
 </svg>

@@ -4,5 +4,5 @@
      role="img"
      aria-labelledby="forrst-title">
   <title id="forrst-title">Forrst</title>
-  <path fill="currentColor" d="M460-64h-376l428 1024 428-1024h-376v170l172 86-12 26-160-80v78l98 54-14 26-84-44v114h-104v-176l-86 60-16-24 102-72z"/>
+  <path fill="currentColor" d="M460 1024h-376l428-1024 428 1024h-376v-170l172-86-12-26-160 80v-78l98-54-14-26-84 44v-114h-104v176l-86-60-16 24 102 72z"/>
 </svg>

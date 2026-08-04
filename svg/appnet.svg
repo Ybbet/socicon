@@ -4,5 +4,5 @@
      role="img"
      aria-labelledby="appnet-title">
   <title id="appnet-title">appnet</title>
-  <path fill="currentColor" d="M512 834l-512-772h104l116 178h584l116-178h104zM288 330l224 338 224-338z"/>
+  <path fill="currentColor" d="M512 126l-512 772h104l116-178h584l116 178h104zM288 630l224-338 224 338z"/>
 </svg>

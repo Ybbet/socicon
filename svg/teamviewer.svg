@@ -4,5 +4,5 @@
      role="img"
      aria-labelledby="teamviewer-title">
   <title id="teamviewer-title">TeamViewer</title>
-  <path fill="currentColor" d="M512 960c-282 0-512-230-512-512s230-512 512-512c282 0 512 230 512 512s-230 512-512 512zM638 284l46 112h-342l44-112-332 164 332 164-42-106h336l-40 106 332-164z"/>
+  <path fill="currentColor" d="M512 0c-282 0-512 230-512 512s230 512 512 512c282 0 512-230 512-512s-230-512-512-512zM638 676l46-112h-342l44 112-332-164 332-164-42 106h336l-40-106 332 164z"/>
 </svg>

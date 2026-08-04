@@ -4,5 +4,5 @@
      role="img"
      aria-labelledby="storehouse-title">
   <title id="storehouse-title">Storehouse</title>
-  <path fill="currentColor" d="M512 618l-288-166v334l288-168 296 172-296 170-296-170v-342l296-170 288 166v-334l-288 168-296-172 296-170 296 170v342z"/>
+  <path fill="currentColor" d="M512 342l-288 166v-334l288 168 296-172-296-170-296 170v342l296 170 288-166v334l-288-168-296 172 296 170 296-170v-342z"/>
 </svg>

@@ -4,5 +4,5 @@
      role="img"
      aria-labelledby="flipboard-title">
   <title id="flipboard-title">Flipboard</title>
-  <path fill="currentColor" d="M0 960v-1024h1024v1024h-1024zM819.2 550.4h-204.8v-204.8h-204.8v-204.8h-204.8v614.4h614.4v-204.8z"/>
+  <path fill="currentColor" d="M0 0v1024h1024v-1024h-1024zM819.2 409.6h-204.8v204.8h-204.8v204.8h-204.8v-614.4h614.4v204.8z"/>
 </svg>
