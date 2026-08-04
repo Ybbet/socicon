@@ -14,10 +14,7 @@
     "url": "https://8tracks.com/",
     "category": "Social",
     "tags": [
-      "social",
-      "blogging",
-      "twitter",
-      "tweet"
+      "social"
     ]
   },
   "airbnb": {
@@ -50,7 +47,7 @@
     "category": "Gaming",
     "tags": [
       "blizzard",
-      "games",
+      "gaming",
       "warcraft"
     ]
   },
@@ -58,12 +55,11 @@
     "name": "Amazon",
     "color": "#ff9900",
     "url": "https://www.amazon.com",
-    "category": "Social",
+    "category": "Marketplace",
     "tags": [
-      "social",
-      "blogging",
-      "twitter",
-      "tweet"
+      "ecommerce",
+      "retail",
+      "shopping"
     ]
   },
   "amplement": {
@@ -72,10 +68,7 @@
     "url": "https://www.amplement.com",
     "category": "Social",
     "tags": [
-      "social",
-      "blogging",
-      "twitter",
-      "tweet"
+      "social"
     ]
   },
   "android": {
@@ -84,10 +77,8 @@
     "url": "https://www.android.com/",
     "category": "System",
     "tags": [
-      "social",
-      "blogging",
-      "twitter",
-      "tweet"
+      "mobile",
+      "operating system"
     ]
   },
   "angellist": {
@@ -96,10 +87,7 @@
     "url": "https://www.angellist.com",
     "category": "Social",
     "tags": [
-      "social",
-      "blogging",
-      "twitter",
-      "tweet"
+      "social"
     ]
   },
   "angieslist": {
@@ -117,8 +105,8 @@
     "url": "https://www.apple.com/",
     "category": "System",
     "tags": [
-      "os",
-      "operating system"
+      "operating system",
+      "os"
     ]
   },
   "appnet": {
@@ -127,10 +115,7 @@
     "url": "https://www.appnet.com",
     "category": "Social",
     "tags": [
-      "social",
-      "blogging",
-      "twitter",
-      "tweet"
+      "social"
     ]
   },
   "appstore": {
@@ -158,11 +143,11 @@
     "name": "AUGMENT",
     "color": "#E71204",
     "url": "http://www.augment.com/",
-    "category": "Tools",
+    "category": "Services",
     "tags": [
-      "product",
-      "3D",
-      "augmented reality"
+      "3d",
+      "augmented reality",
+      "product"
     ]
   },
   "avvo": {
@@ -171,8 +156,8 @@
     "url": "https://www.avvo.com/",
     "category": "Services",
     "tags": [
-      "lawyer",
-      "directory"
+      "directory",
+      "lawyer"
     ]
   },
   "baidu": {
@@ -181,10 +166,7 @@
     "url": "https://www.baidu.com",
     "category": "Social",
     "tags": [
-      "social",
-      "blogging",
-      "twitter",
-      "tweet"
+      "social"
     ]
   },
   "bale": {
@@ -200,10 +182,7 @@
     "url": "https://bandcamp.com",
     "category": "Social",
     "tags": [
-      "social",
-      "blogging",
-      "twitter",
-      "tweet"
+      "social"
     ]
   },
   "battlenet": {
@@ -212,14 +191,10 @@
     "url": "https://eu.shop.battle.net/fr-fr",
     "category": "Gaming",
     "tags": [
-      "network",
       "blizzard",
-      "games",
-      "warcraft",
-      "diablo",
-      "hearthstone",
-      "overwatch",
-      "starcraft"
+      "gaming",
+      "launcher",
+      "network"
     ]
   },
   "beatport": {
@@ -245,10 +220,7 @@
     "url": "http://www.bebo.com/",
     "category": "Social",
     "tags": [
-      "social",
-      "blogging",
-      "twitter",
-      "tweet"
+      "social"
     ]
   },
   "behance": {
@@ -257,10 +229,10 @@
     "url": "https://www.behance.net",
     "category": "Design",
     "tags": [
-      "showcase",
-      "portfolio",
+      "adobe",
       "creative",
-      "adobe"
+      "portfolio",
+      "showcase"
     ]
   },
   "bereal": {
@@ -269,9 +241,9 @@
     "url": "https://bereal.com/",
     "category": "Social",
     "tags": [
-      "social",
-      "network",
-      "photo"
+      "mobile",
+      "photo",
+      "social"
     ]
   },
   "besport": {
@@ -292,12 +264,12 @@
     "name": "Bitbucket",
     "color": "#243759",
     "url": "https://bitbucket.org/",
-    "category": "Dev",
+    "category": "Development",
     "tags": [
-      "coding",
       "code",
-      "manage",
-      "collaborate"
+      "coding",
+      "collaborate",
+      "manage"
     ]
   },
   "blackberry": {
@@ -313,13 +285,9 @@
     "url": "https://www.blizzard.com/",
     "category": "Gaming",
     "tags": [
-      "games",
-      "warcraft",
-      "diablo",
-      "hearthstone",
-      "overwatch",
-      "starcraft",
-      "battlenet"
+      "developer",
+      "gaming",
+      "publisher"
     ]
   },
   "blogger": {
@@ -336,7 +304,7 @@
     "name": "BLOGLOVIN'",
     "color": "#000000",
     "url": "https://www.bloglovin.com",
-    "category": "Feed - Bookmark",
+    "category": "Services",
     "tags": [
       "blog"
     ]
@@ -347,14 +315,14 @@
     "url": "https://bsky.app/",
     "category": "Social",
     "tags": [
-      "Social"
+      "social"
     ]
   },
   "bonanza": {
     "name": "Bonanza",
     "color": "#FF4950",
     "url": "https://bonanza.paris",
-    "category": "Pro",
+    "category": "Professional",
     "tags": []
   },
   "bookbub": {
@@ -377,10 +345,7 @@
     "url": "https://buffer.com",
     "category": "Social",
     "tags": [
-      "social",
-      "blogging",
-      "twitter",
-      "tweet"
+      "social"
     ]
   },
   "calendly": {
@@ -411,14 +376,14 @@
     "name": "Codepen",
     "color": "#000000",
     "url": "https://codepen.io/",
-    "category": "Pro",
+    "category": "Professional",
     "tags": []
   },
   "codered": {
     "name": "CodeRED",
     "color": "#FF033B",
     "url": "https://www.onsolve.com/solutions/products/codered/",
-    "category": "Pro",
+    "category": "Professional",
     "tags": []
   },
   "coderwall": {
@@ -427,17 +392,14 @@
     "url": "https://coderwall.com",
     "category": "Social",
     "tags": [
-      "social",
-      "blogging",
-      "twitter",
-      "tweet"
+      "social"
     ]
   },
   "collectorz": {
     "name": "Collectorz",
     "color": "#007FA5",
     "url": "https://www.collectorz.com/",
-    "category": "Feed - Bookmark",
+    "category": "Services",
     "tags": []
   },
   "craigslist": {
@@ -460,10 +422,10 @@
     "url": "http://curse.com",
     "category": "Gaming",
     "tags": [
-      "games",
-      "mods",
       "app",
-      "community"
+      "community",
+      "gaming",
+      "mods"
     ]
   },
   "dailymotion": {
@@ -496,9 +458,9 @@
     "name": "Delicious",
     "color": "#020202",
     "url": "https://del.icio.us",
-    "category": "Feed - Bookmark",
+    "category": "Services",
     "tags": [
-      "sites"
+      "website"
     ]
   },
   "deviantart": {
@@ -518,24 +480,19 @@
     "url": "https://diablo4.blizzard.com/",
     "category": "Gaming",
     "tags": [
-      "hack",
-      "slash",
+      "action",
       "blizzard",
-      "games",
-      "warcraft",
-      "diablo",
-      "hearthstone",
-      "overwatch",
-      "starcraft"
+      "gaming",
+      "rpg"
     ]
   },
   "digg": {
     "name": "Digg",
     "color": "#1d1d1b",
     "url": "https://digg.com",
-    "category": "Feed - Bookmark",
+    "category": "Services",
     "tags": [
-      "sites"
+      "website"
     ]
   },
   "discord": {
@@ -544,8 +501,8 @@
     "url": "https://discord.com",
     "category": "Communication",
     "tags": [
-      "voice",
-      "gaming"
+      "gaming",
+      "voice"
     ]
   },
   "disqus": {
@@ -554,10 +511,7 @@
     "url": "https://disqus.com",
     "category": "Social",
     "tags": [
-      "social",
-      "blogging",
-      "twitter",
-      "tweet"
+      "social"
     ]
   },
   "dlive": {
@@ -583,10 +537,7 @@
     "url": "https://www.douban.com",
     "category": "Social",
     "tags": [
-      "social",
-      "blogging",
-      "twitter",
-      "tweet"
+      "social"
     ]
   },
   "draugiem": {
@@ -604,9 +555,9 @@
     "url": "https://dribbble.com",
     "category": "Design",
     "tags": [
+      "design",
       "portfolio",
-      "work",
-      "design"
+      "work"
     ]
   },
   "drupal": {
@@ -615,22 +566,17 @@
     "url": "https://www.drupal.org",
     "category": "Social",
     "tags": [
-      "social",
-      "blogging",
-      "twitter",
-      "tweet"
+      "social"
     ]
   },
   "ebay": {
     "name": "ebay",
     "color": "#333333",
     "url": "https://www.ebay.com",
-    "category": "Social",
+    "category": "Marketplace",
     "tags": [
-      "social",
-      "blogging",
-      "twitter",
-      "tweet"
+      "ecommerce",
+      "shopping"
     ]
   },
   "eitaa": {
@@ -653,10 +599,7 @@
     "url": "https://www.ello.co/",
     "category": "Social",
     "tags": [
-      "social",
-      "blogging",
-      "twitter",
-      "tweet"
+      "social"
     ]
   },
   "endomondo": {
@@ -674,13 +617,13 @@
     "url": "https://www.envato.com",
     "category": "Marketplace",
     "tags": [
-      "template",
+      "audio",
       "code",
       "module",
-      "plugin",
-      "theme",
       "photo",
-      "audio"
+      "plugin",
+      "template",
+      "theme"
     ]
   },
   "etsy": {
@@ -698,29 +641,28 @@
     "url": "https://www.facebook.com/",
     "category": "Social",
     "tags": [
-      "social",
       "blog",
       "journal",
-      "facebook",
-      "like"
+      "like",
+      "social"
     ]
   },
   "feedburner": {
     "name": "FeedBurner",
     "color": "#ffcc00",
     "url": "https://feedburner.google.com",
-    "category": "Feed - Bookmark",
+    "category": "Services",
     "tags": [
       "feed",
-      "rss",
-      "google"
+      "google",
+      "rss"
     ]
   },
   "filmfreeway": {
     "name": "FilmFreeway",
     "color": "#00c498",
     "url": "https://filmfreeway.com/",
-    "category": "Feed - Bookmark",
+    "category": "Services",
     "tags": []
   },
   "filmweb": {
@@ -729,8 +671,8 @@
     "url": "https://www.filmweb.pl",
     "category": "Video",
     "tags": [
-      "social",
-      "film"
+      "film",
+      "social"
     ]
   },
   "firefox": {
@@ -747,7 +689,7 @@
     "name": "Fiverr",
     "color": "#0DB62A",
     "url": "https://www.fiverr.com",
-    "category": "Pro",
+    "category": "Professional",
     "tags": []
   },
   "flattr": {
@@ -756,10 +698,7 @@
     "url": "https://flattr.com",
     "category": "Social",
     "tags": [
-      "social",
-      "blogging",
-      "twitter",
-      "tweet"
+      "social"
     ]
   },
   "flickr": {
@@ -768,9 +707,9 @@
     "url": "https://www.flickr.com",
     "category": "Photography",
     "tags": [
+      "photo",
       "pro",
       "video",
-      "photo",
       "yahoo"
     ]
   },
@@ -787,14 +726,14 @@
     "url": "",
     "category": "Sport",
     "tags": [
-      "social",
-      "motorsport",
       "championships",
-      "teams",
-      "drivers",
-      "riders",
       "circuits",
-      "manufacturers"
+      "drivers",
+      "manufacturers",
+      "motorsport",
+      "rider",
+      "social",
+      "team"
     ]
   },
   "forrst": {
@@ -803,10 +742,7 @@
     "url": "",
     "category": "Social",
     "tags": [
-      "social",
-      "blogging",
-      "twitter",
-      "tweet"
+      "social"
     ]
   },
   "foursquare": {
@@ -815,20 +751,20 @@
     "url": "",
     "category": "Places",
     "tags": [
-      "social",
-      "go out",
-      "restaurant",
       "bar",
+      "go out",
+      "guide",
       "hotel",
+      "restaurant",
       "reviews",
-      "guide"
+      "social"
     ]
   },
   "freelancer": {
     "name": "Freelancer",
     "color": "#0088CA",
     "url": "https://www.freelancer.com",
-    "category": "Pro",
+    "category": "Professional",
     "tags": []
   },
   "friendfeed": {
@@ -837,10 +773,7 @@
     "url": "",
     "category": "Social",
     "tags": [
-      "social",
-      "blogging",
-      "twitter",
-      "tweet"
+      "social"
     ]
   },
   "fundable": {
@@ -856,8 +789,7 @@
     "url": "https://fyu.se/",
     "category": "Photography",
     "tags": [
-      "photo",
-      "360"
+      "photo"
     ]
   },
   "gamefor": {
@@ -873,7 +805,7 @@
     "url": "https://gamejolt.com",
     "category": "Gaming",
     "tags": [
-      "games",
+      "gaming",
       "indie",
       "support"
     ]
@@ -891,26 +823,26 @@
     "name": "ghost",
     "color": "#33393C",
     "url": "https://ghost.org",
-    "category": "Pro",
+    "category": "Professional",
     "tags": []
   },
   "github": {
     "name": "GitHub",
     "color": "#221e1b",
     "url": "",
-    "category": "Dev",
+    "category": "Development",
     "tags": [
-      "social",
-      "blogging",
-      "twitter",
-      "tweet"
+      "code",
+      "collaboration",
+      "git",
+      "repository"
     ]
   },
   "gitlab": {
     "name": "GitLab",
     "color": "#E65228",
     "url": "https://www.gitlab.com/",
-    "category": "Dev",
+    "category": "Development",
     "tags": []
   },
   "gitter": {
@@ -933,11 +865,11 @@
     "url": "",
     "category": "Academic",
     "tags": [
-      "search",
-      "literature",
-      "books",
       "abstracts",
-      "publishers",
+      "books",
+      "literature",
+      "publisher",
+      "search",
       "universities"
     ]
   },
@@ -975,8 +907,8 @@
     "url": "https://hangouts.google.com/",
     "category": "Communication",
     "tags": [
-      "google",
-      "communication"
+      "communication",
+      "google"
     ]
   },
   "googlemaps": {
@@ -1009,11 +941,10 @@
     "url": "",
     "category": "Social",
     "tags": [
-      "social",
       "blog",
-      "journal",
       "google",
-      "+1"
+      "journal",
+      "social"
     ]
   },
   "googlescholar": {
@@ -1022,12 +953,12 @@
     "url": "",
     "category": "Academic",
     "tags": [
-      "google",
-      "search",
-      "literature",
-      "books",
       "abstracts",
-      "publishers",
+      "books",
+      "google",
+      "literature",
+      "publisher",
+      "search",
       "universities"
     ]
   },
@@ -1052,10 +983,10 @@
     "name": "Guru",
     "color": "#4C81C0",
     "url": "https://www.guru.com/",
-    "category": "Pro",
+    "category": "Professional",
     "tags": [
-      "services",
-      "pro"
+      "pro",
+      "services"
     ]
   },
   "gust": {
@@ -1069,7 +1000,7 @@
     "name": "Hacker News",
     "color": "#FF6601",
     "url": "https://news.ycombinator.com",
-    "category": "Feed - Bookmark",
+    "category": "Services",
     "tags": []
   },
   "hackerone": {
@@ -1083,12 +1014,12 @@
     "name": "HackerRank",
     "color": "#2ec866",
     "url": "",
-    "category": "Dev",
+    "category": "Development",
     "tags": [
-      "recruit",
-      "job",
       "coding",
-      "compete"
+      "compete",
+      "job",
+      "recruit"
     ]
   },
   "hearthstone": {
@@ -1097,14 +1028,9 @@
     "url": "",
     "category": "Gaming",
     "tags": [
-      "card",
       "blizzard",
-      "games",
-      "warcraft",
-      "diablo",
-      "hearthstone",
-      "overwatch",
-      "starcraft"
+      "card",
+      "gaming"
     ]
   },
   "hellocoton": {
@@ -1124,12 +1050,12 @@
     "category": "Gaming",
     "tags": [
       "blizzard",
-      "games",
-      "warcraft",
       "diablo",
+      "gaming",
       "hearthstone",
       "overwatch",
-      "starcraft"
+      "starcraft",
+      "warcraft"
     ]
   },
   "hitbox": {
@@ -1170,7 +1096,7 @@
     "category": "Gaming",
     "tags": [
       "blizzard",
-      "games",
+      "gaming",
       "warcraft"
     ]
   },
@@ -1180,10 +1106,7 @@
     "url": "",
     "category": "Social",
     "tags": [
-      "social",
-      "blogging",
-      "twitter",
-      "tweet"
+      "social"
     ]
   },
   "icq": {
@@ -1192,10 +1115,7 @@
     "url": "",
     "category": "Social",
     "tags": [
-      "social",
-      "blogging",
-      "twitter",
-      "tweet"
+      "social"
     ]
   },
   "identica": {
@@ -1204,10 +1124,7 @@
     "url": "",
     "category": "Social",
     "tags": [
-      "social",
-      "blogging",
-      "twitter",
-      "tweet"
+      "social"
     ]
   },
   "imdb": {
@@ -1216,10 +1133,7 @@
     "url": "",
     "category": "Social",
     "tags": [
-      "social",
-      "blogging",
-      "twitter",
-      "tweet"
+      "social"
     ]
   },
   "indiedb": {
@@ -1235,9 +1149,9 @@
     "url": "",
     "category": "Photography",
     "tags": [
+      "facebook",
       "photo",
-      "video",
-      "facebook"
+      "video"
     ]
   },
   "instructables": {
@@ -1251,8 +1165,11 @@
     "name": "Internet",
     "color": "#000000",
     "url": "",
-    "category": "Tools",
-    "tags": []
+    "category": "System",
+    "tags": [
+      "network",
+      "web"
+    ]
   },
   "invision": {
     "name": "InVision",
@@ -1267,10 +1184,10 @@
     "url": "",
     "category": "Services",
     "tags": [
-      "publish",
       "magazine",
-      "read",
-      "publications"
+      "publication",
+      "publish",
+      "read"
     ]
   },
   "istock": {
@@ -1279,10 +1196,7 @@
     "url": "",
     "category": "Social",
     "tags": [
-      "social",
-      "blogging",
-      "twitter",
-      "tweet"
+      "social"
     ]
   },
   "itchio": {
@@ -1315,8 +1229,8 @@
     "url": "",
     "category": "Services",
     "tags": [
-      "key",
-      "encrypt"
+      "encrypt",
+      "key"
     ]
   },
   "kobo": {
@@ -1332,10 +1246,7 @@
     "url": "",
     "category": "Social",
     "tags": [
-      "social",
-      "blogging",
-      "twitter",
-      "tweet"
+      "social"
     ]
   },
   "lastfm": {
@@ -1352,7 +1263,7 @@
     "name": "Letterboxd",
     "color": "#2c3440",
     "url": "https://letterboxd.com/",
-    "category": "Feed - Bookmark",
+    "category": "Services",
     "tags": []
   },
   "line": {
@@ -1361,23 +1272,23 @@
     "url": "",
     "category": "Communication",
     "tags": [
-      "free",
-      "messages",
       "audio",
-      "video",
+      "free",
+      "message",
+      "photo",
       "share",
-      "photos"
+      "video"
     ]
   },
   "linkedin": {
     "name": "Linkedin",
     "color": "#3371b7",
     "url": "",
-    "category": "Pro",
+    "category": "Professional",
     "tags": [
-      "social",
+      "entreprise",
       "pro",
-      "entreprise"
+      "social"
     ]
   },
   "linktree": {
@@ -1386,9 +1297,9 @@
     "url": "https://linktr.ee",
     "category": "Services",
     "tags": [
-      "social",
       "bookmark",
-      "link"
+      "link",
+      "social"
     ]
   },
   "livejournal": {
@@ -1428,9 +1339,9 @@
     "url": "",
     "category": "Transport",
     "tags": [
-      "ride",
+      "geo",
       "lift",
-      "geo"
+      "ride"
     ]
   },
   "macos": {
@@ -1439,9 +1350,9 @@
     "url": "",
     "category": "System",
     "tags": [
-      "operating",
       "apple",
       "mac",
+      "operating",
       "os"
     ]
   },
@@ -1451,10 +1362,7 @@
     "url": "",
     "category": "Social",
     "tags": [
-      "social",
-      "blogging",
-      "twitter",
-      "tweet"
+      "social"
     ]
   },
   "mailru": {
@@ -1477,10 +1385,7 @@
     "url": "",
     "category": "Social",
     "tags": [
-      "social",
-      "blogging",
-      "twitter",
-      "tweet"
+      "social"
     ]
   },
   "meetup": {
@@ -1489,10 +1394,7 @@
     "url": "",
     "category": "Social",
     "tags": [
-      "social",
-      "blogging",
-      "twitter",
-      "tweet"
+      "social"
     ]
   },
   "messenger": {
@@ -1501,8 +1403,8 @@
     "url": "https://messenger.com",
     "category": "Communication",
     "tags": [
-      "message",
       "call",
+      "message",
       "video"
     ]
   },
@@ -1519,15 +1421,15 @@
     "url": "https://www.microsoft.com",
     "category": "System",
     "tags": [
-      "windows",
-      "software"
+      "software",
+      "windows"
     ]
   },
   "mix": {
     "name": "MIX",
     "color": "#fd8235",
     "url": "https://mix.com/",
-    "category": "Feed - Bookmark",
+    "category": "Services",
     "tags": []
   },
   "mixcloud": {
@@ -1536,9 +1438,9 @@
     "url": "",
     "category": "Music",
     "tags": [
-      "radio",
+      "music",
       "playlist",
-      "music"
+      "radio"
     ]
   },
   "mixer": {
@@ -1547,7 +1449,7 @@
     "url": "https://mixer.com",
     "category": "Streaming",
     "tags": [
-      "games",
+      "gaming",
       "video"
     ]
   },
@@ -1574,10 +1476,7 @@
     "url": "",
     "category": "Social",
     "tags": [
-      "social",
-      "blogging",
-      "twitter",
-      "tweet"
+      "social"
     ]
   },
   "mumble": {
@@ -1586,15 +1485,15 @@
     "url": "",
     "category": "Communication",
     "tags": [
-      "voice",
-      "gaming"
+      "gaming",
+      "voice"
     ]
   },
   "myanimelist": {
     "name": "MyAnimeList",
     "color": "#2E51A2",
     "url": "https://myanimelist.net/",
-    "category": "Feed - Bookmark",
+    "category": "Services",
     "tags": []
   },
   "myspace": {
@@ -1603,9 +1502,9 @@
     "url": "",
     "category": "Music",
     "tags": [
+      "blog",
       "music",
-      "musician",
-      "blog"
+      "musician"
     ]
   },
   "napster": {
@@ -1635,10 +1534,7 @@
     "url": "",
     "category": "Social",
     "tags": [
-      "social",
-      "blogging",
-      "twitter",
-      "tweet"
+      "social"
     ]
   },
   "nextdoor": {
@@ -1661,17 +1557,15 @@
     "url": "",
     "category": "Gaming",
     "tags": [
-      "games",
-      "nintendo"
+      "gaming"
     ]
   },
   "npm": {
     "name": "npm",
     "color": "#C12127",
     "url": "",
-    "category": "Dev",
+    "category": "Development",
     "tags": [
-      "npm",
       "js",
       "node.js"
     ]
@@ -1682,10 +1576,7 @@
     "url": "",
     "category": "Social",
     "tags": [
-      "social",
-      "blogging",
-      "twitter",
-      "tweet"
+      "social"
     ]
   },
   "openaigym": {
@@ -1701,10 +1592,7 @@
     "url": "",
     "category": "Social",
     "tags": [
-      "social",
-      "blogging",
-      "twitter",
-      "tweet"
+      "social"
     ]
   },
   "opera": {
@@ -1713,8 +1601,7 @@
     "url": "",
     "category": "System",
     "tags": [
-      "browser",
-      "opera"
+      "browser"
     ]
   },
   "origin": {
@@ -1730,10 +1617,7 @@
     "url": "",
     "category": "Social",
     "tags": [
-      "social",
-      "blogging",
-      "twitter",
-      "tweet"
+      "social"
     ]
   },
   "overwatch": {
@@ -1742,14 +1626,9 @@
     "url": "",
     "category": "Gaming",
     "tags": [
-      "fps",
       "blizzard",
-      "games",
-      "warcraft",
-      "diablo",
-      "hearthstone",
-      "overwatch",
-      "starcraft"
+      "fps",
+      "gaming"
     ]
   },
   "pandora": {
@@ -1765,24 +1644,22 @@
     "name": "Patreon",
     "color": "#F96854",
     "url": "",
-    "category": "Social",
+    "category": "Services",
     "tags": [
-      "social",
-      "blogging",
-      "twitter",
-      "tweet"
+      "creator",
+      "membership",
+      "support"
     ]
   },
   "paypal": {
     "name": "Paypal",
     "color": "#009cde",
     "url": "",
-    "category": "Social",
+    "category": "Services",
     "tags": [
-      "social",
-      "blogging",
-      "twitter",
-      "tweet"
+      "money",
+      "payment",
+      "transaction"
     ]
   },
   "periscope": {
@@ -1791,10 +1668,7 @@
     "url": "",
     "category": "Social",
     "tags": [
-      "social",
-      "blogging",
-      "twitter",
-      "tweet"
+      "social"
     ]
   },
   "persona": {
@@ -1803,22 +1677,19 @@
     "url": "",
     "category": "Social",
     "tags": [
-      "social",
-      "blogging",
-      "twitter",
-      "tweet"
+      "social"
     ]
   },
   "pinterest": {
     "name": "Pinterest",
     "color": "#c92619",
     "url": "",
-    "category": "Feed - Bookmark",
+    "category": "Services",
     "tags": [
-      "social",
-      "pin",
       "board",
-      "pinit"
+      "pin",
+      "pinit",
+      "social"
     ]
   },
   "pixiv": {
@@ -1835,9 +1706,9 @@
     "category": "Marketplace",
     "tags": [
       "app",
-      "store",
       "film",
-      "TV"
+      "store",
+      "tv"
     ]
   },
   "player": {
@@ -1846,10 +1717,10 @@
     "url": "",
     "category": "Gaming",
     "tags": [
-      "games",
-      "profile",
       "community",
-      "connect"
+      "connect",
+      "gaming",
+      "profile"
     ]
   },
   "playstation": {
@@ -1858,10 +1729,7 @@
     "url": "",
     "category": "Gaming",
     "tags": [
-      "social",
-      "blogging",
-      "twitter",
-      "tweet"
+      "social"
     ]
   },
   "pocket": {
@@ -1870,10 +1738,7 @@
     "url": "",
     "category": "Social",
     "tags": [
-      "social",
-      "blogging",
-      "twitter",
-      "tweet"
+      "social"
     ]
   },
   "portfolio": {
@@ -1896,25 +1761,18 @@
     "url": "",
     "category": "Social",
     "tags": [
-      "social",
-      "blogging",
-      "twitter",
-      "tweet"
+      "social"
     ]
   },
   "quora": {
     "name": "Quora",
     "color": "#cb202d",
     "url": "",
-    "category": "Places",
+    "category": "Community",
     "tags": [
-      "social",
-      "go out",
-      "restaurant",
-      "bar",
-      "hotel",
-      "reviews",
-      "guide"
+      "answer",
+      "knowledge",
+      "question"
     ]
   },
   "raidcall": {
@@ -1923,8 +1781,8 @@
     "url": "",
     "category": "Communication",
     "tags": [
-      "voice",
-      "gaming"
+      "gaming",
+      "voice"
     ]
   },
   "ravelry": {
@@ -1933,10 +1791,7 @@
     "url": "",
     "category": "Social",
     "tags": [
-      "social",
-      "blogging",
-      "twitter",
-      "tweet"
+      "social"
     ]
   },
   "realtor": {
@@ -1959,10 +1814,10 @@
     "name": "reddit",
     "color": "#e74a1e",
     "url": "",
-    "category": "Feed - Bookmark",
+    "category": "Services",
     "tags": [
-      "share",
-      "bookmark"
+      "bookmark",
+      "share"
     ]
   },
   "redfin": {
@@ -1976,7 +1831,7 @@
     "name": "remote",
     "color": "#1dd3a5",
     "url": "https://remote.com/",
-    "category": "Pro",
+    "category": "Professional",
     "tags": []
   },
   "renren": {
@@ -1985,10 +1840,7 @@
     "url": "",
     "category": "Social",
     "tags": [
-      "social",
-      "blogging",
-      "twitter",
-      "tweet"
+      "social"
     ]
   },
   "researchgate": {
@@ -1997,9 +1849,9 @@
     "url": "",
     "category": "Academic",
     "tags": [
-      "scientific",
       "knowledge",
-      "research"
+      "research",
+      "scientific"
     ]
   },
   "residentadvisor": {
@@ -2008,10 +1860,7 @@
     "url": "",
     "category": "Social",
     "tags": [
-      "social",
-      "blogging",
-      "twitter",
-      "tweet"
+      "social"
     ]
   },
   "reverbnation": {
@@ -2021,26 +1870,25 @@
     "category": "Music",
     "tags": [
       "artist",
+      "blog",
       "music",
-      "musician",
-      "blog"
+      "musician"
     ]
   },
   "rss": {
     "name": "RSS",
     "color": "#f26109",
     "url": "",
-    "category": "Feed - Bookmark",
+    "category": "Services",
     "tags": [
-      "feed",
-      "rss"
+      "feed"
     ]
   },
   "seedrs": {
     "name": "Seedrs",
     "color": "#7FBB31",
     "url": "https://www.seedrs.com/",
-    "category": "Pro",
+    "category": "Professional",
     "tags": []
   },
   "seenthis": {
@@ -2063,10 +1911,7 @@
     "url": "",
     "category": "Social",
     "tags": [
-      "social",
-      "blogging",
-      "twitter",
-      "tweet"
+      "social"
     ]
   },
   "shopify": {
@@ -2080,16 +1925,22 @@
     "name": "Signal",
     "color": "#3b45fd",
     "url": "https://signal.org/",
-    "category": "Other",
-    "tags": []
+    "category": "Communication",
+    "tags": [
+      "encrypted",
+      "message",
+      "privacy"
+    ]
   },
   "sketchfab": {
     "name": "Sketchfab",
     "color": "#00A5D6",
     "url": "https://sketchfab.com",
-    "category": "Tools",
+    "category": "Design",
     "tags": [
-      "3D"
+      "3d",
+      "model",
+      "portfolio"
     ]
   },
   "skype": {
@@ -2098,7 +1949,6 @@
     "url": "",
     "category": "Communication",
     "tags": [
-      "skype",
       "microsoft"
     ]
   },
@@ -2115,10 +1965,7 @@
     "url": "",
     "category": "Social",
     "tags": [
-      "social",
-      "blogging",
-      "twitter",
-      "tweet"
+      "social"
     ]
   },
   "smashcast": {
@@ -2144,10 +1991,7 @@
     "url": "",
     "category": "Social",
     "tags": [
-      "social",
-      "blogging",
-      "twitter",
-      "tweet"
+      "social"
     ]
   },
   "snapchat": {
@@ -2156,10 +2000,7 @@
     "url": "",
     "category": "Social",
     "tags": [
-      "social",
-      "blogging",
-      "twitter",
-      "tweet"
+      "social"
     ]
   },
   "society6": {
@@ -2195,9 +2036,9 @@
     "url": "",
     "category": "Music",
     "tags": [
+      "blog",
       "music",
-      "musician",
-      "blog"
+      "musician"
     ]
   },
   "spip": {
@@ -2211,7 +2052,7 @@
     "name": "Splice",
     "color": "#131313",
     "url": "https://splice.com/",
-    "category": "Feed - Bookmark",
+    "category": "Services",
     "tags": []
   },
   "spotify": {
@@ -2247,20 +2088,20 @@
     "url": "",
     "category": "Community",
     "tags": [
-      "forum",
-      "expert"
+      "expert",
+      "forum"
     ]
   },
   "stackoverflow": {
     "name": "stackoverflow",
     "color": "#FD9827",
     "url": "",
-    "category": "Social",
+    "category": "Development",
     "tags": [
-      "social",
-      "blogging",
-      "twitter",
-      "tweet"
+      "code",
+      "community",
+      "programming",
+      "question"
     ]
   },
   "stage32": {
@@ -2276,14 +2117,9 @@
     "url": "",
     "category": "Gaming",
     "tags": [
-      "rts",
       "blizzard",
-      "games",
-      "warcraft",
-      "diablo",
-      "hearthstone",
-      "overwatch",
-      "starcraft"
+      "gaming",
+      "rts"
     ]
   },
   "stayfriends": {
@@ -2292,10 +2128,7 @@
     "url": "",
     "category": "Social",
     "tags": [
-      "social",
-      "blogging",
-      "twitter",
-      "tweet"
+      "social"
     ]
   },
   "steam": {
@@ -2305,10 +2138,7 @@
     "category": "Gaming",
     "tags": [
       "gaming",
-      "social",
-      "blogging",
-      "twitter",
-      "tweet"
+      "social"
     ]
   },
   "stitcher": {
@@ -2326,10 +2156,7 @@
     "url": "",
     "category": "Social",
     "tags": [
-      "social",
-      "blogging",
-      "twitter",
-      "tweet"
+      "social"
     ]
   },
   "strava": {
@@ -2338,8 +2165,8 @@
     "url": "",
     "category": "Sport",
     "tags": [
-      "running",
-      "bike"
+      "bike",
+      "running"
     ]
   },
   "streamjar": {
@@ -2348,11 +2175,11 @@
     "url": "",
     "category": "Streaming",
     "tags": [
-      "games",
-      "tip",
       "community",
-      "tool",
+      "gaming",
       "stream",
+      "tip",
+      "tool",
       "video"
     ]
   },
@@ -2360,9 +2187,9 @@
     "name": "StumbleUpon",
     "color": "#e64011",
     "url": "",
-    "category": "Feed - Bookmark",
+    "category": "Services",
     "tags": [
-      "sites"
+      "website"
     ]
   },
   "swarm": {
@@ -2371,10 +2198,7 @@
     "url": "",
     "category": "Social",
     "tags": [
-      "social",
-      "blogging",
-      "twitter",
-      "tweet"
+      "social"
     ]
   },
   "teamspeak": {
@@ -2383,18 +2207,18 @@
     "url": "",
     "category": "Communication",
     "tags": [
-      "voice",
-      "gaming"
+      "gaming",
+      "voice"
     ]
   },
   "teamviewer": {
     "name": "TeamViewer",
     "color": "#168EF4",
     "url": "",
-    "category": "IT",
+    "category": "Development",
     "tags": [
-      "screen",
-      "distant"
+      "distant",
+      "screen"
     ]
   },
   "technorati": {
@@ -2403,8 +2227,8 @@
     "url": "",
     "category": "Services",
     "tags": [
-      "search",
-      "blog"
+      "blog",
+      "search"
     ]
   },
   "telegram": {
@@ -2413,10 +2237,7 @@
     "url": "",
     "category": "Social",
     "tags": [
-      "social",
-      "blogging",
-      "twitter",
-      "tweet"
+      "social"
     ]
   },
   "threads": {
@@ -2465,7 +2286,7 @@
     "name": "Toptal",
     "color": "#4C73AA",
     "url": "https://www.toptal.com",
-    "category": "Pro",
+    "category": "Professional",
     "tags": []
   },
   "torial": {
@@ -2495,12 +2316,11 @@
     "name": "tripadvisor",
     "color": "#4B7E37",
     "url": "",
-    "category": "Social",
+    "category": "Places",
     "tags": [
-      "social",
-      "blogging",
-      "twitter",
-      "tweet"
+      "hotel",
+      "review",
+      "travel"
     ]
   },
   "tripit": {
@@ -2509,10 +2329,7 @@
     "url": "",
     "category": "Social",
     "tags": [
-      "social",
-      "blogging",
-      "twitter",
-      "tweet"
+      "social"
     ]
   },
   "triplej": {
@@ -2521,10 +2338,7 @@
     "url": "",
     "category": "Social",
     "tags": [
-      "social",
-      "blogging",
-      "twitter",
-      "tweet"
+      "social"
     ]
   },
   "trulia": {
@@ -2540,8 +2354,8 @@
     "url": "",
     "category": "Services",
     "tags": [
-      "system",
       "blog",
+      "system",
       "yahoo"
     ]
   },
@@ -2571,11 +2385,9 @@
     "url": "",
     "category": "Social",
     "tags": [
-      "social",
       "blog",
       "journal",
-      "twitter",
-      "tweet"
+      "social"
     ]
   },
   "uber": {
@@ -2584,9 +2396,9 @@
     "url": "",
     "category": "Transport",
     "tags": [
-      "ride",
+      "geo",
       "lift",
-      "geo"
+      "ride"
     ]
   },
   "ubuntu": {
@@ -2596,8 +2408,8 @@
     "category": "System",
     "tags": [
       "linux",
-      "os",
-      "operating system"
+      "operating system",
+      "os"
     ]
   },
   "udemy": {
@@ -2618,7 +2430,7 @@
     "name": "Upwork",
     "color": "#5BBC2F",
     "url": "https://www.upwork.com/",
-    "category": "Pro",
+    "category": "Professional",
     "tags": []
   },
   "ventrilo": {
@@ -2627,19 +2439,19 @@
     "url": "",
     "category": "Communication",
     "tags": [
-      "voice",
-      "gaming"
+      "gaming",
+      "voice"
     ]
   },
   "viadeo": {
     "name": "Viadeo",
     "color": "#e4a000",
     "url": "",
-    "category": "Pro",
+    "category": "Professional",
     "tags": [
-      "social",
+      "entreprise",
       "pro",
-      "entreprise"
+      "social"
     ]
   },
   "viber": {
@@ -2648,9 +2460,9 @@
     "url": "",
     "category": "Communication",
     "tags": [
-      "telephone",
       "chat",
-      "message"
+      "message",
+      "telephone"
     ]
   },
   "viewbug": {
@@ -2659,8 +2471,8 @@
     "url": "",
     "category": "Photography",
     "tags": [
-      "contests",
       "challenges",
+      "contests",
       "photo"
     ]
   },
@@ -2670,8 +2482,8 @@
     "url": "",
     "category": "Video",
     "tags": [
-      "pro",
-      "film"
+      "film",
+      "pro"
     ]
   },
   "vine": {
@@ -2680,8 +2492,8 @@
     "url": "",
     "category": "Video",
     "tags": [
-      "social",
-      "film"
+      "film",
+      "social"
     ]
   },
   "vkontakte": {
@@ -2690,10 +2502,7 @@
     "url": "",
     "category": "Social",
     "tags": [
-      "social",
-      "blogging",
-      "twitter",
-      "tweet"
+      "social"
     ]
   },
   "vsco": {
@@ -2709,14 +2518,9 @@
     "url": "",
     "category": "Gaming",
     "tags": [
-      "mmorpg",
       "blizzard",
-      "games",
-      "warcraft",
-      "diablo",
-      "hearthstone",
-      "overwatch",
-      "starcraft"
+      "gaming",
+      "mmorpg"
     ]
   },
   "wechat": {
@@ -2725,8 +2529,8 @@
     "url": "",
     "category": "Communication",
     "tags": [
-      "free",
       "call",
+      "free",
       "research"
     ]
   },
@@ -2736,10 +2540,7 @@
     "url": "",
     "category": "Social",
     "tags": [
-      "social",
-      "blogging",
-      "twitter",
-      "tweet"
+      "social"
     ]
   },
   "whatsapp": {
@@ -2776,8 +2577,8 @@
     "url": "",
     "category": "System",
     "tags": [
-      "os",
-      "operating system"
+      "operating system",
+      "os"
     ]
   },
   "wix": {
@@ -2793,10 +2594,10 @@
     "url": "",
     "category": "Services",
     "tags": [
-      "cms",
       "blog",
-      "system",
-      "open source"
+      "cms",
+      "open source",
+      "system"
     ]
   },
   "wykop": {
@@ -2829,11 +2630,11 @@
     "name": "Xing",
     "color": "#005a60",
     "url": "",
-    "category": "Pro",
+    "category": "Professional",
     "tags": [
-      "social",
+      "entreprise",
       "pro",
-      "entreprise"
+      "social"
     ]
   },
   "yahoo": {
@@ -2842,11 +2643,10 @@
     "url": "",
     "category": "Services",
     "tags": [
-      "mail",
-      "search",
-      "feed",
       "chat",
-      "yahoo"
+      "feed",
+      "mail",
+      "search"
     ]
   },
   "yammer": {
@@ -2855,10 +2655,7 @@
     "url": "",
     "category": "Social",
     "tags": [
-      "social",
-      "blogging",
-      "twitter",
-      "tweet"
+      "social"
     ]
   },
   "yandex": {
@@ -2867,10 +2664,7 @@
     "url": "",
     "category": "Social",
     "tags": [
-      "social",
-      "blogging",
-      "twitter",
-      "tweet"
+      "social"
     ]
   },
   "yelp": {
@@ -2879,13 +2673,9 @@
     "url": "",
     "category": "Places",
     "tags": [
-      "social",
-      "go out",
+      "business",
       "restaurant",
-      "bar",
-      "hotel",
-      "reviews",
-      "guide"
+      "review"
     ]
   },
   "younow": {
@@ -2903,10 +2693,10 @@
     "url": "",
     "category": "Video",
     "tags": [
-      "video",
-      "social",
+      "film",
       "google",
-      "film"
+      "social",
+      "video"
     ]
   },
   "yt-gaming": {
@@ -2923,9 +2713,10 @@
     "name": "Zapier",
     "color": "#FF4A00",
     "url": "",
-    "category": "Tools",
+    "category": "Services",
     "tags": [
-      "app",
+      "automation",
+      "integration",
       "workflow"
     ]
   },
@@ -2944,10 +2735,7 @@
     "url": "",
     "category": "Social",
     "tags": [
-      "social",
-      "blogging",
-      "twitter",
-      "tweet"
+      "social"
     ]
   },
   "zillow": {
@@ -2963,13 +2751,9 @@
     "url": "",
     "category": "Places",
     "tags": [
-      "social",
-      "go out",
+      "food",
       "restaurant",
-      "bar",
-      "hotel",
-      "reviews",
-      "guide"
+      "review"
     ]
   },
   "zoom": {
@@ -2985,10 +2769,7 @@
     "url": "",
     "category": "Social",
     "tags": [
-      "social",
-      "blogging",
-      "twitter",
-      "tweet"
+      "social"
     ]
   }
 }
