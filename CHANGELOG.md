@@ -1,3 +1,14 @@
+# 4 august 2026 - v3.9.0
+- **New icon:** BeReal
+- Metadata catalog (`icons-metadata.json`) used to describe all icons.
+- Asset generation scripts:
+  - bootstrap metadata
+  - generate catalogs
+  - generate individual SVG files
+  - validate generated assets
+  - clean generated assets
+- GitHub Actions workflow to automatically generate and validate assets.
+
 # 22 april 2025 - v3.8.4
 - **Update:** Typo, linktree without capital in class name.
 
