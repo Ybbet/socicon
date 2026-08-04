@@ -46,9 +46,11 @@ function unicodeTextFromCode(code) {
 }
 
 /**
- * IcoMoon stores font paths using a font-oriented vertical axis.
- * The path must be flipped vertically to be rendered correctly inside
- * a standard SVG viewBox.
+ * Convert IcoMoon paths to the coordinate system historically used
+ * by chart-list.json and chart-list.js.
+ *
+ * This transformation must not be applied to standalone SVG files,
+ * because paths from selection.json already use the correct orientation.
  */
 function transformIcoMoonPath(pathData, ascent) {
   return svgpath(pathData)

@@ -11,6 +11,7 @@ on:
       - "package.json"
       - "package-lock.json"
       - ".github/workflows/generate-assets.yml"
+      - ".github/workflows/release-assets.yml"
 
   push:
     branches:
@@ -22,6 +23,7 @@ on:
       - "package.json"
       - "package-lock.json"
       - ".github/workflows/generate-assets.yml"
+      - ".github/workflows/release-assets.yml"
 
 permissions:
   contents: write
@@ -69,7 +71,9 @@ jobs:
           fi
 
       - name: Commit generated files
-        if: github.event_name != 'pull_request'
+        if: >
+          github.event_name == 'push' &&
+          github.ref == 'refs/heads/develop'
         shell: bash
         run: |
           if git diff --quiet -- \

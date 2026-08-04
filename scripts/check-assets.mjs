@@ -164,9 +164,12 @@ for (const svgId of svgFiles) {
   }
 }
 
-if (!chartJs.startsWith("const chart = [")) {
+const expectedChartJs =
+  `const chart = ${JSON.stringify(chart, null, 2)};\n`;
+
+if (chartJs !== expectedChartJs) {
   fail(
-    'chart-list.js must start with "const chart = [".'
+    "chart-list.js is not synchronized with chart-list.json."
   );
 }
 
