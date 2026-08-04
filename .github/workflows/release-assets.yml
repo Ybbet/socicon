@@ -1,0 +1,68 @@
+name: Build production release assets
+
+on:
+  release:
+    types:
+      - published
+
+permissions:
+  contents: write
+
+jobs:
+  build-release:
+    name: Build and upload production package
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out the released version
+        uses: actions/checkout@v5
+        with:
+          ref: ${{ github.event.release.tag_name }}
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate and validate assets
+        run: npm run build
+
+      - name: Build production archives
+        run: |
+          npm run release:build -- \
+            "${{ github.event.release.tag_name }}"
+
+      - name: Display archive contents
+        shell: bash
+        run: |
+          tag="${{ github.event.release.tag_name }}"
+          version="${tag#v}"
+          package="socicon-${version}"
+
+          echo "ZIP archive contents:"
+          unzip -l "release/${package}.zip"
+
+          echo
+          echo "tar.gz archive contents:"
+          tar \
+            --list \
+            --gzip \
+            --file="release/${package}.tar.gz"
+
+      - name: Upload production archives
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          tag="${{ github.event.release.tag_name }}"
+          version="${tag#v}"
+          package="socicon-${version}"
+
+          gh release upload "$tag" \
+            "release/${package}.zip#Socicon production package (ZIP)" \
+            "release/${package}.tar.gz#Socicon production package (tar.gz)" \
+            --clobber

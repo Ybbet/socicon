@@ -17,7 +17,8 @@
     "check": "node scripts/check-assets.mjs",
     "build": "npm run generate && npm run check",
     "clean": "node scripts/clean-assets.mjs",
-    "rebuild": "npm run clean && npm run build"
+    "rebuild": "npm run clean && npm run build",
+    "release:build": "bash scripts/build-release.sh"
   },
   "devDependencies": {
     "svgpath": "^2.6.0"
