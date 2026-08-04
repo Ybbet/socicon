@@ -1,4 +1,4 @@
-# 4 august 2026 - v3.9.0
+# 4 August 2026 - v3.9.0
 - **New icon:** BeReal
 - Metadata catalog (`icons-metadata.json`) used to describe all icons.
 - Asset generation scripts:
@@ -9,28 +9,28 @@
   - clean generated assets
 - GitHub Actions workflow to automatically generate and validate assets.
 
-# 22 april 2025 - v3.8.4
+# 22 April 2025 - v3.8.4
 - **Update:** Typo, linktree without capital in class name.
 
-# 20 march 2025 - v3.8.3
+# 20 March 2025 - v3.8.3
 - **New icon:** Linktree
 
-# 21 january 2025 - v3.8.2
+# 21 January 2025 - v3.8.2
 - **New icon:** Bluesky, Signal
 
-# 26 september 2024 - v3.8.1
+# 26 September 2024 - v3.8.1
 - Update categories
 - Update the README file about the collaboration.
 
-# 9 april 2024 - v3.8.0
+# 9 April 2024 - v3.8.0
 - **Feature:** Rewriting icon categories.
 - Typo for endomondo
 
-# 2 april 2024 - v3.7.3
+# 2 April 2024 - v3.7.3
 - **Feature:** Thanks to @coolseed, the original author of Socicon, the json and javascript have been enriched with information as before.
 - Update issue template for submitting new icon.
 
-# 28 march 2024 - v3.7.2
+# 28 March 2024 - v3.7.2
 - **New icon:** X (ex-Twitter)
 - Update readme with the new website
 
