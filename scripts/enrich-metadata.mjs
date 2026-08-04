@@ -3,6 +3,7 @@ import {
   readFile,
   writeFile
 } from "node:fs/promises";
+
 import path from "node:path";
 import process from "node:process";
 
@@ -15,47 +16,72 @@ const OFFICIAL_SITE_CACHE_DIRECTORY = path.join(
   CACHE_DIRECTORY,
   "official-sites"
 );
-const WIKIPEDIA_CACHE_DIRECTORY = path.join(
-  CACHE_DIRECTORY,
-  "wikipedia"
-);
 
 const USER_AGENT =
-  "SociconMetadataEnrichment/1.0 " +
+  "SociconMetadataEnrichment/2.0 " +
   "(https://github.com/Ybbet/socicon)";
 
 const REQUEST_TIMEOUT = 12_000;
 const REQUEST_DELAY = 250;
+const MAXIMUM_SOURCE_TEXT_LENGTH = 8_000;
 
 const argumentsList = process.argv.slice(2);
 const argumentsSet = new Set(argumentsList);
 
 const forceRefresh = argumentsSet.has("--force");
 const includeAll = argumentsSet.has("--all");
-const onlyMissingTags = argumentsSet.has("--missing-tags");
+
+const onlyMissingTags =
+  argumentsSet.has("--missing-tags");
+
 const onlyInvalidCategories =
   argumentsSet.has("--invalid-categories");
 
-const iconArgumentIndex = argumentsList.indexOf("--icon");
+const replaceTags =
+  argumentsSet.has("--replace-tags");
+
+const iconArgumentIndex =
+  argumentsList.indexOf("--icon");
 
 const selectedIcon =
   iconArgumentIndex !== -1
     ? argumentsList[iconArgumentIndex + 1]
     : null;
 
+if (
+  iconArgumentIndex !== -1 &&
+  !selectedIcon
+) {
+  console.error(
+    'The "--icon" option requires an icon identifier.'
+  );
+
+  process.exit(1);
+}
+
+/**
+ * Categories are inferred only when the current category is missing
+ * or invalid.
+ *
+ * Existing valid categories are always preserved.
+ */
 const CATEGORY_KEYWORDS = {
   Academic: [
     "academic",
     "course",
     "education",
+    "educational",
     "learning",
     "research",
     "school",
     "student",
     "teacher",
+    "training course",
     "university"
   ],
+
   Communication: [
+    "audio call",
     "call",
     "chat",
     "communication",
@@ -65,64 +91,70 @@ const CATEGORY_KEYWORDS = {
     "message",
     "messaging",
     "video call",
-    "voice"
+    "voice call"
   ],
+
   Community: [
     "answer",
     "community",
     "discussion",
     "forum",
     "knowledge sharing",
+    "online community",
     "question",
-    "user-generated"
+    "user community"
   ],
+
   Design: [
     "3d model",
-    "creative",
+    "creative platform",
     "design",
     "designer",
     "illustration",
     "portfolio",
     "prototype",
-    "visual"
+    "visual design"
   ],
+
   Development: [
     "api",
-    "code",
+    "code hosting",
     "coding",
-    "developer",
-    "development",
-    "git",
+    "developer platform",
+    "development platform",
+    "git repository",
     "open source",
     "programming",
-    "repository",
-    "software development"
+    "software development",
+    "source code"
   ],
+
   Gaming: [
     "esports",
-    "game",
-    "games",
+    "game launcher",
     "gaming",
-    "launcher",
+    "gaming community",
     "mmorpg",
-    "player",
+    "online game",
     "video game"
   ],
+
   Marketplace: [
-    "buy",
-    "commerce",
+    "buy and sell",
     "e-commerce",
     "ecommerce",
     "marketplace",
+    "online marketplace",
+    "online shopping",
     "retail",
-    "sell",
-    "shopping",
-    "store"
+    "shopping"
   ],
+
   Music: [
     "album",
     "artist",
-    "audio",
+    "audio platform",
+    "digital music",
     "dj",
     "music",
     "musician",
@@ -130,15 +162,18 @@ const CATEGORY_KEYWORDS = {
     "radio",
     "song"
   ],
+
   Photography: [
     "camera",
-    "image",
-    "images",
+    "image hosting",
     "photo",
+    "photographer",
     "photography",
     "picture",
+    "stock image",
     "stock photo"
   ],
+
   Places: [
     "hotel",
     "local business",
@@ -146,39 +181,42 @@ const CATEGORY_KEYWORDS = {
     "map",
     "place",
     "restaurant",
-    "review",
-    "travel"
+    "travel",
+    "travel booking"
   ],
+
   Professional: [
-    "business",
+    "business network",
     "career",
-    "company",
     "employment",
     "freelance",
     "job",
     "professional",
+    "professional network",
     "recruitment",
     "work"
   ],
+
   Services: [
     "automation",
     "cloud service",
     "integration",
     "online service",
-    "payment",
+    "payment service",
     "productivity",
-    "service",
+    "software service",
     "tool",
     "workflow"
   ],
+
   Social: [
     "microblogging",
-    "networking service",
-    "social",
+    "social app",
     "social media",
     "social network",
     "social networking"
   ],
+
   Sport: [
     "athlete",
     "cycling",
@@ -188,23 +226,26 @@ const CATEGORY_KEYWORDS = {
     "sports",
     "training"
   ],
+
   Streaming: [
     "broadcast",
     "live stream",
     "livestream",
+    "media streaming",
     "on-demand",
-    "stream",
     "streaming"
   ],
+
   System: [
     "browser",
     "desktop environment",
-    "linux",
+    "linux distribution",
     "operating system",
-    "platform",
-    "software",
-    "system"
+    "software platform",
+    "system software",
+    "web browser"
   ],
+
   Transport: [
     "car",
     "driver",
@@ -215,285 +256,481 @@ const CATEGORY_KEYWORDS = {
     "transport",
     "vehicle"
   ],
+
   Video: [
     "film",
     "movie",
     "short video",
-    "video",
     "video hosting",
+    "video platform",
     "video sharing"
   ]
 };
 
+/**
+ * Tags are suggested from explicit expressions found on the official
+ * website.
+ *
+ * Multi-word expressions are preferred because they are generally
+ * less ambiguous than isolated words.
+ */
 const TAG_KEYWORDS = {
   "3d": [
-    "3d",
+    "3d model",
+    "3d models",
     "three-dimensional"
   ],
+
   academic: [
-    "academic"
+    "academic research",
+    "academic community"
   ],
+
   answer: [
-    "answer"
+    "answer questions",
+    "answers"
   ],
+
   app: [
-    "application",
-    "mobile app"
+    "mobile app",
+    "desktop app",
+    "web app"
   ],
+
   artist: [
-    "artist"
+    "independent artist",
+    "music artist",
+    "artists"
   ],
+
   audio: [
-    "audio"
+    "audio platform",
+    "audio content",
+    "digital audio"
   ],
+
   automation: [
+    "workflow automation",
+    "automate",
     "automation"
   ],
+
   blog: [
-    "blog",
+    "blog platform",
+    "publish blog",
     "blogging"
   ],
+
   browser: [
-    "browser",
-    "web browser"
+    "web browser",
+    "internet browser"
   ],
+
   business: [
-    "business"
+    "business platform",
+    "business network",
+    "business service"
   ],
+
   call: [
-    "call",
-    "calling"
+    "audio call",
+    "video call",
+    "voice call"
   ],
+
   career: [
-    "career"
+    "career opportunities",
+    "career network"
   ],
+
   chat: [
-    "chat"
+    "group chat",
+    "online chat",
+    "private chat"
   ],
+
   cloud: [
-    "cloud"
+    "cloud platform",
+    "cloud service",
+    "cloud storage"
   ],
+
   code: [
-    "code",
-    "coding"
+    "source code",
+    "code hosting",
+    "write code"
   ],
+
   collaboration: [
-    "collaboration",
-    "collaborative"
+    "team collaboration",
+    "collaboration platform",
+    "collaborative platform"
   ],
+
   community: [
-    "community"
+    "online community",
+    "user community",
+    "global community"
   ],
+
   creator: [
     "content creator",
-    "creator"
+    "digital creator",
+    "creators"
   ],
+
   design: [
-    "design"
+    "design platform",
+    "visual design",
+    "creative design"
   ],
+
   developer: [
-    "developer"
+    "developer platform",
+    "software developer",
+    "web developer"
   ],
+
   ecommerce: [
     "e-commerce",
-    "ecommerce"
+    "ecommerce",
+    "online commerce"
   ],
+
   education: [
-    "education",
-    "learning"
+    "online education",
+    "educational platform",
+    "online learning"
   ],
+
   encrypted: [
-    "encrypted",
-    "encryption",
-    "end-to-end encryption"
+    "end-to-end encryption",
+    "encrypted communication",
+    "encrypted messaging"
   ],
+
   feed: [
-    "feed",
-    "rss"
+    "rss feed",
+    "news feed",
+    "content feed"
   ],
+
   film: [
-    "film",
-    "movie"
+    "film platform",
+    "films and movies",
+    "movie platform"
   ],
+
   fitness: [
-    "fitness",
-    "training"
+    "fitness tracking",
+    "fitness platform",
+    "workout"
   ],
+
   forum: [
-    "forum"
+    "discussion forum",
+    "online forum",
+    "community forum"
   ],
+
   freelance: [
-    "freelance",
+    "freelance marketplace",
+    "freelance platform",
     "freelancer"
   ],
+
   gaming: [
-    "game",
-    "games",
-    "gaming",
-    "video game"
+    "gaming platform",
+    "gaming community",
+    "video game",
+    "online game"
   ],
+
   git: [
-    "git"
+    "git repository",
+    "git repositories",
+    "git hosting"
   ],
+
   integration: [
-    "integration"
+    "app integration",
+    "software integration",
+    "integrations"
   ],
+
   job: [
-    "employment",
-    "job",
-    "recruitment"
+    "job marketplace",
+    "job search",
+    "job opportunities",
+    "recruitment platform"
   ],
+
   knowledge: [
-    "knowledge"
+    "knowledge sharing",
+    "knowledge platform",
+    "knowledge community"
   ],
+
   live: [
+    "live broadcast",
     "live stream",
     "livestream"
   ],
+
   location: [
-    "location"
+    "location based",
+    "local places",
+    "nearby places"
   ],
+
   map: [
-    "map",
-    "mapping"
+    "online map",
+    "mapping platform",
+    "interactive map"
   ],
+
   marketplace: [
-    "marketplace"
+    "online marketplace",
+    "digital marketplace",
+    "buy and sell"
   ],
+
   message: [
     "instant messaging",
-    "message",
-    "messaging"
+    "private messaging",
+    "secure messaging",
+    "send messages"
   ],
+
   mobile: [
-    "mobile",
-    "smartphone"
+    "mobile app",
+    "mobile platform",
+    "smartphone app"
   ],
+
   money: [
-    "finance",
-    "money"
+    "financial service",
+    "money transfer",
+    "digital finance"
   ],
+
   music: [
-    "music",
-    "song"
+    "music platform",
+    "music streaming",
+    "digital music",
+    "listen to music"
   ],
+
   network: [
-    "network",
-    "networking"
+    "professional network",
+    "social network",
+    "social networking"
   ],
+
   "open source": [
     "open source",
     "open-source"
   ],
+
   "operating system": [
-    "operating system"
+    "operating system",
+    "mobile operating system",
+    "desktop operating system"
   ],
+
   payment: [
-    "payment",
-    "transaction"
+    "online payment",
+    "payment platform",
+    "payment service",
+    "money transfer"
   ],
+
   photo: [
-    "image",
-    "photo",
-    "photography",
-    "picture"
+    "photo sharing",
+    "photography platform",
+    "share photos",
+    "stock photo",
+    "stock image"
   ],
+
   playlist: [
-    "playlist"
+    "music playlist",
+    "audio playlist",
+    "playlists"
   ],
+
   podcast: [
-    "podcast"
+    "podcast platform",
+    "listen to podcasts",
+    "podcasts"
   ],
+
   portfolio: [
-    "portfolio"
+    "creative portfolio",
+    "online portfolio",
+    "design portfolio"
   ],
+
   privacy: [
-    "privacy",
-    "private"
+    "privacy focused",
+    "privacy-focused",
+    "private communication",
+    "protect your privacy"
   ],
+
   programming: [
-    "programming"
+    "programming platform",
+    "programming community",
+    "programming language"
   ],
+
   question: [
-    "question"
+    "ask questions",
+    "questions and answers",
+    "question and answer"
   ],
+
   radio: [
-    "radio"
+    "online radio",
+    "internet radio",
+    "radio station"
   ],
+
   repository: [
-    "repository",
-    "repositories"
+    "code repository",
+    "git repository",
+    "software repository"
   ],
+
   restaurant: [
-    "restaurant"
+    "restaurant booking",
+    "restaurant review",
+    "find restaurants"
   ],
+
   retail: [
-    "retail"
+    "online retail",
+    "retail marketplace",
+    "retail platform"
   ],
+
   review: [
-    "review",
-    "reviews"
+    "customer reviews",
+    "user reviews",
+    "business reviews"
   ],
+
   ride: [
-    "ride",
-    "ridesharing"
+    "ride sharing",
+    "ridesharing",
+    "book a ride"
   ],
+
   search: [
-    "search",
-    "search engine"
+    "search engine",
+    "web search",
+    "search platform"
   ],
+
   shopping: [
-    "buy",
-    "shopping"
+    "online shopping",
+    "shopping platform",
+    "shop online"
   ],
+
   social: [
+    "social app",
     "social media",
     "social network",
     "social networking"
   ],
+
   sport: [
-    "sport",
-    "sports"
+    "sports platform",
+    "sports community",
+    "sport tracking"
   ],
+
   store: [
     "app store",
     "online store",
-    "store"
+    "digital store"
   ],
+
   stream: [
-    "stream",
-    "streaming"
+    "music streaming",
+    "video streaming",
+    "media streaming",
+    "stream content"
   ],
+
   support: [
-    "support"
+    "customer support",
+    "support platform",
+    "support service"
   ],
+
   travel: [
-    "hotel",
-    "tourism",
-    "travel"
+    "travel platform",
+    "travel booking",
+    "travel service",
+    "book accommodation"
   ],
+
   video: [
-    "video",
+    "video platform",
     "video hosting",
-    "video sharing"
+    "video sharing",
+    "share videos"
   ],
+
   voice: [
-    "voice"
+    "voice chat",
+    "voice call",
+    "voice communication"
   ],
+
   web: [
-    "web",
-    "website"
+    "web platform",
+    "web service",
+    "website builder"
   ],
+
   workflow: [
-    "workflow"
+    "workflow automation",
+    "automated workflow",
+    "business workflow"
   ]
 };
 
 async function readJson(file) {
   try {
-    return JSON.parse(await readFile(file, "utf8"));
+    return JSON.parse(
+      await readFile(file, "utf8")
+    );
   } catch (error) {
-    console.error(`Unable to read ${file}: ${error.message}`);
+    console.error(
+      `Unable to read ${file}: ${error.message}`
+    );
+
+    process.exit(1);
+  }
+}
+
+async function readJsonIfExists(file) {
+  try {
+    return JSON.parse(
+      await readFile(file, "utf8")
+    );
+  } catch (error) {
+    if (error.code === "ENOENT") {
+      return null;
+    }
+
+    console.error(
+      `Unable to read ${file}: ${error.message}`
+    );
+
     process.exit(1);
   }
 }
@@ -513,17 +750,42 @@ function normalizeText(value) {
 }
 
 function normalizeSearchText(value) {
-  return normalizeText(value).toLowerCase();
-}
-
-function normalizeIconName(value) {
   return normalizeText(value)
-    .replace(/\s+/g, " ")
-    .trim();
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/\p{Diacritic}/gu, "");
 }
 
 function normalizeTag(value) {
   return normalizeSearchText(value);
+}
+
+function unique(values) {
+  return [...new Set(values)];
+}
+
+function sortStrings(values) {
+  return [...values].sort(
+    (first, second) =>
+      first.localeCompare(
+        second,
+        "en",
+        {
+          sensitivity: "base",
+          numeric: true
+        }
+      )
+  );
+}
+
+function arraysAreEqual(first, second) {
+  return (
+    first.length === second.length &&
+    first.every(
+      (value, index) =>
+        value === second[index]
+    )
+  );
 }
 
 function escapeFileName(value) {
@@ -536,6 +798,7 @@ function decodeHtmlEntities(value) {
   return String(value ?? "")
     .replaceAll("&amp;", "&")
     .replaceAll("&quot;", '"')
+    .replaceAll("&apos;", "'")
     .replaceAll("&#39;", "'")
     .replaceAll("&#x27;", "'")
     .replaceAll("&lt;", "<")
@@ -544,39 +807,35 @@ function decodeHtmlEntities(value) {
       String.fromCodePoint(Number(code))
     )
     .replace(/&#x([0-9a-f]+);/gi, (_, code) =>
-      String.fromCodePoint(parseInt(code, 16))
+      String.fromCodePoint(
+        parseInt(code, 16)
+      )
     );
 }
 
 function stripHtml(value) {
   return decodeHtmlEntities(
     String(value ?? "")
-      .replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, " ")
-      .replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi, " ")
+      .replace(
+        /<script\b[^>]*>[\s\S]*?<\/script>/gi,
+        " "
+      )
+      .replace(
+        /<style\b[^>]*>[\s\S]*?<\/style>/gi,
+        " "
+      )
+      .replace(
+        /<noscript\b[^>]*>[\s\S]*?<\/noscript>/gi,
+        " "
+      )
+      .replace(
+        /<svg\b[^>]*>[\s\S]*?<\/svg>/gi,
+        " "
+      )
       .replace(/<[^>]+>/g, " ")
   )
     .replace(/\s+/g, " ")
     .trim();
-}
-
-function shortenDescription(value, maximumLength = 220) {
-  const description = normalizeText(value);
-
-  if (description.length <= maximumLength) {
-    return description;
-  }
-
-  const shortened = description.slice(0, maximumLength + 1);
-  const lastSpace = shortened.lastIndexOf(" ");
-
-  return `${shortened.slice(
-    0,
-    lastSpace > 0 ? lastSpace : maximumLength
-  )}…`;
-}
-
-function unique(values) {
-  return [...new Set(values)];
 }
 
 function delay(milliseconds) {
@@ -598,7 +857,7 @@ async function fetchWithTimeout(
   );
 
   try {
-    const response = await fetch(url, {
+    return await fetch(url, {
       ...options,
       signal: controller.signal,
       redirect: "follow",
@@ -610,8 +869,6 @@ async function fetchWithTimeout(
         ...options.headers
       }
     });
-
-    return response;
   } finally {
     clearTimeout(timer);
   }
@@ -628,11 +885,14 @@ async function readCache(directory, key) {
   );
 
   try {
-    return JSON.parse(await readFile(file, "utf8"));
+    return JSON.parse(
+      await readFile(file, "utf8")
+    );
   } catch (error) {
     if (error.code !== "ENOENT") {
       console.warn(
-        `Unable to read cache file ${file}: ${error.message}`
+        `Unable to read cache file ${file}: ` +
+        `${error.message}`
       );
     }
 
@@ -640,10 +900,17 @@ async function readCache(directory, key) {
   }
 }
 
-async function writeCache(directory, key, value) {
-  await mkdir(directory, {
-    recursive: true
-  });
+async function writeCache(
+  directory,
+  key,
+  value
+) {
+  await mkdir(
+    directory,
+    {
+      recursive: true
+    }
+  );
 
   const file = path.join(
     directory,
@@ -653,22 +920,38 @@ async function writeCache(directory, key, value) {
   await writeJson(file, value);
 }
 
-function getMetaContent(html, propertyName) {
+function getMetaContent(
+  html,
+  attributeName
+) {
+  const escapedAttributeName =
+    attributeName.replace(
+      /[.*+?^${}()|[\]\\]/g,
+      "\\$&"
+    );
+
   const patterns = [
     new RegExp(
-      `<meta[^>]+property=["']${propertyName}["'][^>]+content=["']([^"']*)["'][^>]*>`,
+      `<meta[^>]+property=["']${escapedAttributeName}["']` +
+      `[^>]+content=["']([^"']*)["'][^>]*>`,
       "i"
     ),
+
     new RegExp(
-      `<meta[^>]+content=["']([^"']*)["'][^>]+property=["']${propertyName}["'][^>]*>`,
+      `<meta[^>]+content=["']([^"']*)["']` +
+      `[^>]+property=["']${escapedAttributeName}["'][^>]*>`,
       "i"
     ),
+
     new RegExp(
-      `<meta[^>]+name=["']${propertyName}["'][^>]+content=["']([^"']*)["'][^>]*>`,
+      `<meta[^>]+name=["']${escapedAttributeName}["']` +
+      `[^>]+content=["']([^"']*)["'][^>]*>`,
       "i"
     ),
+
     new RegExp(
-      `<meta[^>]+content=["']([^"']*)["'][^>]+name=["']${propertyName}["'][^>]*>`,
+      `<meta[^>]+content=["']([^"']*)["']` +
+      `[^>]+name=["']${escapedAttributeName}["'][^>]*>`,
       "i"
     )
   ];
@@ -686,16 +969,120 @@ function getMetaContent(html, propertyName) {
   return "";
 }
 
-function getHtmlTitle(html) {
-  const match = html.match(
-    /<title[^>]*>([\s\S]*?)<\/title>/i
-  );
+function getJsonLdDescriptions(html) {
+  const descriptions = [];
 
-  return match?.[1]
-    ? normalizeText(
-        decodeHtmlEntities(stripHtml(match[1]))
-      )
-    : "";
+  const pattern =
+    /<script[^>]+type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi;
+
+  for (
+    const match of html.matchAll(pattern)
+  ) {
+    const source = match[1]?.trim();
+
+    if (!source) {
+      continue;
+    }
+
+    try {
+      const parsed = JSON.parse(source);
+
+      collectJsonLdDescriptions(
+        parsed,
+        descriptions
+      );
+    } catch {
+      /*
+       * Invalid or non-standard JSON-LD is ignored.
+       */
+    }
+  }
+
+  return unique(
+    descriptions
+      .map(normalizeText)
+      .filter(Boolean)
+  );
+}
+
+function collectJsonLdDescriptions(
+  value,
+  descriptions
+) {
+  if (!value) {
+    return;
+  }
+
+  if (Array.isArray(value)) {
+    for (const item of value) {
+      collectJsonLdDescriptions(
+        item,
+        descriptions
+      );
+    }
+
+    return;
+  }
+
+  if (typeof value !== "object") {
+    return;
+  }
+
+  if (
+    typeof value.description === "string"
+  ) {
+    descriptions.push(
+      value.description
+    );
+  }
+
+  if (value["@graph"]) {
+    collectJsonLdDescriptions(
+      value["@graph"],
+      descriptions
+    );
+  }
+}
+
+function extractRelevantPageText(html) {
+  const metadataText = [
+    getMetaContent(
+      html,
+      "og:description"
+    ),
+
+    getMetaContent(
+      html,
+      "description"
+    ),
+
+    getMetaContent(
+      html,
+      "twitter:description"
+    ),
+
+    ...getJsonLdDescriptions(html)
+  ]
+    .filter(Boolean)
+    .join(" ");
+
+  if (metadataText) {
+    return normalizeText(
+      metadataText
+    ).slice(
+      0,
+      MAXIMUM_SOURCE_TEXT_LENGTH
+    );
+  }
+
+  /*
+   * Visible page text is used only as a fallback because it can
+   * contain navigation labels and other unrelated content.
+   */
+  return stripHtml(html).slice(
+    0,
+    MAXIMUM_SOURCE_TEXT_LENGTH
+  );
 }
 
 async function fetchOfficialSite(url) {
@@ -713,20 +1100,27 @@ async function fetchOfficialSite(url) {
   }
 
   try {
-    const response = await fetchWithTimeout(url);
+    const response =
+      await fetchWithTimeout(url);
 
     if (!response.ok) {
       throw new Error(
-        `HTTP ${response.status} ${response.statusText}`
+        `HTTP ${response.status} ` +
+        `${response.statusText}`
       );
     }
 
     const contentType =
-      response.headers.get("content-type") ?? "";
+      response.headers.get(
+        "content-type"
+      ) ?? "";
 
-    if (!contentType.includes("text/html")) {
+    if (
+      !contentType.includes("text/html")
+    ) {
       throw new Error(
-        `Unsupported content type: ${contentType}`
+        `Unsupported content type: ` +
+        `${contentType}`
       );
     }
 
@@ -735,14 +1129,8 @@ async function fetchOfficialSite(url) {
     const result = {
       requestedUrl: url,
       finalUrl: response.url,
-      title:
-        getMetaContent(html, "og:title") ||
-        getHtmlTitle(html),
-      description:
-        getMetaContent(html, "og:description") ||
-        getMetaContent(html, "description") ||
-        getMetaContent(html, "twitter:description"),
-      siteName: getMetaContent(html, "og:site_name"),
+      sourceText:
+        extractRelevantPageText(html),
       status: response.status
     };
 
@@ -769,171 +1157,83 @@ async function fetchOfficialSite(url) {
   }
 }
 
-async function searchWikipedia(query) {
-  const cached = await readCache(
-    WIKIPEDIA_CACHE_DIRECTORY,
-    query
-  );
-
-  if (cached) {
-    return cached;
-  }
-
-  const parameters = new URLSearchParams({
-    action: "query",
-    generator: "search",
-    gsrsearch: query,
-    gsrlimit: "3",
-    prop: "extracts|info",
-    exintro: "1",
-    explaintext: "1",
-    inprop: "url",
-    redirects: "1",
-    format: "json",
-    origin: "*"
-  });
-
-  const url =
-    `https://en.wikipedia.org/w/api.php?${parameters}`;
-
-  try {
-    const response = await fetchWithTimeout(url, {
-      headers: {
-        Accept: "application/json"
-      }
-    });
-
-    if (!response.ok) {
-      throw new Error(
-        `HTTP ${response.status} ${response.statusText}`
-      );
-    }
-
-    const data = await response.json();
-
-    const pages = Object.values(
-      data.query?.pages ?? {}
-    )
-      .map((page) => ({
-        pageId: page.pageid,
-        title: page.title,
-        extract: normalizeText(page.extract),
-        url: page.fullurl
-      }))
-      .sort(
-        (first, second) =>
-          Number(first.pageId) - Number(second.pageId)
-      );
-
-    const result = {
-      query,
-      pages
-    };
-
-    await writeCache(
-      WIKIPEDIA_CACHE_DIRECTORY,
-      query,
-      result
-    );
-
-    return result;
-  } catch (error) {
-    const result = {
-      query,
-      pages: [],
-      error: error.message
-    };
-
-    await writeCache(
-      WIKIPEDIA_CACHE_DIRECTORY,
-      query,
-      result
-    );
-
-    return result;
-  }
-}
-
-function selectWikipediaPage(
-  pages,
-  iconName,
-  officialUrl
+function containsKeyword(
+  sourceText,
+  keyword
 ) {
-  if (!Array.isArray(pages) || pages.length === 0) {
-    return null;
+  const normalizedSource =
+    normalizeSearchText(sourceText);
+
+  const normalizedKeyword =
+    normalizeSearchText(keyword);
+
+  if (!normalizedKeyword) {
+    return false;
   }
 
-  const normalizedName =
-    normalizeSearchText(iconName);
+  const escapedKeyword =
+    normalizedKeyword.replace(
+      /[.*+?^${}()|[\]\\]/g,
+      "\\$&"
+    );
 
-  let officialHost = "";
-
-  try {
-    officialHost = new URL(officialUrl)
-      .hostname
-      .replace(/^www\./, "")
-      .split(".")[0]
-      .toLowerCase();
-  } catch {
-    officialHost = "";
-  }
-
-  const scoredPages = pages.map((page) => {
-    const title = normalizeSearchText(page.title);
-    const extract = normalizeSearchText(page.extract);
-
-    let score = 0;
-
-    if (title === normalizedName) {
-      score += 100;
-    }
-
-    if (title.startsWith(normalizedName)) {
-      score += 50;
-    }
-
-    if (title.includes(normalizedName)) {
-      score += 30;
-    }
-
-    if (
-      officialHost &&
-      extract.includes(officialHost)
-    ) {
-      score += 20;
-    }
-
-    if (
-      extract.includes("company") ||
-      extract.includes("service") ||
-      extract.includes("platform") ||
-      extract.includes("website") ||
-      extract.includes("application")
-    ) {
-      score += 10;
-    }
-
-    return {
-      ...page,
-      score
-    };
-  });
-
-  scoredPages.sort(
-    (first, second) => second.score - first.score
+  const pattern = new RegExp(
+    `(^|[^a-z0-9])${escapedKeyword}` +
+    `([^a-z0-9]|$)`,
+    "i"
   );
 
-  return scoredPages[0];
+  return pattern.test(
+    normalizedSource
+  );
 }
 
-function scoreCategories(text, allowedCategories) {
-  const normalizedText = normalizeSearchText(text);
+function scoreKeywordList(
+  sourceText,
+  keywords
+) {
+  let score = 0;
+  const matches = [];
 
+  for (const keyword of keywords) {
+    if (
+      !containsKeyword(
+        sourceText,
+        keyword
+      )
+    ) {
+      continue;
+    }
+
+    const normalizedKeyword =
+      normalizeSearchText(keyword);
+
+    const keywordScore =
+      normalizedKeyword.includes(" ")
+        ? 3
+        : 1;
+
+    score += keywordScore;
+    matches.push(keyword);
+  }
+
+  return {
+    score,
+    matches
+  };
+}
+
+function scoreCategories(
+  sourceText,
+  allowedCategories
+) {
   const results = [];
 
   for (
     const [category, keywords]
-    of Object.entries(CATEGORY_KEYWORDS)
+    of Object.entries(
+      CATEGORY_KEYWORDS
+    )
   ) {
     if (
       allowedCategories.size > 0 &&
@@ -942,95 +1242,184 @@ function scoreCategories(text, allowedCategories) {
       continue;
     }
 
-    let score = 0;
-    const matches = [];
+    const result =
+      scoreKeywordList(
+        sourceText,
+        keywords
+      );
 
-    for (const keyword of keywords) {
-      const normalizedKeyword =
-        normalizeSearchText(keyword);
-
-      if (normalizedText.includes(normalizedKeyword)) {
-        score += normalizedKeyword.includes(" ")
-          ? 3
-          : 1;
-
-        matches.push(keyword);
-      }
+    if (result.score === 0) {
+      continue;
     }
 
-    if (score > 0) {
-      results.push({
-        category,
-        score,
-        matches
-      });
-    }
+    results.push({
+      category,
+      score: result.score,
+      matches: result.matches
+    });
   }
 
-  results.sort((first, second) => {
-    if (second.score !== first.score) {
-      return second.score - first.score;
-    }
+  results.sort(
+    (first, second) => {
+      if (
+        second.score !== first.score
+      ) {
+        return (
+          second.score -
+          first.score
+        );
+      }
 
-    return first.category.localeCompare(
-      second.category,
-      "en"
-    );
-  });
+      return first.category.localeCompare(
+        second.category,
+        "en"
+      );
+    }
+  );
 
   return results;
 }
 
-function extractTags(text, maximumTags = 6) {
-  const normalizedText = normalizeSearchText(text);
-  const matches = [];
+function extractTagMatches(sourceText) {
+  const results = [];
 
   for (
     const [tag, keywords]
     of Object.entries(TAG_KEYWORDS)
   ) {
-    let score = 0;
+    const result =
+      scoreKeywordList(
+        sourceText,
+        keywords
+      );
 
-    for (const keyword of keywords) {
-      const normalizedKeyword =
-        normalizeSearchText(keyword);
+    /*
+     * Require either one explicit multi-word expression or at least
+     * two matching expressions before suggesting a tag.
+     */
+    const hasExplicitPhrase =
+      result.matches.some(
+        (keyword) =>
+          normalizeSearchText(
+            keyword
+          ).includes(" ")
+      );
 
-      if (normalizedText.includes(normalizedKeyword)) {
-        score += normalizedKeyword.includes(" ")
-          ? 3
-          : 1;
-      }
+    if (
+      result.score < 2 &&
+      !hasExplicitPhrase
+    ) {
+      continue;
     }
 
-    if (score > 0) {
-      matches.push({
-        tag,
-        score
-      });
-    }
+    results.push({
+      tag,
+      score: result.score,
+      matches: result.matches
+    });
   }
 
-  matches.sort((first, second) => {
-    if (second.score !== first.score) {
-      return second.score - first.score;
+  results.sort(
+    (first, second) => {
+      if (
+        second.score !== first.score
+      ) {
+        return (
+          second.score -
+          first.score
+        );
+      }
+
+      return first.tag.localeCompare(
+        second.tag,
+        "en"
+      );
     }
+  );
 
-    return first.tag.localeCompare(
-      second.tag,
-      "en"
-    );
-  });
-
-  return unique(
-    matches.map((match) => match.tag)
-  ).slice(0, maximumTags);
+  return results;
 }
 
-function shouldProcessIcon(
+function normalizeTags(tags) {
+  if (!Array.isArray(tags)) {
+    return [];
+  }
+
+  return sortStrings(
+    unique(
+      tags
+        .map(normalizeTag)
+        .filter(Boolean)
+    )
+  );
+}
+
+function buildSuggestedTags({
+  currentTags,
+  tagMatches,
+  maximumTags
+}) {
+  const extractedTags =
+    tagMatches.map(
+      (match) => match.tag
+    );
+
+  const values = replaceTags
+    ? extractedTags
+    : [
+        ...currentTags,
+        ...extractedTags
+      ];
+
+  return normalizeTags(values).slice(
+    0,
+    maximumTags
+  );
+}
+
+function selectSuggestedCategory({
+  currentCategory,
+  allowedCategories,
+  categoryScores
+}) {
+  if (
+    allowedCategories.has(
+      currentCategory
+    )
+  ) {
+    return currentCategory;
+  }
+
+  const first = categoryScores[0];
+  const second = categoryScores[1];
+
+  if (!first) {
+    return null;
+  }
+
+  /*
+   * Category inference requires strong evidence and a meaningful
+   * difference from the second candidate.
+   */
+  if (first.score < 4) {
+    return null;
+  }
+
+  if (
+    second &&
+    first.score - second.score < 2
+  ) {
+    return null;
+  }
+
+  return first.category;
+}
+
+function shouldProcessIcon({
   iconId,
-  metadata,
+  iconMetadata,
   allowedCategories
-) {
+}) {
   if (
     selectedIcon &&
     iconId !== selectedIcon
@@ -1042,14 +1431,17 @@ function shouldProcessIcon(
     return true;
   }
 
-  const tags = Array.isArray(metadata.tags)
-    ? metadata.tags.filter(Boolean)
-    : [];
+  const tags = normalizeTags(
+    iconMetadata.tags
+  );
 
-  const hasMissingTags = tags.length === 0;
+  const hasMissingTags =
+    tags.length === 0;
 
   const hasInvalidCategory =
-    !allowedCategories.has(metadata.category);
+    !allowedCategories.has(
+      iconMetadata.category
+    );
 
   if (
     onlyMissingTags &&
@@ -1074,63 +1466,59 @@ function shouldProcessIcon(
 
   return (
     hasMissingTags ||
-    hasInvalidCategory ||
-    !metadata.description
+    hasInvalidCategory
   );
 }
 
 function determineConfidence({
-  officialDescription,
-  wikipediaPage,
+  officialSite,
+  currentCategoryIsValid,
+  suggestedCategory,
   categoryScores,
-  tags
+  tagMatches,
+  suggestedTags
 }) {
+  if (
+    officialSite?.error ||
+    !officialSite?.sourceText
+  ) {
+    return "low";
+  }
+
   let score = 0;
 
-  if (officialDescription) {
+  if (currentCategoryIsValid) {
     score += 2;
-  }
-
-  if (wikipediaPage?.extract) {
+  } else if (
+    suggestedCategory &&
+    categoryScores[0]?.score >= 6
+  ) {
     score += 2;
-  }
-
-  if (categoryScores[0]?.score >= 3) {
-    score += 2;
-  } else if (categoryScores[0]?.score > 0) {
+  } else if (suggestedCategory) {
     score += 1;
   }
 
-  if (tags.length >= 3) {
+  if (tagMatches.length >= 3) {
     score += 2;
-  } else if (tags.length > 0) {
+  } else if (tagMatches.length > 0) {
     score += 1;
   }
 
-  if (score >= 7) {
+  if (suggestedTags.length >= 3) {
+    score += 2;
+  } else if (suggestedTags.length > 0) {
+    score += 1;
+  }
+
+  if (score >= 5) {
     return "high";
   }
 
-  if (score >= 4) {
+  if (score >= 3) {
     return "medium";
   }
 
   return "low";
-}
-
-function mergeCurrentAndSuggestedTags(
-  currentTags,
-  suggestedTags,
-  maximumTags
-) {
-  return unique([
-    ...(Array.isArray(currentTags)
-      ? currentTags.map(normalizeTag)
-      : []),
-    ...suggestedTags.map(normalizeTag)
-  ])
-    .filter(Boolean)
-    .slice(0, maximumTags);
 }
 
 async function enrichIcon(
@@ -1138,273 +1526,384 @@ async function enrichIcon(
   iconMetadata,
   rules
 ) {
-  const name = normalizeIconName(
-    iconMetadata.name || iconId
+  console.log(
+    `Processing ${iconId}...`
   );
 
-  console.log(`Processing ${iconId}...`);
-
-  const officialSite = await fetchOfficialSite(
-    iconMetadata.url
-  );
+  const officialSite =
+    await fetchOfficialSite(
+      iconMetadata.url
+    );
 
   await delay(REQUEST_DELAY);
 
-  const wikipediaResult = await searchWikipedia(
-    `${name} service platform`
-  );
+  const allowedCategories =
+    new Set(
+      Array.isArray(rules.categories)
+        ? rules.categories
+        : []
+    );
 
-  await delay(REQUEST_DELAY);
-
-  const wikipediaPage = selectWikipediaPage(
-    wikipediaResult.pages,
-    name,
-    iconMetadata.url
-  );
-
-  const officialDescription =
-    officialSite?.description ?? "";
-
-  const wikipediaDescription =
-    wikipediaPage?.extract ?? "";
-
-  const combinedText = [
-    name,
-    officialSite?.title,
-    officialSite?.siteName,
-    officialDescription,
-    wikipediaPage?.title,
-    wikipediaDescription,
-    ...(Array.isArray(iconMetadata.tags)
-      ? iconMetadata.tags
-      : [])
-  ]
-    .filter(Boolean)
-    .join(" ");
-
-  const allowedCategories = new Set(
-    rules.categories ?? []
-  );
-
-  const categoryScores = scoreCategories(
-    combinedText,
-    allowedCategories
-  );
+  const currentCategory =
+    normalizeText(
+      iconMetadata.category
+    );
 
   const currentCategoryIsValid =
-    allowedCategories.has(iconMetadata.category);
+    allowedCategories.has(
+      currentCategory
+    );
+
+  const currentTags =
+    normalizeTags(
+      iconMetadata.tags
+    );
+
+  const sourceText =
+    officialSite?.sourceText ?? "";
+
+  const categoryScores =
+    scoreCategories(
+      sourceText,
+      allowedCategories
+    );
+
+  const tagMatches =
+    extractTagMatches(sourceText);
 
   const suggestedCategory =
-    categoryScores[0]?.category ||
-    (
-      currentCategoryIsValid
-        ? iconMetadata.category
-        : null
-    );
+    selectSuggestedCategory({
+      currentCategory,
+      allowedCategories,
+      categoryScores
+    });
+
+  const configuredMaximumTags =
+    Number(rules.maximumTags);
 
   const maximumTags =
-    Number(rules.maximumTags) > 0
-      ? Number(rules.maximumTags)
+    configuredMaximumTags > 0
+      ? configuredMaximumTags
       : 6;
 
-  const extractedTags = extractTags(
-    combinedText,
-    maximumTags
-  );
-
   const suggestedTags =
-    mergeCurrentAndSuggestedTags(
-      iconMetadata.tags,
-      extractedTags,
+    buildSuggestedTags({
+      currentTags,
+      tagMatches,
       maximumTags
+    });
+
+  const warnings = [];
+
+  if (!iconMetadata.url) {
+    warnings.push(
+      "No official URL is defined."
     );
+  }
 
-  const description = shortenDescription(
-    officialDescription ||
-    wikipediaDescription
-  );
+  if (officialSite?.error) {
+    warnings.push(
+      `Official website request failed: ` +
+      `${officialSite.error}`
+    );
+  }
 
-  const confidence = determineConfidence({
-    officialDescription,
-    wikipediaPage,
-    categoryScores,
-    tags: suggestedTags
-  });
+  if (
+    !officialSite?.error &&
+    !sourceText
+  ) {
+    warnings.push(
+      "No relevant text was found on the official website."
+    );
+  }
+
+  if (
+    !currentCategoryIsValid &&
+    !suggestedCategory
+  ) {
+    warnings.push(
+      "No reliable category could be suggested."
+    );
+  }
+
+  if (
+    currentTags.length === 0 &&
+    suggestedTags.length === 0
+  ) {
+    warnings.push(
+      "No reliable tags could be suggested."
+    );
+  }
 
   const sources = [];
 
   if (officialSite?.finalUrl) {
     sources.push({
       type: "official",
-      url: officialSite.finalUrl,
-      title:
-        officialSite.title ||
-        officialSite.siteName ||
-        name
+      url: officialSite.finalUrl
     });
   } else if (iconMetadata.url) {
     sources.push({
       type: "official",
       url: iconMetadata.url,
-      error: officialSite?.error
+      error:
+        officialSite?.error ?? null
     });
   }
 
-  if (wikipediaPage?.url) {
-    sources.push({
-      type: "wikipedia",
-      url: wikipediaPage.url,
-      title: wikipediaPage.title
+  const confidence =
+    determineConfidence({
+      officialSite,
+      currentCategoryIsValid,
+      suggestedCategory,
+      categoryScores,
+      tagMatches,
+      suggestedTags
     });
-  }
 
   return {
     approved: false,
     confidence,
     sources,
+
     current: {
-      category: iconMetadata.category,
-      tags: Array.isArray(iconMetadata.tags)
-        ? iconMetadata.tags
-        : [],
-      description: iconMetadata.description ?? ""
+      category: currentCategory,
+      tags: currentTags
     },
+
     suggested: {
       category: suggestedCategory,
-      tags: suggestedTags,
-      description
+      tags: suggestedTags
     },
+
     evidence: {
-      officialDescription:
-        officialDescription || null,
-      wikipediaExtract:
-        wikipediaDescription || null,
       categoryMatches:
-        categoryScores.slice(0, 3)
+        categoryScores.slice(0, 3),
+
+      tagMatches:
+        tagMatches.slice(
+          0,
+          maximumTags
+        )
     },
-    warnings: [
-      ...(officialSite?.error
-        ? [
-            `Official website request failed: ${officialSite.error}`
-          ]
-        : []),
-      ...(wikipediaResult.error
-        ? [
-            `Wikipedia request failed: ${wikipediaResult.error}`
-          ]
-        : []),
-      ...(!suggestedCategory
-        ? ["No category could be suggested."]
-        : []),
-      ...(suggestedTags.length === 0
-        ? ["No tags could be suggested."]
-        : [])
-    ]
+
+    warnings
   };
 }
 
-const metadata = await readJson(METADATA_FILE);
-const rules = await readJson(RULES_FILE);
+const metadata =
+  await readJson(METADATA_FILE);
 
-const allowedCategories = new Set(
-  rules.categories ?? []
+const rules =
+  await readJson(RULES_FILE);
+
+if (
+  metadata === null ||
+  Array.isArray(metadata) ||
+  typeof metadata !== "object"
+) {
+  console.error(
+    `${METADATA_FILE} must contain a JSON object.`
+  );
+
+  process.exit(1);
+}
+
+if (
+  rules === null ||
+  Array.isArray(rules) ||
+  typeof rules !== "object"
+) {
+  console.error(
+    `${RULES_FILE} must contain a JSON object.`
+  );
+
+  process.exit(1);
+}
+
+const allowedCategories =
+  new Set(
+    Array.isArray(rules.categories)
+      ? rules.categories
+      : []
+  );
+
+if (allowedCategories.size === 0) {
+  console.error(
+    `${RULES_FILE} does not define any allowed categories.`
+  );
+
+  process.exit(1);
+}
+
+if (
+  selectedIcon &&
+  !Object.hasOwn(
+    metadata,
+    selectedIcon
+  )
+) {
+  console.error(
+    `Unknown icon "${selectedIcon}".`
+  );
+
+  process.exit(1);
+}
+
+await mkdir(
+  CACHE_DIRECTORY,
+  {
+    recursive: true
+  }
 );
 
-await mkdir(CACHE_DIRECTORY, {
-  recursive: true
-});
-
-const existingSuggestions = await readJsonIfExists(
-  OUTPUT_FILE
-);
+const existingSuggestions =
+  await readJsonIfExists(
+    OUTPUT_FILE
+  );
 
 const suggestions = {
-  generatedAt: new Date().toISOString(),
-  source: METADATA_FILE,
-  rules: RULES_FILE,
+  generatedAt:
+    new Date().toISOString(),
+
+  source:
+    METADATA_FILE,
+
+  rules:
+    RULES_FILE,
+
   icons: {
-    ...(existingSuggestions?.icons ?? {})
+    ...(
+      existingSuggestions?.icons ??
+      {}
+    )
   }
 };
 
-async function readJsonIfExists(file) {
-  try {
-    return JSON.parse(await readFile(file, "utf8"));
-  } catch (error) {
-    if (error.code === "ENOENT") {
-      return null;
-    }
-
-    console.error(
-      `Unable to read ${file}: ${error.message}`
+const iconsToProcess =
+  Object.entries(metadata)
+    .filter(
+      ([iconId, iconMetadata]) =>
+        shouldProcessIcon({
+          iconId,
+          iconMetadata,
+          allowedCategories
+        })
     );
 
-    process.exit(1);
-  }
-}
-
-const iconsToProcess = Object.entries(metadata)
-  .filter(([iconId, iconMetadata]) =>
-    shouldProcessIcon(
-      iconId,
-      iconMetadata,
-      allowedCategories
-    )
+if (
+  iconsToProcess.length === 0
+) {
+  console.log(
+    "No icon requires metadata enrichment."
   );
 
-if (iconsToProcess.length === 0) {
-  console.log("No icon requires enrichment.");
   process.exit(0);
 }
 
 console.log(
-  `Found ${iconsToProcess.length} icon(s) to enrich.`
+  `Found ${iconsToProcess.length} ` +
+  `icon(s) to enrich.`
 );
 
 console.log("");
 
 let processedCount = 0;
+let changedCount = 0;
+let unchangedCount = 0;
 let failedCount = 0;
 
-for (const [iconId, iconMetadata] of iconsToProcess) {
+for (
+  const [iconId, iconMetadata]
+  of iconsToProcess
+) {
   try {
-    suggestions.icons[iconId] =
+    const suggestion =
       await enrichIcon(
         iconId,
         iconMetadata,
         rules
       );
 
+    suggestions.icons[iconId] =
+      suggestion;
+
+    const categoryChanged =
+      suggestion.suggested.category !==
+      suggestion.current.category;
+
+    const tagsChanged =
+      !arraysAreEqual(
+        suggestion.suggested.tags,
+        suggestion.current.tags
+      );
+
+    if (
+      categoryChanged ||
+      tagsChanged
+    ) {
+      changedCount += 1;
+    } else {
+      unchangedCount += 1;
+    }
+
     processedCount += 1;
   } catch (error) {
     failedCount += 1;
 
     console.error(
-      `Unable to enrich "${iconId}": ${error.message}`
+      `Unable to enrich "${iconId}": ` +
+      `${error.message}`
     );
 
     suggestions.icons[iconId] = {
       approved: false,
       confidence: "low",
-      current: {
-        category: iconMetadata.category,
-        tags: iconMetadata.tags ?? [],
-        description:
-          iconMetadata.description ?? ""
-      },
-      suggested: {
-        category: null,
-        tags: [],
-        description: ""
-      },
+
       sources: [],
-      evidence: {},
+
+      current: {
+        category:
+          normalizeText(
+            iconMetadata.category
+          ),
+
+        tags:
+          normalizeTags(
+            iconMetadata.tags
+          )
+      },
+
+      suggested: {
+        category:
+          allowedCategories.has(
+            iconMetadata.category
+          )
+            ? iconMetadata.category
+            : null,
+
+        tags:
+          normalizeTags(
+            iconMetadata.tags
+          )
+      },
+
+      evidence: {
+        categoryMatches: [],
+        tagMatches: []
+      },
+
       warnings: [
-        `Enrichment failed: ${error.message}`
+        `Enrichment failed: ` +
+        `${error.message}`
       ]
     };
   }
 
+  /*
+   * Save after each icon so that progress is not lost when a later
+   * request fails or the process is interrupted.
+   */
   await writeJson(
     OUTPUT_FILE,
     suggestions
@@ -1413,19 +1912,36 @@ for (const [iconId, iconMetadata] of iconsToProcess) {
 
 console.log("");
 console.log(
-  `Processed ${processedCount} icon(s).`
+  "Metadata enrichment summary"
+);
+console.log(
+  "---------------------------"
 );
 
 console.log(
-  `Failed to enrich ${failedCount} icon(s).`
+  `Processed : ${processedCount}`
 );
 
 console.log(
-  `Suggestions written to ${OUTPUT_FILE}.`
+  `Changed   : ${changedCount}`
+);
+
+console.log(
+  `Unchanged : ${unchangedCount}`
+);
+
+console.log(
+  `Failed    : ${failedCount}`
 );
 
 console.log("");
 console.log(
-  "Review each suggestion and set " +
-  '"approved" to true before applying it.'
+  `Suggestions written to ` +
+  `${OUTPUT_FILE}.`
+);
+
+console.log("");
+console.log(
+  "Review each category and tag suggestion, " +
+  'then set "approved" to true before applying it.'
 );
