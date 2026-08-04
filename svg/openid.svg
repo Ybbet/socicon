@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1024 1024"
+     role="img"
+     aria-labelledby="openid-title">
+  <title id="openid-title">OpenID</title>
+  <path fill="currentColor" d="M464 888c-176-22-310-118-310-234 0-110 120-202 284-230v-98c-250 30-438 164-438 328 0 170 202 308 464 332l156-72v-876l-156 76zM1024 592l-22-222-80 44c-74-44-168-76-274-90v98c60 12 114 30 158 58l-84 46z"/>
+</svg>

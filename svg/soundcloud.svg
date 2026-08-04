@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1024 1024"
+     role="img"
+     aria-labelledby="soundcloud-title">
+  <title id="soundcloud-title">soundcloud</title>
+  <path fill="currentColor" d="M20 676h-20v-124h20zM72 716h-20v-194h20zM112 728h-20v-226h20zM154 738h-20v-226h20zM204 738h-20v-298h20zM246 738h-20v-338h20zM296 738h-20v-360h20zM338 738h-20v-370h20zM390 738h-22v-360h22zM430 738h-20v-348h20zM472 738h-22v-390h22zM522 738h-20v-420h20zM898 734c-2 0-350 0-350 0-8 0-16-6-16-14v-400c0-8 4-12 14-16 24-10 52-14 80-14 116 0 212 88 222 202 16-6 32-10 50-10 70 0 126 56 126 126s-56 126-126 126z"/>
+</svg>

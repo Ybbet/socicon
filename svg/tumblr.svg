@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1024 1024"
+     role="img"
+     aria-labelledby="tumblr-title">
+  <title id="tumblr-title">tumblr</title>
+  <path fill="currentColor" d="M196 420v-146c40-12 76-32 104-56s52-54 68-88c18-34 30-78 36-130h146v258h244v162h-244v262c0 60 4 98 10 114 6 18 18 30 34 40 24 14 50 22 78 22 52 0 104-18 156-52v162c-44 20-84 36-120 44-34 8-74 12-114 12-48 0-88-6-124-18s-68-28-92-50c-26-22-44-46-54-70s-14-60-14-108v-358z"/>
+</svg>

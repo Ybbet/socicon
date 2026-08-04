@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1024 1024"
+     role="img"
+     aria-labelledby="fundable-title">
+  <title id="fundable-title">Fundable</title>
+  <path fill="currentColor" d="M494.592 206.848h260.096v-206.848h-490.496v1024h229.376v-409.6h265.216v-212.992h-264.192v-194.56z"/>
+</svg>

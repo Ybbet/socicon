@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1024 1024"
+     role="img"
+     aria-labelledby="hitbox-title">
+  <title id="hitbox-title">hitbox</title>
+  <path fill="currentColor" d="M527 0l204 116v130l-204-84zM759 660v-374l120 42v318zM293 664v-388l220-82 218 82v388l-218 28zM293 116l206-116v162l-206 84zM145 328l120-42v374l-120-14zM707 696v240l-194 88-194-88v-240l194 28z"/>
+</svg>
