@@ -1,7 +1,9 @@
 {
-  "name": "socicon",
+  "name": "@ybbet/socicon",
   "version": "3.10.0",
-  "description": "More information on [socicon website](http://socicon.teddypayet.com/)",
+  "description": "Social, communication, development, gaming and service icons distributed as a webfont and standalone SVG files.",
+  "license": "OFL-1.1",
+  "homepage": "https://socicon.teddypayet.com/",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Ybbet/socicon.git"
@@ -9,8 +11,24 @@
   "bugs": {
     "url": "https://github.com/Ybbet/socicon/issues"
   },
-  "homepage": "https://github.com/Ybbet/socicon#readme",
-  "private": true,
+  "publishConfig": {
+    "access": "public"
+  },
+  "style": "style.css",
+  "sass": "style.scss",
+  "files": [
+    "fonts/",
+    "svg/",
+    "site/data/",
+    "demo-files/",
+    "demo.html",
+    "style.css",
+    "style.scss",
+    "variables.scss",
+    "chart-list.json",
+    "chart-list.js",
+    "CHANGELOG.md"
+  ],
   "type": "module",
   "scripts": {
     "build": "npm run generate && npm run site:data && npm run check",
