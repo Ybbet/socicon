@@ -1,10 +1,10 @@
-name: Build production release assets
+name: Build and publish production release
 
 on:
   workflow_dispatch:
     inputs:
       tag:
-        description: Release tag to package
+        description: "Release tag to package"
         required: true
         type: string
 
@@ -14,43 +14,86 @@ on:
 
 permissions:
   contents: write
+  id-token: write
 
 jobs:
   build-release:
-    name: Build and upload production package
+    name: Build and publish production package
     runs-on: ubuntu-latest
 
     env:
       RELEASE_TAG: ${{ github.event.release.tag_name || inputs.tag }}
+      NPM_PACKAGE: "@ybbet/socicon"
 
     steps:
       - name: Check out the released version
         uses: actions/checkout@v5
         with:
           ref: ${{ env.RELEASE_TAG }}
+          fetch-depth: 0
 
       - name: Set up Node.js
         uses: actions/setup-node@v5
         with:
-          node-version: 22
+          node-version: 24
+          registry-url: "https://registry.npmjs.org"
           cache: npm
+
+      - name: Update npm
+        run: npm install --global npm@latest
 
       - name: Install dependencies
         run: npm ci
 
-      - name: Generate and validate assets
-        run: npm run build
+      - name: Verify release tag and package version
+        id: version
+        shell: bash
+        run: |
+          set -Eeuo pipefail
+
+          tag="${RELEASE_TAG}"
+          version="${tag#v}"
+          package_version="$(node --print "require('./package.json').version")"
+          package_name="$(node --print "require('./package.json').name")"
+
+          if [[ ! "$tag" =~ ^v[0-9]+\.[0-9]+\.[0-9]+([.-][0-9A-Za-z.-]+)?$ ]]; then
+            echo "::error::Invalid release tag '${tag}'."
+            echo "Expected a semantic version tag such as v3.10.1."
+            exit 1
+          fi
+
+          if [[ "$package_name" != "$NPM_PACKAGE" ]]; then
+            echo "::error::Unexpected npm package name '${package_name}'."
+            echo "Expected '${NPM_PACKAGE}'."
+            exit 1
+          fi
+
+          if [[ "$version" != "$package_version" ]]; then
+            echo "::error::Release tag and package version do not match."
+            echo "Release tag version : ${version}"
+            echo "package.json version: ${package_version}"
+            echo
+            echo "Update package.json before creating the release tag."
+            exit 1
+          fi
+
+          echo "tag=${tag}" >> "$GITHUB_OUTPUT"
+          echo "version=${version}" >> "$GITHUB_OUTPUT"
+          echo "package=${package_name}" >> "$GITHUB_OUTPUT"
+
+          echo "Validated release ${tag} for ${package_name}@${version}."
 
       - name: Build production archives
         run: |
           npm run release:build -- \
-            "${{ env.RELEASE_TAG }}"
+            "${{ steps.version.outputs.version }}"
 
       - name: Display archive contents
         shell: bash
         run: |
-          tag="${{ env.RELEASE_TAG }}"
-          version="${tag#v}"
+          set -Eeuo pipefail
+
+          version="${{ steps.version.outputs.version }}"
           package="socicon-${version}"
 
           echo "ZIP archive contents:"
@@ -63,14 +106,37 @@ jobs:
             --gzip \
             --file="release/${package}.tar.gz"
 
-      - name: Upload production archives
+      - name: Verify npm package contents
+        run: npm pack --dry-run
+
+      - name: Ensure npm version is not already published
+        if: github.event_name == 'release'
+        shell: bash
+        run: |
+          set -Eeuo pipefail
+
+          package="${{ steps.version.outputs.package }}"
+          version="${{ steps.version.outputs.version }}"
+
+          if npm view "${package}@${version}" version \
+            --registry="https://registry.npmjs.org" \
+            >/dev/null 2>&1; then
+            echo "::error::${package}@${version} is already published on npm."
+            exit 1
+          fi
+
+          echo "${package}@${version} is available for publication."
+
+      - name: Upload production archives to GitHub Release
         if: github.event_name == 'release'
         env:
           GH_TOKEN: ${{ github.token }}
         shell: bash
         run: |
-          tag="${{ env.RELEASE_TAG }}"
-          version="${tag#v}"
+          set -Eeuo pipefail
+
+          tag="${{ steps.version.outputs.tag }}"
+          version="${{ steps.version.outputs.version }}"
           package="socicon-${version}"
 
           gh release upload "$tag" \
@@ -78,11 +144,16 @@ jobs:
             "release/${package}.tar.gz#Socicon production package (tar.gz)" \
             --clobber
 
+      - name: Publish package to npm
+        if: github.event_name == 'release'
+        run: npm publish --access public
+
       - name: Upload workflow artifacts
         if: github.event_name == 'workflow_dispatch'
         uses: actions/upload-artifact@v4
         with:
-          name: socicon-production-${{ env.RELEASE_TAG }}
+          name: socicon-production-${{ steps.version.outputs.version }}
           path: |
             release/*.zip
             release/*.tar.gz
+          if-no-files-found: error
