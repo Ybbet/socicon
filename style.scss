@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?rwr5lb');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?rwr5lb#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?rwr5lb') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?rwr5lb') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?rwr5lb##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?5c6l1m');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?5c6l1m#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?5c6l1m') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?5c6l1m') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?5c6l1m##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -27,6 +27,189 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.socicon-substack {
+  &:before {
+    content: $socicon-substack; 
+  }
+}
+.socicon-rumble {
+  &:before {
+    content: $socicon-rumble; 
+  }
+}
+.socicon-pixelfed {
+  &:before {
+    content: $socicon-pixelfed; 
+  }
+}
+.socicon-peertube {
+  &:before {
+    content: $socicon-peertube; 
+  }
+}
+.socicon-nebula {
+  &:before {
+    content: $socicon-nebula; 
+  }
+}
+.socicon-mobilizon {
+  &:before {
+    content: $socicon-mobilizon; 
+  }
+}
+.socicon-misskey {
+  &:before {
+    content: $socicon-misskey; 
+  }
+}
+.socicon-mbin {
+  &:before {
+    content: $socicon-mbin; 
+  }
+}
+.socicon-matrix {
+  &:before {
+    content: $socicon-matrix; 
+  }
+}
+.socicon-lemmy {
+  &:before {
+    content: $socicon-lemmy; 
+  }
+}
+.socicon-kofi {
+  &:before {
+    content: $socicon-kofi; 
+  }
+}
+.socicon-kick {
+  &:before {
+    content: $socicon-kick; 
+  }
+}
+.socicon-funkwhale {
+  &:before {
+    content: $socicon-funkwhale; 
+  }
+}
+.socicon-forgejo {
+  &:before {
+    content: $socicon-forgejo; 
+  }
+}
+.socicon-element {
+  &:before {
+    content: $socicon-element; 
+  }
+}
+.socicon-codeberg .path1 {
+  &:before {
+    content: $socicon-codeberg-path1;  
+    color: rgb(0, 0, 0);  
+    opacity: 0.5;
+  }
+}
+.socicon-codeberg .path2 {
+  &:before {
+    content: $socicon-codeberg-path2;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.socicon-buymeacoffee .path1 {
+  &:before {
+    content: $socicon-buymeacoffee-path1;  
+    color: rgb(25, 25, 36);
+  }
+}
+.socicon-buymeacoffee .path2 {
+  &:before {
+    content: $socicon-buymeacoffee-path2;  
+    margin-left: -1em;  
+    color: rgb(25, 25, 36);
+  }
+}
+.socicon-buymeacoffee .path3 {
+  &:before {
+    content: $socicon-buymeacoffee-path3;  
+    margin-left: -1em;  
+    color: rgb(25, 25, 36);
+  }
+}
+.socicon-buymeacoffee .path4 {
+  &:before {
+    content: $socicon-buymeacoffee-path4;  
+    margin-left: -1em;  
+    color: rgb(25, 25, 36);
+  }
+}
+.socicon-buymeacoffee .path5 {
+  &:before {
+    content: $socicon-buymeacoffee-path5;  
+    margin-left: -1em;  
+    color: rgb(25, 25, 36);
+  }
+}
+.socicon-buymeacoffee .path6 {
+  &:before {
+    content: $socicon-buymeacoffee-path6;  
+    margin-left: -1em;  
+    color: rgb(25, 25, 36);
+  }
+}
+.socicon-buymeacoffee .path7 {
+  &:before {
+    content: $socicon-buymeacoffee-path7;  
+    margin-left: -1em;  
+    color: rgb(25, 25, 36);
+  }
+}
+.socicon-buymeacoffee .path8 {
+  &:before {
+    content: $socicon-buymeacoffee-path8;  
+    margin-left: -1em;  
+    color: rgb(25, 25, 36);
+  }
+}
+.socicon-buymeacoffee .path9 {
+  &:before {
+    content: $socicon-buymeacoffee-path9;  
+    margin-left: -1em;  
+    color: rgb(25, 25, 36);
+  }
+}
+.socicon-buymeacoffee .path10 {
+  &:before {
+    content: $socicon-buymeacoffee-path10;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.socicon-buymeacoffee .path11 {
+  &:before {
+    content: $socicon-buymeacoffee-path11;  
+    margin-left: -1em;  
+    color: rgb(25, 25, 36);
+  }
+}
+.socicon-buymeacoffee .path12 {
+  &:before {
+    content: $socicon-buymeacoffee-path12;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.socicon-bookwyrm {
+  &:before {
+    content: $socicon-bookwyrm;     
+    color: #000;
+  }
+}
+.socicon-beehiiv {
+  &:before {
+    content: $socicon-beehiiv; 
+  }
+}
 .socicon-bereal {
   &:before {
     content: $socicon-bereal; 

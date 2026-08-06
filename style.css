@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'Socicon';
-  src:  url('fonts/Socicon.eot?rwr5lb');
-  src:  url('fonts/Socicon.eot?rwr5lb#iefix') format('embedded-opentype'),
-    url('fonts/Socicon.ttf?rwr5lb') format('truetype'),
-    url('fonts/Socicon.woff?rwr5lb') format('woff'),
-    url('fonts/Socicon.svg?rwr5lb#Socicon') format('svg');
+  src:  url('fonts/Socicon.eot?5c6l1m');
+  src:  url('fonts/Socicon.eot?5c6l1m#iefix') format('embedded-opentype'),
+    url('fonts/Socicon.ttf?5c6l1m') format('truetype'),
+    url('fonts/Socicon.woff?5c6l1m') format('woff'),
+    url('fonts/Socicon.svg?5c6l1m#Socicon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,127 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.socicon-substack:before {
+  content: "\e989";
+}
+.socicon-rumble:before {
+  content: "\e9c7";
+}
+.socicon-pixelfed:before {
+  content: "\e9c8";
+}
+.socicon-peertube:before {
+  content: "\e9c9";
+}
+.socicon-nebula:before {
+  content: "\e9ca";
+}
+.socicon-mobilizon:before {
+  content: "\e9cb";
+}
+.socicon-misskey:before {
+  content: "\e9cc";
+}
+.socicon-mbin:before {
+  content: "\e9cd";
+}
+.socicon-matrix:before {
+  content: "\e988";
+}
+.socicon-lemmy:before {
+  content: "\e987";
+}
+.socicon-kofi:before {
+  content: "\e98a";
+}
+.socicon-kick:before {
+  content: "\e98b";
+}
+.socicon-funkwhale:before {
+  content: "\e9b4";
+}
+.socicon-forgejo:before {
+  content: "\e9b5";
+}
+.socicon-element:before {
+  content: "\e9b6";
+}
+.socicon-codeberg .path1:before {
+  content: "\e9b7";
+  color: rgb(0, 0, 0);
+  opacity: 0.5;
+}
+.socicon-codeberg .path2:before {
+  content: "\e9b8";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.socicon-buymeacoffee .path1:before {
+  content: "\e9b9";
+  color: rgb(25, 25, 36);
+}
+.socicon-buymeacoffee .path2:before {
+  content: "\e9ba";
+  margin-left: -1em;
+  color: rgb(25, 25, 36);
+}
+.socicon-buymeacoffee .path3:before {
+  content: "\e9bb";
+  margin-left: -1em;
+  color: rgb(25, 25, 36);
+}
+.socicon-buymeacoffee .path4:before {
+  content: "\e9bc";
+  margin-left: -1em;
+  color: rgb(25, 25, 36);
+}
+.socicon-buymeacoffee .path5:before {
+  content: "\e9bd";
+  margin-left: -1em;
+  color: rgb(25, 25, 36);
+}
+.socicon-buymeacoffee .path6:before {
+  content: "\e9be";
+  margin-left: -1em;
+  color: rgb(25, 25, 36);
+}
+.socicon-buymeacoffee .path7:before {
+  content: "\e9bf";
+  margin-left: -1em;
+  color: rgb(25, 25, 36);
+}
+.socicon-buymeacoffee .path8:before {
+  content: "\e9c0";
+  margin-left: -1em;
+  color: rgb(25, 25, 36);
+}
+.socicon-buymeacoffee .path9:before {
+  content: "\e9c1";
+  margin-left: -1em;
+  color: rgb(25, 25, 36);
+}
+.socicon-buymeacoffee .path10:before {
+  content: "\e9c2";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.socicon-buymeacoffee .path11:before {
+  content: "\e9c3";
+  margin-left: -1em;
+  color: rgb(25, 25, 36);
+}
+.socicon-buymeacoffee .path12:before {
+  content: "\e9c4";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.socicon-bookwyrm:before {
+  content: "\e9c5";
+  color: #000;
+}
+.socicon-beehiiv:before {
+  content: "\e9c6";
+}
 .socicon-bereal:before {
   content: "\e986";
 }

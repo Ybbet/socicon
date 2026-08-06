@@ -1,3 +1,14 @@
+# 7 August 2026 - v3.10.1
+- **New icons:** beehiiv, BookWyrm, Buy Me a Coffee, Codeberg, Element, Forgejo, Funkwhale, Kick, Ko-fi, Lemmy, Matrix, Mbin, Misskey, Mobilizon, Nebula, PeerTube, Pixelfed, Rumble, Substack
+- Extended Socicon catalog from 305 to 324 icons.
+- Added support for multi-color icons.
+- Improved release workflow with automated npm publication.
+- Added release validation for version consistency and package integrity.
+- Added npm package verification before publication.
+- Improved production release packaging and publishing workflow.
+- Updated GitHub Actions to Node.js 24.
+- Improved generated asset validation and synchronization checks.
+
 # 5 August 2026 - v3.10.0
 - Metadata-driven workflow for icon maintenance.
 - Metadata enrichment workflow with manual review and approval.
