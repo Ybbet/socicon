@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?5c6l1m');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?5c6l1m#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?5c6l1m') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?5c6l1m') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?5c6l1m##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?t3fcs8');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?t3fcs8#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?t3fcs8') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?t3fcs8') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?t3fcs8##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -102,107 +102,19 @@
     content: $socicon-element; 
   }
 }
-.socicon-codeberg .path1 {
+.socicon-codeberg {
   &:before {
-    content: $socicon-codeberg-path1;  
-    color: rgb(0, 0, 0);  
-    opacity: 0.5;
+    content: $socicon-codeberg; 
   }
 }
-.socicon-codeberg .path2 {
+.socicon-buymeacoffee {
   &:before {
-    content: $socicon-codeberg-path2;  
-    margin-left: -1em;  
-    color: rgb(0, 0, 0);
-  }
-}
-.socicon-buymeacoffee .path1 {
-  &:before {
-    content: $socicon-buymeacoffee-path1;  
-    color: rgb(25, 25, 36);
-  }
-}
-.socicon-buymeacoffee .path2 {
-  &:before {
-    content: $socicon-buymeacoffee-path2;  
-    margin-left: -1em;  
-    color: rgb(25, 25, 36);
-  }
-}
-.socicon-buymeacoffee .path3 {
-  &:before {
-    content: $socicon-buymeacoffee-path3;  
-    margin-left: -1em;  
-    color: rgb(25, 25, 36);
-  }
-}
-.socicon-buymeacoffee .path4 {
-  &:before {
-    content: $socicon-buymeacoffee-path4;  
-    margin-left: -1em;  
-    color: rgb(25, 25, 36);
-  }
-}
-.socicon-buymeacoffee .path5 {
-  &:before {
-    content: $socicon-buymeacoffee-path5;  
-    margin-left: -1em;  
-    color: rgb(25, 25, 36);
-  }
-}
-.socicon-buymeacoffee .path6 {
-  &:before {
-    content: $socicon-buymeacoffee-path6;  
-    margin-left: -1em;  
-    color: rgb(25, 25, 36);
-  }
-}
-.socicon-buymeacoffee .path7 {
-  &:before {
-    content: $socicon-buymeacoffee-path7;  
-    margin-left: -1em;  
-    color: rgb(25, 25, 36);
-  }
-}
-.socicon-buymeacoffee .path8 {
-  &:before {
-    content: $socicon-buymeacoffee-path8;  
-    margin-left: -1em;  
-    color: rgb(25, 25, 36);
-  }
-}
-.socicon-buymeacoffee .path9 {
-  &:before {
-    content: $socicon-buymeacoffee-path9;  
-    margin-left: -1em;  
-    color: rgb(25, 25, 36);
-  }
-}
-.socicon-buymeacoffee .path10 {
-  &:before {
-    content: $socicon-buymeacoffee-path10;  
-    margin-left: -1em;  
-    color: rgb(0, 0, 0);
-  }
-}
-.socicon-buymeacoffee .path11 {
-  &:before {
-    content: $socicon-buymeacoffee-path11;  
-    margin-left: -1em;  
-    color: rgb(25, 25, 36);
-  }
-}
-.socicon-buymeacoffee .path12 {
-  &:before {
-    content: $socicon-buymeacoffee-path12;  
-    margin-left: -1em;  
-    color: rgb(0, 0, 0);
+    content: $socicon-buymeacoffee; 
   }
 }
 .socicon-bookwyrm {
   &:before {
-    content: $socicon-bookwyrm;     
-    color: #000;
+    content: $socicon-bookwyrm; 
   }
 }
 .socicon-beehiiv {

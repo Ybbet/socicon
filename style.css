@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'Socicon';
-  src:  url('fonts/Socicon.eot?5c6l1m');
-  src:  url('fonts/Socicon.eot?5c6l1m#iefix') format('embedded-opentype'),
-    url('fonts/Socicon.ttf?5c6l1m') format('truetype'),
-    url('fonts/Socicon.woff?5c6l1m') format('woff'),
-    url('fonts/Socicon.svg?5c6l1m#Socicon') format('svg');
+  src:  url('fonts/Socicon.eot?t3fcs8');
+  src:  url('fonts/Socicon.eot?t3fcs8#iefix') format('embedded-opentype'),
+    url('fonts/Socicon.ttf?t3fcs8') format('truetype'),
+    url('fonts/Socicon.woff?t3fcs8') format('woff'),
+    url('fonts/Socicon.svg?t3fcs8#Socicon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -70,78 +70,14 @@
 .socicon-element:before {
   content: "\e9b6";
 }
-.socicon-codeberg .path1:before {
+.socicon-codeberg:before {
   content: "\e9b7";
-  color: rgb(0, 0, 0);
-  opacity: 0.5;
 }
-.socicon-codeberg .path2:before {
-  content: "\e9b8";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.socicon-buymeacoffee .path1:before {
+.socicon-buymeacoffee:before {
   content: "\e9b9";
-  color: rgb(25, 25, 36);
-}
-.socicon-buymeacoffee .path2:before {
-  content: "\e9ba";
-  margin-left: -1em;
-  color: rgb(25, 25, 36);
-}
-.socicon-buymeacoffee .path3:before {
-  content: "\e9bb";
-  margin-left: -1em;
-  color: rgb(25, 25, 36);
-}
-.socicon-buymeacoffee .path4:before {
-  content: "\e9bc";
-  margin-left: -1em;
-  color: rgb(25, 25, 36);
-}
-.socicon-buymeacoffee .path5:before {
-  content: "\e9bd";
-  margin-left: -1em;
-  color: rgb(25, 25, 36);
-}
-.socicon-buymeacoffee .path6:before {
-  content: "\e9be";
-  margin-left: -1em;
-  color: rgb(25, 25, 36);
-}
-.socicon-buymeacoffee .path7:before {
-  content: "\e9bf";
-  margin-left: -1em;
-  color: rgb(25, 25, 36);
-}
-.socicon-buymeacoffee .path8:before {
-  content: "\e9c0";
-  margin-left: -1em;
-  color: rgb(25, 25, 36);
-}
-.socicon-buymeacoffee .path9:before {
-  content: "\e9c1";
-  margin-left: -1em;
-  color: rgb(25, 25, 36);
-}
-.socicon-buymeacoffee .path10:before {
-  content: "\e9c2";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.socicon-buymeacoffee .path11:before {
-  content: "\e9c3";
-  margin-left: -1em;
-  color: rgb(25, 25, 36);
-}
-.socicon-buymeacoffee .path12:before {
-  content: "\e9c4";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
 }
 .socicon-bookwyrm:before {
   content: "\e9c5";
-  color: #000;
 }
 .socicon-beehiiv:before {
   content: "\e9c6";

@@ -84,10 +84,11 @@
   {
     "id": "audio",
     "label": "audio",
-    "count": 2,
+    "count": 3,
     "categories": [
       "Communication",
-      "Marketplace"
+      "Marketplace",
+      "Music"
     ]
   },
   {
@@ -158,6 +159,14 @@
     ]
   },
   {
+    "id": "book",
+    "label": "book",
+    "count": 1,
+    "categories": [
+      "Community"
+    ]
+  },
+  {
     "id": "bookmark",
     "label": "bookmark",
     "count": 2,
@@ -171,6 +180,15 @@
     "count": 2,
     "categories": [
       "Academic"
+    ]
+  },
+  {
+    "id": "broadcast",
+    "label": "broadcast",
+    "count": 2,
+    "categories": [
+      "Streaming",
+      "Video"
     ]
   },
   {
@@ -224,7 +242,7 @@
   {
     "id": "chat",
     "label": "chat",
-    "count": 2,
+    "count": 4,
     "categories": [
       "Communication",
       "Services"
@@ -257,7 +275,7 @@
   {
     "id": "code",
     "label": "code",
-    "count": 4,
+    "count": 6,
     "categories": [
       "Development",
       "Marketplace"
@@ -282,8 +300,9 @@
   {
     "id": "collaboration",
     "label": "collaboration",
-    "count": 1,
+    "count": 3,
     "categories": [
+      "Communication",
       "Development"
     ]
   },
@@ -298,8 +317,9 @@
   {
     "id": "community",
     "label": "community",
-    "count": 6,
+    "count": 10,
     "categories": [
+      "Community",
       "Development",
       "Gaming",
       "Social",
@@ -349,9 +369,24 @@
   {
     "id": "creator",
     "label": "creator",
-    "count": 1,
+    "count": 6,
     "categories": [
-      "Services"
+      "Services",
+      "Streaming",
+      "Video"
+    ]
+  },
+  {
+    "id": "decentralized",
+    "label": "decentralized",
+    "count": 7,
+    "categories": [
+      "Communication",
+      "Community",
+      "Music",
+      "Photography",
+      "Social",
+      "Video"
     ]
   },
   {
@@ -395,11 +430,27 @@
     ]
   },
   {
+    "id": "discussion",
+    "label": "discussion",
+    "count": 2,
+    "categories": [
+      "Community"
+    ]
+  },
+  {
     "id": "distant",
     "label": "distant",
     "count": 1,
     "categories": [
       "Development"
+    ]
+  },
+  {
+    "id": "donation",
+    "label": "donation",
+    "count": 2,
+    "categories": [
+      "Services"
     ]
   },
   {
@@ -419,6 +470,22 @@
     ]
   },
   {
+    "id": "education",
+    "label": "education",
+    "count": 1,
+    "categories": [
+      "Video"
+    ]
+  },
+  {
+    "id": "email",
+    "label": "email",
+    "count": 1,
+    "categories": [
+      "Services"
+    ]
+  },
+  {
     "id": "encrypt",
     "label": "encrypt",
     "count": 1,
@@ -429,7 +496,7 @@
   {
     "id": "encrypted",
     "label": "encrypted",
-    "count": 1,
+    "count": 2,
     "categories": [
       "Communication"
     ]
@@ -440,6 +507,14 @@
     "count": 3,
     "categories": [
       "Professional"
+    ]
+  },
+  {
+    "id": "event",
+    "label": "event",
+    "count": 1,
+    "categories": [
+      "Community"
     ]
   },
   {
@@ -464,6 +539,19 @@
     "count": 1,
     "categories": [
       "Marketplace"
+    ]
+  },
+  {
+    "id": "federated",
+    "label": "federated",
+    "count": 9,
+    "categories": [
+      "Communication",
+      "Community",
+      "Music",
+      "Photography",
+      "Social",
+      "Video"
     ]
   },
   {
@@ -492,9 +580,17 @@
     ]
   },
   {
+    "id": "forge",
+    "label": "forge",
+    "count": 1,
+    "categories": [
+      "Development"
+    ]
+  },
+  {
     "id": "forum",
     "label": "forum",
-    "count": 2,
+    "count": 4,
     "categories": [
       "Community",
       "Social"
@@ -525,9 +621,17 @@
     ]
   },
   {
+    "id": "funding",
+    "label": "funding",
+    "count": 2,
+    "categories": [
+      "Services"
+    ]
+  },
+  {
     "id": "gaming",
     "label": "gaming",
-    "count": 29,
+    "count": 30,
     "categories": [
       "Communication",
       "Gaming",
@@ -546,7 +650,7 @@
   {
     "id": "git",
     "label": "git",
-    "count": 1,
+    "count": 3,
     "categories": [
       "Development"
     ]
@@ -574,6 +678,14 @@
     ]
   },
   {
+    "id": "group",
+    "label": "group",
+    "count": 1,
+    "categories": [
+      "Community"
+    ]
+  },
+  {
     "id": "guide",
     "label": "guide",
     "count": 1,
@@ -598,11 +710,27 @@
     ]
   },
   {
+    "id": "hosting",
+    "label": "hosting",
+    "count": 1,
+    "categories": [
+      "Video"
+    ]
+  },
+  {
     "id": "hotel",
     "label": "hotel",
     "count": 2,
     "categories": [
       "Places"
+    ]
+  },
+  {
+    "id": "image",
+    "label": "image",
+    "count": 1,
+    "categories": [
+      "Photography"
     ]
   },
   {
@@ -720,6 +848,15 @@
     ]
   },
   {
+    "id": "live",
+    "label": "live",
+    "count": 2,
+    "categories": [
+      "Streaming",
+      "Video"
+    ]
+  },
+  {
     "id": "mac",
     "label": "mac",
     "count": 1,
@@ -762,7 +899,7 @@
   {
     "id": "membership",
     "label": "membership",
-    "count": 1,
+    "count": 3,
     "categories": [
       "Services"
     ]
@@ -770,9 +907,17 @@
   {
     "id": "message",
     "label": "message",
-    "count": 4,
+    "count": 6,
     "categories": [
       "Communication"
+    ]
+  },
+  {
+    "id": "microblog",
+    "label": "microblog",
+    "count": 1,
+    "categories": [
+      "Social"
     ]
   },
   {
@@ -851,7 +996,7 @@
   {
     "id": "music",
     "label": "music",
-    "count": 9,
+    "count": 10,
     "categories": [
       "Music"
     ]
@@ -882,6 +1027,14 @@
     ]
   },
   {
+    "id": "newsletter",
+    "label": "newsletter",
+    "count": 2,
+    "categories": [
+      "Services"
+    ]
+  },
+  {
     "id": "node-js",
     "label": "node.js",
     "count": 1,
@@ -892,8 +1045,9 @@
   {
     "id": "open-source",
     "label": "open source",
-    "count": 1,
+    "count": 3,
     "categories": [
+      "Development",
       "Services"
     ]
   },
@@ -919,6 +1073,14 @@
     "count": 1,
     "categories": [
       "Services"
+    ]
+  },
+  {
+    "id": "organizer",
+    "label": "organizer",
+    "count": 1,
+    "categories": [
+      "Community"
     ]
   },
   {
@@ -948,7 +1110,7 @@
   {
     "id": "photo",
     "label": "photo",
-    "count": 9,
+    "count": 10,
     "categories": [
       "Communication",
       "Design",
@@ -1008,7 +1170,7 @@
   {
     "id": "privacy",
     "label": "privacy",
-    "count": 1,
+    "count": 2,
     "categories": [
       "Communication"
     ]
@@ -1049,9 +1211,17 @@
     ]
   },
   {
+    "id": "protocol",
+    "label": "protocol",
+    "count": 1,
+    "categories": [
+      "Communication"
+    ]
+  },
+  {
     "id": "publication",
     "label": "publication",
-    "count": 1,
+    "count": 3,
     "categories": [
       "Services"
     ]
@@ -1067,10 +1237,11 @@
   {
     "id": "publisher",
     "label": "publisher",
-    "count": 3,
+    "count": 4,
     "categories": [
       "Academic",
-      "Gaming"
+      "Gaming",
+      "Services"
     ]
   },
   {
@@ -1107,6 +1278,14 @@
     ]
   },
   {
+    "id": "reading",
+    "label": "reading",
+    "count": 1,
+    "categories": [
+      "Community"
+    ]
+  },
+  {
     "id": "recruit",
     "label": "recruit",
     "count": 1,
@@ -1117,7 +1296,7 @@
   {
     "id": "repository",
     "label": "repository",
-    "count": 1,
+    "count": 3,
     "categories": [
       "Development"
     ]
@@ -1150,8 +1329,9 @@
   {
     "id": "review",
     "label": "review",
-    "count": 3,
+    "count": 4,
     "categories": [
+      "Community",
       "Places"
     ]
   },
@@ -1282,9 +1462,10 @@
   {
     "id": "social",
     "label": "social",
-    "count": 71,
+    "count": 73,
     "categories": [
       "Gaming",
+      "Photography",
       "Places",
       "Professional",
       "Services",
@@ -1337,17 +1518,27 @@
   {
     "id": "streaming",
     "label": "streaming",
-    "count": 6,
+    "count": 11,
     "categories": [
       "Gaming",
+      "Music",
       "Streaming",
+      "Video"
+    ]
+  },
+  {
+    "id": "subscription",
+    "label": "subscription",
+    "count": 3,
+    "categories": [
+      "Services",
       "Video"
     ]
   },
   {
     "id": "support",
     "label": "support",
-    "count": 2,
+    "count": 4,
     "categories": [
       "Gaming",
       "Services"
@@ -1460,7 +1651,7 @@
   {
     "id": "video",
     "label": "video",
-    "count": 9,
+    "count": 12,
     "categories": [
       "Communication",
       "Photography",
@@ -1520,6 +1711,14 @@
     "id": "workflow",
     "label": "workflow",
     "count": 1,
+    "categories": [
+      "Services"
+    ]
+  },
+  {
+    "id": "writing",
+    "label": "writing",
+    "count": 2,
     "categories": [
       "Services"
     ]

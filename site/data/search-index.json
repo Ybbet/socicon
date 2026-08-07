@@ -443,6 +443,31 @@
     ]
   },
   {
+    "id": "beehiiv",
+    "name": "beehiiv",
+    "category": "Services",
+    "categoryId": "services",
+    "tags": [
+      "email",
+      "newsletter",
+      "publication",
+      "subscription",
+      "writing"
+    ],
+    "aliases": [],
+    "status": "active",
+    "text": "beehiiv services email newsletter publication subscription writing",
+    "tokens": [
+      "beehiiv",
+      "email",
+      "newsletter",
+      "publication",
+      "services",
+      "subscription",
+      "writing"
+    ]
+  },
+  {
     "id": "behance",
     "name": "Behance",
     "category": "Design",
@@ -665,6 +690,30 @@
     ]
   },
   {
+    "id": "bookwyrm",
+    "name": "BookWyrm",
+    "category": "Community",
+    "categoryId": "community",
+    "tags": [
+      "book",
+      "community",
+      "federated",
+      "reading",
+      "review"
+    ],
+    "aliases": [],
+    "status": "active",
+    "text": "bookwyrm community book federated reading review",
+    "tokens": [
+      "book",
+      "bookwyrm",
+      "community",
+      "federated",
+      "reading",
+      "review"
+    ]
+  },
+  {
     "id": "buffer",
     "name": "Buffer",
     "category": "Social",
@@ -678,6 +727,34 @@
     "tokens": [
       "buffer",
       "social"
+    ]
+  },
+  {
+    "id": "buymeacoffee",
+    "name": "Buy Me a Coffee",
+    "category": "Services",
+    "categoryId": "services",
+    "tags": [
+      "creator",
+      "donation",
+      "funding",
+      "membership",
+      "support"
+    ],
+    "aliases": [],
+    "status": "active",
+    "text": "buymeacoffee buy me a coffee services creator donation funding membership support",
+    "tokens": [
+      "buy",
+      "buymeacoffee",
+      "coffee",
+      "creator",
+      "donation",
+      "funding",
+      "me",
+      "membership",
+      "services",
+      "support"
     ]
   },
   {
@@ -727,6 +804,32 @@
       "chrome",
       "google",
       "system"
+    ]
+  },
+  {
+    "id": "codeberg",
+    "name": "Codeberg",
+    "category": "Development",
+    "categoryId": "development",
+    "tags": [
+      "code",
+      "collaboration",
+      "git",
+      "open source",
+      "repository"
+    ],
+    "aliases": [],
+    "status": "active",
+    "text": "codeberg development code collaboration git open source repository",
+    "tokens": [
+      "code",
+      "codeberg",
+      "collaboration",
+      "development",
+      "git",
+      "open",
+      "repository",
+      "source"
     ]
   },
   {
@@ -1134,6 +1237,31 @@
     ]
   },
   {
+    "id": "element",
+    "name": "Element",
+    "category": "Communication",
+    "categoryId": "communication",
+    "tags": [
+      "chat",
+      "collaboration",
+      "encrypted",
+      "message",
+      "privacy"
+    ],
+    "aliases": [],
+    "status": "active",
+    "text": "element communication chat collaboration encrypted message privacy",
+    "tokens": [
+      "chat",
+      "collaboration",
+      "communication",
+      "element",
+      "encrypted",
+      "message",
+      "privacy"
+    ]
+  },
+  {
     "id": "elementaryos",
     "name": "elementary OS",
     "category": "System",
@@ -1412,6 +1540,32 @@
     ]
   },
   {
+    "id": "forgejo",
+    "name": "Forgejo",
+    "category": "Development",
+    "categoryId": "development",
+    "tags": [
+      "code",
+      "forge",
+      "git",
+      "open source",
+      "repository"
+    ],
+    "aliases": [],
+    "status": "active",
+    "text": "forgejo development code forge git open source repository",
+    "tokens": [
+      "code",
+      "development",
+      "forge",
+      "forgejo",
+      "git",
+      "open",
+      "repository",
+      "source"
+    ]
+  },
+  {
     "id": "formulr",
     "name": "FORMULR",
     "category": "Sport",
@@ -1530,6 +1684,30 @@
     "tokens": [
       "fundable",
       "services"
+    ]
+  },
+  {
+    "id": "funkwhale",
+    "name": "Funkwhale",
+    "category": "Music",
+    "categoryId": "music",
+    "tags": [
+      "audio",
+      "decentralized",
+      "federated",
+      "music",
+      "streaming"
+    ],
+    "aliases": [],
+    "status": "active",
+    "text": "funkwhale music audio decentralized federated streaming",
+    "tokens": [
+      "audio",
+      "decentralized",
+      "federated",
+      "funkwhale",
+      "music",
+      "streaming"
     ]
   },
   {
@@ -2437,6 +2615,57 @@
     ]
   },
   {
+    "id": "kick",
+    "name": "Kick",
+    "category": "Streaming",
+    "categoryId": "streaming",
+    "tags": [
+      "broadcast",
+      "creator",
+      "gaming",
+      "live",
+      "streaming"
+    ],
+    "aliases": [],
+    "status": "active",
+    "text": "kick streaming broadcast creator gaming live",
+    "tokens": [
+      "broadcast",
+      "creator",
+      "gaming",
+      "kick",
+      "live",
+      "streaming"
+    ]
+  },
+  {
+    "id": "kofi",
+    "name": "Ko-fi",
+    "category": "Services",
+    "categoryId": "services",
+    "tags": [
+      "creator",
+      "donation",
+      "funding",
+      "membership",
+      "support"
+    ],
+    "aliases": [],
+    "status": "active",
+    "text": "kofi ko-fi services creator donation funding membership support",
+    "tokens": [
+      "creator",
+      "donation",
+      "fi",
+      "funding",
+      "ko",
+      "kofi",
+      "membership",
+      "services",
+      "support"
+    ]
+  },
+  {
     "id": "kobo",
     "name": "Kobo",
     "category": "Marketplace",
@@ -2484,6 +2713,30 @@
       "lastfm",
       "music",
       "playlist"
+    ]
+  },
+  {
+    "id": "lemmy",
+    "name": "Lemmy",
+    "category": "Community",
+    "categoryId": "community",
+    "tags": [
+      "community",
+      "decentralized",
+      "discussion",
+      "federated",
+      "forum"
+    ],
+    "aliases": [],
+    "status": "active",
+    "text": "lemmy community decentralized discussion federated forum",
+    "tokens": [
+      "community",
+      "decentralized",
+      "discussion",
+      "federated",
+      "forum",
+      "lemmy"
     ]
   },
   {
@@ -2721,6 +2974,55 @@
     ]
   },
   {
+    "id": "matrix",
+    "name": "Matrix",
+    "category": "Communication",
+    "categoryId": "communication",
+    "tags": [
+      "chat",
+      "decentralized",
+      "federated",
+      "message",
+      "protocol"
+    ],
+    "aliases": [],
+    "status": "active",
+    "text": "matrix communication chat decentralized federated message protocol",
+    "tokens": [
+      "chat",
+      "communication",
+      "decentralized",
+      "federated",
+      "matrix",
+      "message",
+      "protocol"
+    ]
+  },
+  {
+    "id": "mbin",
+    "name": "Mbin",
+    "category": "Community",
+    "categoryId": "community",
+    "tags": [
+      "community",
+      "decentralized",
+      "discussion",
+      "federated",
+      "forum"
+    ],
+    "aliases": [],
+    "status": "active",
+    "text": "mbin community decentralized discussion federated forum",
+    "tokens": [
+      "community",
+      "decentralized",
+      "discussion",
+      "federated",
+      "forum",
+      "mbin"
+    ]
+  },
+  {
     "id": "medium",
     "name": "Medium",
     "category": "Social",
@@ -2783,6 +3085,28 @@
       "software",
       "system",
       "windows"
+    ]
+  },
+  {
+    "id": "misskey",
+    "name": "Misskey",
+    "category": "Social",
+    "categoryId": "social",
+    "tags": [
+      "decentralized",
+      "federated",
+      "microblog",
+      "social"
+    ],
+    "aliases": [],
+    "status": "active",
+    "text": "misskey social decentralized federated microblog",
+    "tokens": [
+      "decentralized",
+      "federated",
+      "microblog",
+      "misskey",
+      "social"
     ]
   },
   {
@@ -2855,6 +3179,30 @@
       "mobcrush",
       "streaming",
       "video"
+    ]
+  },
+  {
+    "id": "mobilizon",
+    "name": "Mobilizon",
+    "category": "Community",
+    "categoryId": "community",
+    "tags": [
+      "community",
+      "event",
+      "federated",
+      "group",
+      "organizer"
+    ],
+    "aliases": [],
+    "status": "active",
+    "text": "mobilizon community event federated group organizer",
+    "tokens": [
+      "community",
+      "event",
+      "federated",
+      "group",
+      "mobilizon",
+      "organizer"
     ]
   },
   {
@@ -3001,6 +3349,30 @@
     "tokens": [
       "communication",
       "naver"
+    ]
+  },
+  {
+    "id": "nebula",
+    "name": "Nebula",
+    "category": "Video",
+    "categoryId": "video",
+    "tags": [
+      "creator",
+      "education",
+      "streaming",
+      "subscription",
+      "video"
+    ],
+    "aliases": [],
+    "status": "active",
+    "text": "nebula video creator education streaming subscription",
+    "tokens": [
+      "creator",
+      "education",
+      "nebula",
+      "streaming",
+      "subscription",
+      "video"
     ]
   },
   {
@@ -3258,6 +3630,30 @@
     ]
   },
   {
+    "id": "peertube",
+    "name": "PeerTube",
+    "category": "Video",
+    "categoryId": "video",
+    "tags": [
+      "decentralized",
+      "federated",
+      "hosting",
+      "streaming",
+      "video"
+    ],
+    "aliases": [],
+    "status": "active",
+    "text": "peertube video decentralized federated hosting streaming",
+    "tokens": [
+      "decentralized",
+      "federated",
+      "hosting",
+      "peertube",
+      "streaming",
+      "video"
+    ]
+  },
+  {
     "id": "periscope",
     "name": "Periscope",
     "category": "Social",
@@ -3293,6 +3689,31 @@
       "pinit",
       "pinterest",
       "services",
+      "social"
+    ]
+  },
+  {
+    "id": "pixelfed",
+    "name": "Pixelfed",
+    "category": "Photography",
+    "categoryId": "photography",
+    "tags": [
+      "decentralized",
+      "federated",
+      "image",
+      "photo",
+      "social"
+    ],
+    "aliases": [],
+    "status": "active",
+    "text": "pixelfed photography decentralized federated image photo social",
+    "tokens": [
+      "decentralized",
+      "federated",
+      "image",
+      "photo",
+      "photography",
+      "pixelfed",
       "social"
     ]
   },
@@ -3622,6 +4043,30 @@
       "feed",
       "rss",
       "services"
+    ]
+  },
+  {
+    "id": "rumble",
+    "name": "Rumble",
+    "category": "Video",
+    "categoryId": "video",
+    "tags": [
+      "broadcast",
+      "creator",
+      "live",
+      "streaming",
+      "video"
+    ],
+    "aliases": [],
+    "status": "active",
+    "text": "rumble video broadcast creator live streaming",
+    "tokens": [
+      "broadcast",
+      "creator",
+      "live",
+      "rumble",
+      "streaming",
+      "video"
     ]
   },
   {
@@ -4222,6 +4667,31 @@
       "services",
       "stumbleupon",
       "website"
+    ]
+  },
+  {
+    "id": "substack",
+    "name": "Substack",
+    "category": "Services",
+    "categoryId": "services",
+    "tags": [
+      "newsletter",
+      "publication",
+      "publisher",
+      "subscription",
+      "writing"
+    ],
+    "aliases": [],
+    "status": "active",
+    "text": "substack services newsletter publication publisher subscription writing",
+    "tokens": [
+      "newsletter",
+      "publication",
+      "publisher",
+      "services",
+      "subscription",
+      "substack",
+      "writing"
     ]
   },
   {

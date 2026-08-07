@@ -1337,7 +1337,7 @@
     ],
     "url": "https://kick.com"
   },
-  "ko-fi": {
+  "kofi": {
     "category": "Services",
     "color": "#ff5e5b",
     "name": "Ko-fi",
@@ -1716,8 +1716,8 @@
     "tags": [
       "creator",
       "education",
-      "subscription",
       "streaming",
+      "subscription",
       "video"
     ],
     "url": "https://nebula.tv"

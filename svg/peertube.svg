@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 768 1024"
+     role="img"
+     aria-labelledby="peertube-title">
+  <title id="peertube-title">PeerTube</title>
+  <path fill="currentColor" d="M0-0v511.766l383.813-255.859z"/>
+  <path fill="currentColor" d="M0 511.766v511.766l383.813-255.859z"/>
+  <path fill="currentColor" d="M383.813 255.859v511.766l383.813-255.859z"/>
+</svg>

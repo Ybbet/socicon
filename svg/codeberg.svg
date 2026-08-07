@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1024 1024"
+     role="img"
+     aria-labelledby="codeberg-title">
+  <title id="codeberg-title">Codeberg</title>
+  <path fill="currentColor" d="M512.128 21.312c-282.784 0-512.128 229.088-512.128 511.872 0 96.288 27.104 190.368 78.144 271.904l426.976-552.032c3.136-3.872 10.88-3.872 13.792 0l426.976 552.032c51.040-81.536 78.144-175.872 78.144-271.904 0.256-282.784-229.088-511.872-511.872-511.872z"/>
+</svg>

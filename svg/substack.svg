@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1024 1024"
+     role="img"
+     aria-labelledby="substack-title">
+  <title id="substack-title">Substack</title>
+  <path fill="currentColor" d="M86.24 0h851.52v109.984h-851.52v-109.984z"/>
+  <path fill="currentColor" d="M86.24 220h851.52v109.984h-851.52v-109.984z"/>
+  <path fill="currentColor" d="M86.24 440v584l425.76-281.664 425.76 281.664v-584h-851.52z"/>
+</svg>

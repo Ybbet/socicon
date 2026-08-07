@@ -7,12 +7,12 @@
   {
     "id": "communication",
     "label": "Communication",
-    "count": 24
+    "count": 26
   },
   {
     "id": "community",
     "label": "Community",
-    "count": 4
+    "count": 8
   },
   {
     "id": "design",
@@ -22,7 +22,7 @@
   {
     "id": "development",
     "label": "Development",
-    "count": 7
+    "count": 9
   },
   {
     "id": "gaming",
@@ -37,12 +37,12 @@
   {
     "id": "music",
     "label": "Music",
-    "count": 22
+    "count": 23
   },
   {
     "id": "photography",
     "label": "Photography",
-    "count": 8
+    "count": 9
   },
   {
     "id": "places",
@@ -57,12 +57,12 @@
   {
     "id": "services",
     "label": "Services",
-    "count": 54
+    "count": 58
   },
   {
     "id": "social",
     "label": "Social",
-    "count": 76
+    "count": 77
   },
   {
     "id": "sport",
@@ -72,7 +72,7 @@
   {
     "id": "streaming",
     "label": "Streaming",
-    "count": 4
+    "count": 5
   },
   {
     "id": "system",
@@ -87,6 +87,6 @@
   {
     "id": "video",
     "label": "Video",
-    "count": 8
+    "count": 11
   }
 ]
