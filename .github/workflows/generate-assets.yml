@@ -19,6 +19,7 @@ on:
     paths:
       - "selection.json"
       - "icons-metadata.json"
+      - "metadata-rules.json"
       - "scripts/**"
       - "package.json"
       - "package-lock.json"
@@ -48,11 +49,8 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Generate catalogs and SVG files
-        run: npm run generate
-
-      - name: Validate generated assets
-        run: npm run check
+      - name: Generate and validate assets
+        run: npm run build
 
       - name: Verify generated files in pull requests
         if: github.event_name == 'pull_request'
@@ -61,7 +59,8 @@ jobs:
           if ! git diff --exit-code -- \
             chart-list.json \
             chart-list.js \
-            svg/; then
+            svg/ \
+            site/data/; then
             echo
             echo "::error::Generated assets are not up to date."
             echo "Run the following commands locally:"
@@ -79,7 +78,8 @@ jobs:
           if git diff --quiet -- \
             chart-list.json \
             chart-list.js \
-            svg/; then
+            svg/ \
+            site/data/; then
             echo "Generated assets are already up to date."
             exit 0
           fi
@@ -91,7 +91,8 @@ jobs:
           git add \
             chart-list.json \
             chart-list.js \
-            svg/
+            svg/ \
+            site/data/
 
           git commit -m "Build: Regenerate catalogs and SVG icons"
           git push
