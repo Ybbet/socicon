@@ -1,0 +1,11 @@
+{
+  "name": "ybbet/socicon",
+  "description": "Social and community icon font library.",
+  "type": "library",
+  "license": "OFL-1.1",
+  "homepage": "https://socicon.teddypayet.com",
+  "support": {
+    "issues": "https://github.com/Ybbet/socicon/issues",
+    "source": "https://github.com/Ybbet/socicon"
+  }
+}
