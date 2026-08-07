@@ -4,8 +4,31 @@
   "type": "library",
   "license": "OFL-1.1",
   "homepage": "https://socicon.teddypayet.com",
+  "keywords": [
+    "icon",
+    "icons",
+    "font",
+    "svg",
+    "social",
+    "community",
+    "brand",
+    "logos"
+  ],
+  "authors": [
+    {
+      "name": "Teddy",
+      "homepage": "https://github.com/Ybbet",
+      "role": "Maintainer"
+    },
+    {
+      "name": "Coolseed",
+      "homepage": "https://github.com/coolseed",
+      "role": "Original author"
+    }
+  ],
   "support": {
     "issues": "https://github.com/Ybbet/socicon/issues",
-    "source": "https://github.com/Ybbet/socicon"
+    "source": "https://github.com/Ybbet/socicon",
+    "docs": "https://socicon.teddypayet.com"
   }
 }

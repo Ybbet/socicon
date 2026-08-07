@@ -1,0 +1,4 @@
+.github/ export-ignore
+scripts/ export-ignore
+site/ export-ignore
+tests/ export-ignore
